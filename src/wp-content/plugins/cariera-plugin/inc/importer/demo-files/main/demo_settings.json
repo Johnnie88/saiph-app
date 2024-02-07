@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home 8",
+	"blog_page_title": "Blog",
+	"menus": {
+		"primary": "Main Menu"
+	},
+    "sliders": {
+		"revslider": "slider.zip"
+	},
+	"content_plugins": {
+		"revslider": "Slider Revolution"
+	}
+}

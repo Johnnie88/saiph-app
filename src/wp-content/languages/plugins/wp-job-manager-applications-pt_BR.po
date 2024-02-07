@@ -1,0 +1,926 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-25 13:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: WP Job Manager - Applications\n"
+
+#: includes/class-wp-job-manager-applications-settings.php:150
+msgid "Select the page where you've used the <code>[past_applications]</code> shortcode. This lets the plugin know the location of the page."
+msgstr "Selecione a página na qual você usou o shortcode <code>[past_applications]</code>. Isso permite que o plugin saiba a localização da página."
+
+#: includes/class-wp-job-manager-applications-settings.php:149
+msgid "Past Applications Page"
+msgstr "Página de aplicativos anteriores"
+
+#: includes/class-wp-job-manager-applications-settings.php:144
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/class-wp-job-manager-applications-post-types.php:494
+msgid "Candidate Email Content"
+msgstr "Conteúdo do e-mail do candidato"
+
+#: includes/class-wp-job-manager-applications-post-types.php:485
+msgid "Candidate Email Subject"
+msgstr "Assunto do e-mail do candidato"
+
+#: includes/class-wp-job-manager-applications-post-types.php:476
+msgid "Employer Email Content"
+msgstr "Conteúdo do e-mail do empregador"
+
+#: includes/class-wp-job-manager-applications-post-types.php:467
+msgid "Employer Email Subject"
+msgstr "Assunto do e-mail do empregador"
+
+#: includes/class-wp-job-manager-applications-post-types.php:155
+msgid "This is where you can edit and view application forms."
+msgstr "Você pode editar e visualizar os formulários de candidaturas aqui."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:229
+msgid "Candidate Notification"
+msgstr "Notificação do candidato"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:228
+msgid "Employer Notification"
+msgstr "Notificação do empregador"
+
+#: includes/class-wp-job-manager-applications-default-form.php:168
+msgid "Default Form"
+msgstr "Formulário padrão"
+
+#: includes/class-wp-job-manager-applications-default-form.php:74
+msgid "To disable it for new job listings, unpublish the form."
+msgstr "Para desativar o recebimento de novas vagas de emprego, cancele a publicação do formulário."
+
+#: includes/class-wp-job-manager-applications-default-form.php:74
+msgid "The default application form cannot be deleted."
+msgstr "O formulário de candidatura padrão não pode ser excluído."
+
+#: includes/class-wp-job-manager-applications-default-form.php:50
+msgid "Default"
+msgstr "Padrão"
+
+#: wp-job-manager-applications.php:122
+msgid "<em>WP Job Manager - Applications</em> requires WP Job Manager %1$s (you are using %2$s)."
+msgstr "O <em>WP Job Manager - Applications</em> requer o WP Job Manager %1$s (você está usando a versão %2$s)."
+
+#: wp-job-manager-applications.php:108
+msgid "<em>WP Job Manager - Applications</em> requires WP Job Manager to be installed and activated."
+msgstr "O <em>WP Job Manager - Applications</em> requer que o WP Job Manager seja instalado e ativado."
+
+#: templates/past-applications.php:23
+msgid "Application Message"
+msgstr "Mensagem de candidatura"
+
+#: templates/past-applications.php:21
+msgid "Date Applied"
+msgstr "Data de candidatura"
+
+#: templates/past-applications.php:20
+msgid "Job"
+msgstr "Vaga"
+
+#: templates/past-applications-none.php:18
+msgid "You haven't made any applications yet!"
+msgstr "Você ainda não se candidatou a nenhuma vaga."
+
+#: templates/job-applications.php:35
+msgid "Sort by rating"
+msgstr "Ordenar por classificação"
+
+#: templates/job-applications.php:34
+msgid "Sort by name"
+msgstr "Ordenar por nome"
+
+#: templates/job-applications.php:33
+msgid "Newest first"
+msgstr "Mais recentes primeiro"
+
+#: templates/job-applications.php:25
+msgid "Filter by status"
+msgstr "Filtrar por status"
+
+#: templates/job-applications.php:20
+msgid "The job applications for \"%s\" are listed below."
+msgstr "As candidaturas referentes a \"%s\" estão listadas abaixo."
+
+#: templates/job-applications.php:19
+msgid "Download CSV"
+msgstr "Fazer download de CSV"
+
+#. translators: Placeholder %s is the applicant name.
+#: templates/job-application-footer.php:49
+msgid "Hello %s"
+msgstr "Olá %s"
+
+#. translators: Placeholder %s is the job title.
+#: templates/job-application-footer.php:47
+msgid "Your job application for %s"
+msgstr "Sua candidatura para %s"
+
+#: templates/job-application-edit.php:40
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: templates/applied-notice.php:19
+msgid "You have already applied for this job."
+msgstr "Você já se candidatou a essa vaga."
+
+#: templates/application-submitted.php:19
+msgid "Your job application has been submitted successfully"
+msgstr "Seu pedido de candidatura foi enviado com sucesso"
+
+#: templates/application-form.php:45
+msgid "Send application"
+msgstr "Enviar candidatura"
+
+#: templates/application-form.php:34
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: templates/application-form-login.php:18
+msgid "You must <a href=\"%s\">sign in</a> to apply for this position."
+msgstr "Você precisa <a href=\"%s\">fazer login</a> para se candidatar a esta vaga."
+
+#: includes/wp-job-manager-applications-template.php:127
+msgid "Add note"
+msgstr "Adicionar nota"
+
+#: includes/wp-job-manager-applications-template.php:126
+msgid "Private note regarding this application"
+msgstr "Observação particular referente a esta candidatura"
+
+#: includes/wp-job-manager-applications-template.php:115
+msgid "added %s ago"
+msgstr "adicionada há %s"
+
+#: includes/wp-job-manager-applications-functions.php:496
+msgid "Custom field named \"%s\""
+msgstr "Campo personalizado chamado \"%s\""
+
+#: includes/wp-job-manager-applications-functions.php:485
+msgid "Some meta data from the job. e.g. <code>[job_post_meta key=\"_job_location\"]</code>"
+msgstr "Alguns metadados da vaga, por exemplo <code>[job_post_meta key=\"_job_location\"]</code>"
+
+#: includes/wp-job-manager-applications-functions.php:484
+msgid "Name of the company which submitted the job listing"
+msgstr "Nome da empresa que enviou o anúncio da vaga"
+
+#: includes/wp-job-manager-applications-functions.php:483
+msgid "URL to the frontend job dashboard page"
+msgstr "URL da página de painel de vagas no front end"
+
+#: includes/wp-job-manager-applications-functions.php:482
+msgid "URL of the job listing"
+msgstr "URL do anúncio da vaga"
+
+#: includes/wp-job-manager-applications-functions.php:481
+msgid "Job Title"
+msgstr "Cargo"
+
+#: includes/wp-job-manager-applications-functions.php:480
+msgid "Job ID"
+msgstr "ID da vaga"
+
+#: includes/wp-job-manager-applications-functions.php:479
+msgid "User ID of applicant"
+msgstr "ID de usuário do candidato"
+
+#: includes/wp-job-manager-applications-functions.php:478
+msgid "Application ID"
+msgstr "ID da candidatura"
+
+#: includes/wp-job-manager-applications-functions.php:477
+msgid "All custom form fields in list format"
+msgstr "Todos os campos do formulário personalizado em formato de lista"
+
+#: includes/wp-job-manager-applications-functions.php:476
+msgid "Message from candidate"
+msgstr "Mensagem do candidato"
+
+#: includes/wp-job-manager-applications-functions.php:475
+msgid "Candidate Email"
+msgstr "E-mail do candidato"
+
+#: includes/wp-job-manager-applications-functions.php:474
+msgid "Candidate Name"
+msgstr "Nome do candidato"
+
+#: includes/wp-job-manager-applications-functions.php:444
+msgid "Your job application for [job_title]"
+msgstr "Sua candidatura para [job_title]"
+
+#: includes/wp-job-manager-applications-functions.php:399
+msgid "New job application for [job_title]"
+msgstr "Nova candidatura para [job_title]"
+
+#: includes/wp-job-manager-applications-functions.php:259
+msgid "Upload your CV/resume or any other relevant file. Max. file size: %s."
+msgstr "Faça upload do seu currículo ou outro arquivo pertinente. Tamanho máx. do arquivo: %s."
+
+#: includes/wp-job-manager-applications-functions.php:252
+msgid "Upload CV"
+msgstr "Fazer upload do currículo"
+
+#: includes/wp-job-manager-applications-functions.php:244
+msgid "Online Resume"
+msgstr "Currículo online"
+
+#: includes/wp-job-manager-applications-functions.php:239
+msgid "Your cover letter/message sent to the employer"
+msgstr "Sua mensagem/carta de apresentação enviada ao empregador"
+
+#: includes/wp-job-manager-applications-functions.php:227
+msgid "Email address"
+msgstr "Endereço de e-mail"
+
+#: includes/wp-job-manager-applications-functions.php:219
+msgid "Full name"
+msgstr "Nome Completo"
+
+#: includes/wp-job-manager-applications-functions.php:206
+msgctxt "job_application"
+msgid "Archived"
+msgstr "Arquivados"
+
+#: includes/wp-job-manager-applications-functions.php:205
+msgctxt "job_application"
+msgid "Rejected"
+msgstr "Rejeitados"
+
+#: includes/wp-job-manager-applications-functions.php:204
+msgctxt "job_application"
+msgid "Hired"
+msgstr "Contratações"
+
+#: includes/wp-job-manager-applications-functions.php:203
+msgctxt "job_application"
+msgid "Offer extended"
+msgstr "Oferta feita"
+
+#: includes/wp-job-manager-applications-functions.php:202
+msgctxt "job_application"
+msgid "Interviewed"
+msgstr "Entrevistados"
+
+#: includes/wp-job-manager-applications-functions.php:201
+msgctxt "job_application"
+msgid "New"
+msgstr "Novos"
+
+#: includes/views/html-form-field-editor-row.php:35
+msgid "Multiple Files?"
+msgstr "Vários arquivos?"
+
+#: includes/views/html-form-field-editor-row.php:32
+msgid "Pipe (|) separate options."
+msgstr "Opções separadas por barra vertical (|)."
+
+#: includes/class-wp-job-manager-applications-writepanels.php:126
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:122
+msgid "Move to Trash"
+msgstr "Mover para a lixeira"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:93
+msgid "Application Notes"
+msgstr "Observações da candidatura"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:92
+msgid "Job Application Data"
+msgstr "Dados da candidatura"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:91
+msgid "Save Application"
+msgstr "Salvar candidatura"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:72
+msgid "Job Listing ID"
+msgstr "ID do anúncio de vaga"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:67
+msgid "Online Resume ID"
+msgstr "ID do currículo online"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:62
+#: templates/job-application-edit.php:32
+msgid "Rating (out of 5)"
+msgstr "Classificação (até 5)"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:57
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:52
+msgid "URL to the attachment if the candidate provided one"
+msgstr "URL do anexo se fornecido pelo candidato"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:47
+msgid "you@yourdomain.com"
+msgstr "você@seudomínio.com"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:46
+msgid "Contact Email"
+msgstr "E-mail de contato"
+
+#. translators: Placeholder is the URL to the settings page in Applications.
+#: includes/class-wp-job-manager-applications-settings.php:174
+msgid "The <a href=\"%s\">Website URL Application Method</a> setting is enabled in the Applications plugin. URLs entered for the Application Method on the Job Submission form will be ignored unless your theme uses them elsewhere."
+msgstr "A opção <a href=\"%s\">Método de candidatura via URL do site</a> está ativada no plugin Applications. As URLs inserida em \"Método de candidatura\" no formulário \"Envio de candidatura\" serão ignoradas, a menos que sejam usadas em outro local pelo seu tema."
+
+#. translators: Placeholder %1$s is the URL to the WP Admin page that handles
+#. account erasure requests. %2$s is trash notification.
+#: includes/class-wp-job-manager-applications-settings.php:134
+msgid "If enabled, applications with a matching email address will be sent to the trash during <a href=\"%1$s\">personal data erasure requests</a>. %2$s"
+msgstr "Se essa opção for ativada, as candidaturas com o endereço de e-mail correspondente serão enviadas para a lixeira nas <a href=\"%1$s\">solicitações de apagamento de dados pessoais</a>. %2$s"
+
+#: includes/class-wp-job-manager-applications-settings.php:131
+msgid "Remove applications on account erasure requests"
+msgstr "Remover candidaturas quando solicitado o apagamento de conta"
+
+#: includes/class-wp-job-manager-applications-settings.php:130
+msgid "Personal Data Erasure"
+msgstr "Apagamento de dados pessoais"
+
+#: includes/class-wp-job-manager-applications-settings.php:124
+msgid "Purge application data and files after X days. Leave blank to disable."
+msgstr "Limpa dados e arquivos de candidatura após um número definido de dias. Deixe em branco para desativar."
+
+#: includes/class-wp-job-manager-applications-settings.php:123
+msgid "Purge Applications"
+msgstr "Limpar candidaturas"
+
+#: includes/class-wp-job-manager-applications-settings.php:122
+msgid "Do not purge data"
+msgstr "Não limpar dados"
+
+#: includes/class-wp-job-manager-applications-settings.php:116
+msgid "If enabled, job applications will be deleted when the parent job listing is deleted. Otherwise they will be kept on file and visible in the backend."
+msgstr "Se essa opção for ativada, as candidaturas também serão excluídas quando o anúncio de vaga principal for excluído. Caso contrário, elas continuarão arquivadas e visíveis no back end."
+
+#: includes/class-wp-job-manager-applications-settings.php:115
+msgid "Delete applications when a job is deleted"
+msgstr "Excluir candidaturas ao excluir a vaga"
+
+#: includes/class-wp-job-manager-applications-settings.php:114
+msgid "Delete with Jobs"
+msgstr "Excluir com vagas"
+
+#: includes/class-wp-job-manager-applications-settings.php:109
+msgid "Management"
+msgstr "Gerenciamento"
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's
+#. settings to make the change.
+#: includes/class-wp-job-manager-applications-settings.php:100
+msgid "This will help prevent bots from applying for jobs. You must have entered a valid site key and secret key in <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr "Isso ajudará a evitar que candidaturas a vagas sejam enviadas por bots. Você deve inserir chaves válidas secreta e de site nas <a href=\"%s\">configurações do WP Job Manager</a>."
+
+#: includes/class-wp-job-manager-applications-settings.php:97
+msgid "Display a reCAPTCHA field on application submission form."
+msgstr "Exibe um campo reCAPTCHA no formulário de envio da candidatura."
+
+#: includes/class-wp-job-manager-applications-settings.php:96
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's
+#. settings to set the pages.
+#: includes/class-wp-job-manager-applications-settings.php:87
+msgid "Require a Terms and Conditions checkbox to be marked before an application can be submitted. The linked page can be set from the <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr "Exige que a caixa de seleção dos termos de serviço seja marcada para enviar a candidatura. É possível definir a página vinculada nas <a href=\"%s\">configurações do WP Job Manager</a>."
+
+#: includes/class-wp-job-manager-applications-settings.php:84
+msgid "Enable required Terms and Conditions checkbox on the form"
+msgstr "Ativar a marcação obrigatória da caixa de seleção de termos de serviço no formulário"
+
+#: includes/class-wp-job-manager-applications-settings.php:83
+msgid "Terms and Conditions Checkbox"
+msgstr "Caixa de seleção dos termos de serviço"
+
+#: includes/class-wp-job-manager-applications-settings.php:77
+msgid "If enabled, the apply form will be hidden after applying."
+msgstr "Se essa opção for ativada, o formulário de candidatura será ocultado após o usuário se candidatar."
+
+#: includes/class-wp-job-manager-applications-settings.php:76
+msgid "Prevent users from applying to the same job multiple times"
+msgstr "Impedir que usuários se candidatem à mesma vaga várias vezes"
+
+#: includes/class-wp-job-manager-applications-settings.php:75
+msgid "Multiple Applications"
+msgstr "Várias candidaturas"
+
+#: includes/class-wp-job-manager-applications-settings.php:69
+msgid "If enabled, only logged in users can apply. Non-logged in users will see the contents of the <code>application-form-login.php</code> file instead of a form."
+msgstr "Se essa opção for ativada, apenas os usuários que fizeram login poderão se candidatar. Os usuários que não fizerem login verão o conteúdo do arquivo <code>application-form-login.php</code>, em vez do formulário."
+
+#: includes/class-wp-job-manager-applications-settings.php:68
+msgid "Only allow registered users to apply"
+msgstr "Permitir que apenas usuários registrados se candidatem"
+
+#: includes/class-wp-job-manager-applications-settings.php:67
+msgid "User Restriction"
+msgstr "Restrição de usuários"
+
+#: includes/class-wp-job-manager-applications-settings.php:61
+msgid "Show application form for jobs with a website URL application method. Disable to use the default application functionality, or another form plugin. <strong>Note: URLs entered for the <em>Application Method</em> will be ignored.</strong> "
+msgstr "Mostre o formulário de candidatura a vagas com o método de candidatura via URL do site. Desative para usar a funcionalidade de candidatura padrão ou outro plugin de formulário. <strong>Observação: as URLs inseridas em <em>Método de candidatura</em> serão ignoradas.</strong> "
+
+#: includes/class-wp-job-manager-applications-settings.php:59
+msgid "Website URL Application Method"
+msgstr "Método de candidatura via URL do site"
+
+#: includes/class-wp-job-manager-applications-settings.php:53
+msgid "Show application form for jobs with an email application method. Disable to use the default application functionality, or another form plugin."
+msgstr "Mostre o formulário de candidatura a vagas com o método de candidatura via e-mail. Desative para usar a funcionalidade de candidatura padrão ou outro plugin de formulário."
+
+#: includes/class-wp-job-manager-applications-settings.php:52
+#: includes/class-wp-job-manager-applications-settings.php:60
+msgid "Use application form"
+msgstr "Usar formulário de candidatura"
+
+#: includes/class-wp-job-manager-applications-settings.php:51
+msgid "Email Application Method"
+msgstr "Método de candidatura via e-mail"
+
+#: includes/class-wp-job-manager-applications-post-types.php:141
+#: includes/class-wp-job-manager-applications-settings.php:46
+msgid "Application Forms"
+msgstr "Formulários de candidatura"
+
+#. translators: Placeholder %d is the number of days before items are removed
+#. from trash.
+#: includes/class-wp-job-manager-applications-settings.php:39
+msgid "They will then be permanently deleted after %d days."
+msgstr "Eles serão excluídos em caráter permanente após %d dias."
+
+#: includes/class-wp-job-manager-applications-settings.php:36
+msgid "They will then need to be manually removed from the trash"
+msgstr "Eles precisarão ser removidos manualmente da lixeira"
+
+#. translators: Placeholder %d is the post ID for the application that couldn't
+#. be removed.
+#: includes/class-wp-job-manager-applications-privacy.php:365
+msgid "Application ID %d could not be removed at this time."
+msgstr "Não é possível remover a ID de candidatura %d no momento."
+
+#: includes/class-wp-job-manager-applications-privacy.php:272
+msgid "Attachments"
+msgstr "Anexos"
+
+#: includes/class-wp-job-manager-applications-privacy.php:247
+msgid "Job Name"
+msgstr "Nome da vaga"
+
+#: includes/class-wp-job-manager-applications-post-types.php:374
+msgid "Application status changed from \"%1$s\" to \"%2$s\""
+msgstr "Status da candidatura alterado de \"%1$s\" para \"%2$s\"."
+
+#: includes/class-wp-job-manager-applications-post-types.php:93
+msgid "This is where you can edit and view applications."
+msgstr "Você pode editar e visualizar as candidaturas aqui."
+
+#. translators: Placeholder is the lower-case plural post type label.
+#: includes/class-wp-job-manager-applications-post-types.php:217
+msgid "Parent %s"
+msgstr "Mãe %s"
+
+#. translators: Placeholder is the singular post type label.
+#: includes/class-wp-job-manager-applications-post-types.php:208
+msgid "View %s"
+msgstr "Ver %s"
+
+#. translators: Placeholder is the singular post type label.
+#: includes/class-wp-job-manager-applications-post-types.php:200
+#: templates/job-application-footer.php:55
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: Placeholder is the plural post type label.
+#: includes/class-wp-job-manager-applications-post-types.php:206
+msgid "All %s"
+msgstr "Todas %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:85
+msgid "Application"
+msgstr "Aplicação"
+
+#: includes/class-wp-job-manager-applications-post-types.php:52
+msgid "Applied"
+msgstr "Candidatura efetuada"
+
+#: includes/class-wp-job-manager-applications-integration.php:87
+msgid "Unknown location"
+msgstr "Localização desconhecida"
+
+#: includes/class-wp-job-manager-applications-integration.php:84
+msgid "Skills"
+msgstr "Habilidades"
+
+#: includes/class-wp-job-manager-applications-integration.php:61
+#: includes/class-wp-job-manager-applications-integration.php:106
+#: includes/class-wp-job-manager-applications-integration.php:134
+msgid "Full Profile"
+msgstr "Perfil completo"
+
+#: includes/class-wp-job-manager-applications-integration.php:60
+#: includes/class-wp-job-manager-applications-integration.php:105
+#: includes/class-wp-job-manager-applications-integration.php:133
+#: includes/class-wp-job-manager-applications-integration.php:166
+msgid "Location"
+msgstr "Endereço"
+
+#: includes/class-wp-job-manager-applications-integration.php:56
+#: includes/class-wp-job-manager-applications-integration.php:129
+#: includes/class-wp-job-manager-applications-integration.php:165
+msgid "Title"
+msgstr "Título"
+
+#: includes/views/html-form-field-editor-row.php:27
+#: includes/views/html-form-field-editor-row.php:30
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:265
+msgid "Below you will find the email that is sent to a candidate after submitting an application. Leave blank to disable."
+msgstr "O e-mail enviado ao candidato após o envio da candidatura está abaixo. Deixe em branco para desativar."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:558
+msgid "All tags can be passed a prefix and a suffix which is only output when the value is set e.g. <code>[job_title prefix=\"Job Title: \" suffix=\".\"]</code>"
+msgstr "Todas as tags podem ser passadas como prefixo e sufixo, que são gerados apenas quando o valor é definido. Por exemplo, <code>[job_title prefix=\"Cargo: \" suffix=\".\"]</code>"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:552
+msgid "The following tags can be used to add content dynamically:"
+msgstr "É possível usar as tags a seguir para inserir conteúdo de maneira dinâmica:"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:544
+msgid "Subject"
+msgstr "Assunto"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:256
+msgid "Below you will find the email that is sent to an employer after a candidate submits an application."
+msgstr "O e-mail enviado ao empregador após o envio da candidatura por um candidato está abaixo."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:156
+msgid "The email was successfully reset."
+msgstr "O e-mail foi redefinido com sucesso."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:310
+msgid "Reset to defaults"
+msgstr "Redefinir para valores padrão"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:402
+msgid "Add field"
+msgstr "Adicionar campo"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:394
+msgid "Validation / Rules"
+msgstr "Validação/Regras"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:393
+msgid "Placeholder / Options"
+msgstr "Marcador de posição/Opções"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:392
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:391
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:390
+msgid "Field Label"
+msgstr "Rótulo do campo"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:376
+msgid "Output content"
+msgstr "Gerar conteúdo"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:374
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:373
+msgid "Checkbox"
+msgstr "Caixa de verificação "
+
+#: includes/class-wp-job-manager-applications-form-editor.php:372
+msgid "Multiselect"
+msgstr "Selecionar vários"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:371
+msgid "Select"
+msgstr "Selecione"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:370
+msgid "File"
+msgstr "Arquivo"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:369
+msgid "Textarea"
+msgstr "Área de texto"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:368
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:352
+#: includes/wp-job-manager-applications-functions.php:236
+msgid "Message"
+msgstr "Mensagem"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:351
+msgid "From Email"
+msgstr "E-mail do remetente"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:350
+msgid "From Name"
+msgstr "Nome do remetente"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:349
+msgid "Data Handling"
+msgstr "Manuseio de dados"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:347
+msgid "Numeric"
+msgstr "Numérica"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:345
+msgid "Required"
+msgstr "exigido"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:344
+msgid "Validation"
+msgstr "Validação"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:155
+msgid "The fields were successfully reset."
+msgstr "Os campos foram redefinidos com sucesso."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:227
+#: includes/class-wp-job-manager-applications-post-types.php:457
+msgid "Form Fields"
+msgstr "Campos do formulário"
+
+#: includes/class-wp-job-manager-applications-form-editor.php:203
+msgid "Are you sure you want to reset your changes? This cannot be undone."
+msgstr "Tem certeza de que deseja redefinir as alterações? Essa ação não pode ser desfeita."
+
+#: includes/class-wp-job-manager-applications-form-editor.php:202
+msgid "Are you sure you want to delete this row?"
+msgstr "Tem certeza de que deseja excluir esta linha?"
+
+#: includes/class-wp-job-manager-applications-post-types.php:142
+#: includes/wp-job-manager-applications-functions.php:339
+msgid "Application Form"
+msgstr "Formulário de candidatura"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:425
+#: includes/wp-job-manager-applications-template.php:117
+msgid "Delete note"
+msgstr "Apagar observações"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:379
+msgid "Date Received"
+msgstr "Data de recebimento"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:378
+#: includes/class-wp-job-manager-applications-form-editor.php:346
+#: templates/job-application-footer.php:51
+msgid "Email"
+msgstr "Endereço de email"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:377
+msgid "Name"
+msgstr "Nome"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:330
+msgid "You do not have permission to view this job."
+msgstr "Você não tem permissão para visualizar esta vaga."
+
+#: includes/class-wp-job-manager-applications-dashboard.php:221
+msgid "Applicant message"
+msgstr "Mensagem do candidato"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:220
+#: includes/class-wp-job-manager-applications-form-editor.php:353
+#: includes/class-wp-job-manager-applications-writepanels.php:51
+msgid "Attachment"
+msgstr "Anexo"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:218
+msgid "Applicant email"
+msgstr "E-mail do candidato"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:217
+msgid "Applicant name"
+msgstr "Nome do candidato"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:216
+#: templates/job-application-edit.php:21
+msgid "Application status"
+msgstr "Status da candidatura"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:215
+msgid "Application date"
+msgstr "Data da candidatura"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:209
+msgid "applications"
+msgstr "candidaturas"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:75
+msgid "Hide"
+msgstr "Ocultar"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:73
+#: templates/job-application-footer.php:32
+msgid "Details"
+msgstr "Detalhes"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:72
+#: includes/class-wp-job-manager-applications-writepanels.php:290
+msgid "Are you sure you want to delete this? There is no undo."
+msgstr "Tem certeza de que deseja excluir? Não é possível desfazer."
+
+#: includes/class-wp-job-manager-applications-dashboard.php:51
+#: includes/class-wp-job-manager-applications-post-types.php:84
+#: includes/class-wp-job-manager-applications-privacy.php:81
+#: tests/php/tests/includes/test_class.wp-job-manager-applications-privacy.php:288
+msgid "Job Applications"
+msgstr "Candidaturas"
+
+#: includes/class-wp-job-manager-applications-apply.php:501
+msgid "Could not create job application"
+msgstr "Não foi possível criar a candidatura"
+
+#: includes/class-wp-job-manager-applications-apply.php:487
+msgid "No"
+msgstr "Não"
+
+#: includes/class-wp-job-manager-applications-apply.php:487
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/class-wp-job-manager-applications-apply.php:420
+msgid "Please enter a number"
+msgstr "Insira um número"
+
+#: includes/class-wp-job-manager-applications-apply.php:415
+msgid "Please provide a valid email address"
+msgstr "Forneça um endereço de e-mail válido"
+
+#: includes/class-wp-job-manager-applications-apply.php:383
+msgid "You have already applied for this job"
+msgstr "Você já se candidatou a esta vaga"
+
+#: includes/class-wp-job-manager-applications-apply.php:379
+msgid "That job is not available"
+msgstr "A vaga não está disponível"
+
+#: includes/class-wp-job-manager-applications-apply.php:375
+msgid "Invalid job"
+msgstr "Vaga inválida"
+
+#: includes/class-wp-job-manager-applications-apply.php:266
+msgid "Choose an online resume..."
+msgstr "Escolha um currículo online..."
+
+#: includes/class-wp-job-manager-applications-apply.php:220
+msgid "Choose an option"
+msgstr "Escolha uma opção"
+
+#: includes/class-wp-job-manager-applications-apply.php:86
+#: includes/class-wp-job-manager-applications-apply.php:405
+msgid "\"%s\" is a required field"
+msgstr "\"%s\" é um campo obrigatório."
+
+#: includes/class-wp-job-manager-applications-admin.php:292
+msgid "Applications for all jobs"
+msgstr "Candidaturas a todas as vagas"
+
+#: includes/class-wp-job-manager-applications-admin.php:262
+#: templates/job-application-edit.php:39
+msgid "Delete"
+msgstr "Excluir"
+
+#: includes/class-wp-job-manager-applications-admin.php:257
+msgid "View"
+msgstr "Visualizar"
+
+#: includes/class-wp-job-manager-applications-admin.php:249
+#: includes/wp-job-manager-applications-template.php:116
+msgid "by %s"
+msgstr "por %s"
+
+#: includes/class-wp-job-manager-applications-admin.php:249
+msgid "by a guest"
+msgstr "por um visitante"
+
+#: includes/class-wp-job-manager-applications-admin.php:245
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d nota"
+msgstr[1] "%d notas"
+
+#: includes/class-wp-job-manager-applications-admin.php:206
+msgid "Application ID: %d"
+msgstr "ID da candidatura: %d"
+
+#: includes/class-wp-job-manager-applications-admin.php:183
+msgid "Actions"
+msgstr "Ações"
+
+#: includes/class-wp-job-manager-applications-admin.php:182
+msgid "Posted"
+msgstr "Publicado"
+
+#: includes/class-wp-job-manager-applications-admin.php:179
+#: includes/class-wp-job-manager-applications-form-editor.php:375
+msgid "Resume"
+msgstr "Continuar"
+
+#: includes/class-wp-job-manager-applications-admin.php:176
+msgid "Attachment(s)"
+msgstr "Anexos"
+
+#: includes/class-wp-job-manager-applications-admin.php:175
+#: includes/class-wp-job-manager-applications-dashboard.php:74
+#: templates/job-application-footer.php:54
+msgid "Notes"
+msgstr "Observações"
+
+#: includes/class-wp-job-manager-applications-admin.php:174
+#: includes/class-wp-job-manager-applications-dashboard.php:222
+msgid "Rating"
+msgstr "Classificação"
+
+#: includes/class-wp-job-manager-applications-admin.php:173
+#: includes/class-wp-job-manager-applications-dashboard.php:219
+msgid "Job applied for"
+msgstr "Vaga da candidatura"
+
+#: includes/class-wp-job-manager-applications-admin.php:172
+msgid "Candidate"
+msgstr "Candidato"
+
+#: includes/class-wp-job-manager-applications-admin.php:171
+#: templates/past-applications.php:22
+msgid "Status"
+msgstr "Situação"
+
+#: includes/class-wp-job-manager-applications-admin.php:151
+msgid "Job application draft updated."
+msgstr "Rascunho da candidatura atualizado."
+
+#: includes/class-wp-job-manager-applications-admin.php:149
+msgid "Job application submitted."
+msgstr "Candidatura enviada."
+
+#: includes/class-wp-job-manager-applications-admin.php:148
+msgid "Job application saved."
+msgstr "Candidatura salva."
+
+#: includes/class-wp-job-manager-applications-admin.php:147
+msgid "Job application published."
+msgstr "Candidatura publicada."
+
+#: includes/class-wp-job-manager-applications-admin.php:144
+msgid "Custom field deleted."
+msgstr "Campo personalizado apagado."
+
+#: includes/class-wp-job-manager-applications-admin.php:143
+msgid "Custom field updated."
+msgstr "Campo personalizado atualizado"
+
+#: includes/class-wp-job-manager-applications-admin.php:142
+#: includes/class-wp-job-manager-applications-admin.php:145
+msgid "Job application updated."
+msgstr "Candidatura atualizada."
+
+#: includes/class-wp-job-manager-applications-admin.php:127
+msgid "Candidate name"
+msgstr "Nome do candidato"
+
+#: includes/class-wp-job-manager-applications-admin.php:89
+#: includes/class-wp-job-manager-applications-dashboard.php:289
+msgid "Applications"
+msgstr "Candidaturas"
+
+#: includes/class-wp-job-manager-applications-admin.php:61
+msgid "Settings"
+msgstr "Configurações"
+
+#. Plugin Name of the plugin
+#: includes/class-wp-job-manager-applications-privacy.php:41
+#: includes/class-wp-job-manager-applications-privacy.php:58
+msgid "WP Job Manager - Applications"
+msgstr "WP Job Manager - Applications"

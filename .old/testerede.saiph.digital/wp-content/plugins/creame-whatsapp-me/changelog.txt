@@ -1,0 +1,437 @@
+
+== Changelog ==
+
+This file contains only old changelog. See README.txt for newer versions.
+
+= 4.5.20 =
+* **NEW:** WooCommerce product variable {SKU} now works with variable products.
+* CHANGE Better optimization reduce script size.
+* FIX Joinchat lite script allow GA4 event name param "ga_event".
+
+= 4.5.19 =
+* **NEW:** Not display on editing with major visual editors and page builders. Added new editors in addition to Elementor.
+
+= 4.5.18 =
+* FIX Removed WooCommerce product metabox introduced in v4.5.17.
+* FIX Correct currency symbol for products on WhastApp message.
+
+= 4.5.17 =
+* FIX Remove "Close" aria-label attribute.
+* CHANGED Refactor filter 'joinchat_custom_post_types'.
+
+= 4.5.16 =
+* FIX Product Button don't appears when are products list before the single product template.
+* FIX On multi-language prevent return old cached translations on empty settings.
+* UPDATED International Telephone Input library.
+
+= 4.5.15 =
+* **NEW:** Added new locations for WooCommerce Product Button.
+* CHANGE Prevent launch WhatsApp from triggers or Product Button if Opt-in is required (need approval consent).
+* FIX Elementor 3.5 Finder deprecation message.
+
+= 4.5.14 =
+* CHANGE Delay 'message_send' replace variables until used (fix conflict with Rank Math).
+* CHANGE Optimized variable replacement, runs only when needed.
+
+= 4.5.13 =
+* FIX Tooltip text is cut off when there is an image emoji.
+* FIX PHP notice undefined 'title' introduced in v4.5.12.
+
+= 4.5.12 =
+* FIX Unescape help dynamic vars on post/term metabox.
+* CHANGED Better get title for dynamic var {TITLE}.
+
+= 4.5.11 =
+* CHANGED Better Joinchat script initialization for deferred or async load by optimizers.
+
+= 4.5.10 =
++ **NEW:** GA4 "generate_lead" event can now be changed to a custom event.
+* CHANGED default z-index to `9000` for compatibility with major cookies plugins.
+
+= 4.5.9 =
+* FIX Product Button should not appear on related products.
+
+= 4.5.8 =
+* Unify all occurrences of the plugin name to "Joinchat".
+
+= 4.5.7 =
+* **NEW:** Added "Test Number" button for phone input.
+* CHANGED Reduded delay for QR tooltip.
+* UPDATED International Telephone Input library.
+* Reduce size of QR generator script.
+
+= 4.5.6 =
+* FIX Joinchat sidebar for Gutenberg only must be loaded on public CPTs.
+
+= 4.5.5 =
+* FIX WhatsApp Web always deactivated in frontend.
+
+= 4.5.4 =
+* FIX Allows Google Ads conversion ID of 11 characters.
+
+= 4.5.3 =
+* FIX PHP warning introduced in v4.5.2.
+
+= 4.5.2 =
+* FIX Joinchat integration with Gutenberg only loads for WordPress 5.9 or higher.
+
+= 4.5.1 =
+* FIX PHP error introduced in v4.5
+* CHANGED Bump min PHP version to 5.5.
+
+= 4.5 =
+* **NEW: Added Gutenberg native support.**
+* **NEW:** WhastApp Contact Button Block.
+* **NEW:** Native Joinchat sidebar on Block Editor.
+* **NEW:** Direct WhatsApp triggers can use custom phone and initial message.
+* **NEW:** Triggers also fire analytics events even without the Joinchat floating button.
+* CHANGED Bump min WordPress version to 4.4 and tested up to 6.0.
+* CHANGED Can change default "JoinChat" event name via javascript event.
+* CHANGED Improved interface to enter phone with country code and Google Ads conversion ID.
+
+= 4.4.3 =
+* Minor CSS fixes and optimizations.
+
+= 4.4.2 =
+* **NEW Optimized CSS** for only button without Call to Action (only 2.5kB).
+* **NEW** Compatible with **Perfect Brands for WooCommerce** for brand custom settings.
+* **NEW** Compatible with **Google Tag Manager for WordPress** custom DataLayer name.
+* **NEW** Don't load on Elementor Site Builder previews.
+* FIX badge animation don't show error introduced in v4.4.0.
+* CHANGED optimized render without unused elements.
+
+= 4.4.1 =
+* FIX Google Ads conversion field is too short.
+
+= 4.4 =
+* **NEW: Display QR Code on desktop** to scan with phone.
+* **NEW: Opt-in** text for user consent (optional or required).
+* **NEW: WooCommerce Product Button** for product pages.
+* **NEW:** Dynamic variable `{HREF}` for full URL with query params.
+* **NEW:** Google Ads conversion.
+* **NEW:** Better analytics events with more info.
+* **NEW:** Allow direct show button without animation setting Button Delay as "-1".
+* **TIP:** Easier configuration, double click to apply the example settings in placeholders.
+* CHANGED default z-index is `9999`.
+* CHANGED allow set empty CTA for products with `{}` in main settings.
+* **CHANGED** GA4 custom 'JoinChat' event now is 'generate_lead' recommended event.
+
+= 4.3.2 =
+* Styles minor improvements, fix tooltip align.
+
+= 4.3.1 =
+* FIX empty phone notice dismiss.
+
+= 4.3 =
+* **NEW:** Customize in category/tag archive page.
+* UPDATED styles for better browsers support.
+* UPDATED International Telephone Input library.
+
+= 4.2 =
+* **NEW:** Now can change default role allowed to configure Join.chat global settings.
+* **NEW:** Now can show Join.chat as a direct menu in wp-admin.
+* **NEW:** link to update translatable settings when changed.
+* **NEW:** Accessibility: disable animations for devices with Reduced Motion preference.
+* FIX Elementor 3.5 Finder deprecation message.
+* FIX WPML ensure translations are registered in default site language.
+* Styles minor improvements.
+
+= 4.1.15 =
+* **NEW:** WordPress 5.8 tested & updated.
+* FIX RTL text align right.
+* FIX Send event to all GA4 properties.
+* Prevent faux WhatsApp clicks when chat window is showed automatically
+
+= 4.1.14 =
+* **NEW:** Enhanced telephone input scripts now are included in plugin and self-hosted.
+
+= 4.1.13 =
+* **NEW:** Add Thank you page in WooCommerce visibility options.
+* **SECURE** frontend escape html output.
+
+= 4.1.12 =
+* **NEW:** Add integration with Elementor Finder.
+* **NEW:** Add compatibility with Storefront theme mobile toolbar.
+* Better dependency loading.
+
+= 4.1.11 =
+* FIX some CSS optimizers break message bubble style.
+* FIX PHP notice undefined 'telephone'.
+
+= 4.1.10 =
+* **NEW:** Add support to new Elementor landing pages.
+* FIX fallback for browsers that don't support CSS "clamp()" (i.e Edge for Android)
+
+= 4.1.9 =
+* **SECURE** escape input values on wp-admin (thanks to Camilo @camilo517)
+* NEW can pass custom data layer name for gtag.js and GTM with filter `joinchat_get_settings`
+* FIX also send Google Analytics 4 event when Universal Analytics and GA4 are present
+
+= 4.1.8 =
+* Front script better settings validation
+* FIX error with some prices on variable replacement
+* Bump required minimun WordPress version to 3.5
+
+= 4.1.7 =
+* FIX jQuery 3 deprecation warnings for event shorthands
+* FIX JSON error with "&quot;" on variable replacement
+* FIX Don't load public hooks on wp-login.php page
+
+= 4.1.6 =
+* FIX minor css error introduced in v4.1.5
+
+= 4.1.5 =
+* **NEW:** Add links to WhastApp with `#joinchat` or `#whatsapp` in your href. CSS triggers and links work on all pages, **even without Join.chat visible**.
+* **NEW:** Analytics event compatible with Google Analytics Dashboard Plugin for WordPress by MonsterInsights custom tracker name
+* Load images when show button for better Page speed.
+
+= 4.1.4 =
+* **NEW:** PHP 8 & WordPress 5.6 tested & updated
+* Cleaner placeholder on telephone field
+* Added lazy loading attribute for image
+
+= 4.1.3 =
+* **NEW:** Ensure chatbox header is allways visible on mobile with better height control
+* **NEW:** WooCommerce, use custom Join.chat settings on shop page for all shop catalog pages
+
+= 4.1.2 =
+* SECURE window.open with 'noopener'
+* FIX PHP error undefined get_col_charset() on old WordPress versions
+
+= 4.1.1 =
+* FIX error on prices with '$'
+
+= 4.1 =
+* **NEW:** Use custom text on chat window header
+* Added 'joinchat_app' class trigger that opens WhatsApp
+* Added Telephone to translatable fields
+* Added 'joinchat_disable_thumbs' filter
+* FIX updated style regex patterns
+* FIX hide on mobile when user fill forms
+
+= 4.0.10 =
+* **NEW:** show tooltip on hover button
+* **NEW:** hide on mobile when user fill forms
+* CHANGED by default clear all plugin data on uninstall.
+* FIX remove unnecessary get option 'whatsappme'
+
+= 4.0.9 =
+* FIX notification balloon text color white
+* New js event 'joinchat:starting'
+
+= 4.0.8 =
+* FIX WP Super Cache clear cache error on save
+* Image thumbnail fallback if possible
+
+= 4.0.7 =
+* FIX WP Super Cache clear cache error on save
+
+= 4.0.6 =
+* Minor changes: better encode emoji detection, check WooCommerce version, css fixes and improvements
+
+= 4.0.5 =
+* **NEW:** Clear third party cache plugins on settings save.
+* FIX php error on image resize.
+* UPDATED International Telephone Input library to v.17.
+
+= 4.0.4 =
+* Better public settings JSON output
+* Re-fix WAme deactivate
+
+= 4.0.3 =
+* Fix WAme deactivate
+
+= 4.0.2 =
+* Encode emojis if DB not support utf8mb4.
+* Better update from WAme (no manual activation required).
+
+= 4.0.1 =
+* minor fixes.
+
+= 4.0.0 =
+* **NEW:** Join.chat brand.
+* **NEW:** Widget theme color.
+* **NEW:** CSS class triggers to open chat window.
+* Lighter, reduced assets size and deleted images.
+
+**CHANGED for SEO:** All analytics events change from `WhatsAppMe` to `JoinChat`.
+
+**CHANGED for Devs:** All css classes, actions and filters change from `wame` or `whatsappme` to `joinchat`.
+
+= 3.2.3 =
+* FIX svg in safari < 13.
+
+= 3.2.2 =
+* **NEW:** Metabox can override global settings and leave it blank with `{}`.
+* **NEW:** Can use `wame_open` class on any element to open WAme or launch WhatsApp.
+* **NEW:** Added 'whatsappme_delete_all' filter, set true to clear all WAme data on plugin uninstall.
+* CHANGED Tested up to WordPress 5.4.
+* CHANGED updated FAQs GDPR info to include localStorage vars.
+
+= 3.2.1 =
+* FIX svg animations on firefox.
+* FIX empty messages on WP < 4.6.
+* FIX Google Analytics 'ga' event not sent if gtag for GAds or GTM is present.
+
+= 3.2.0 =
+* **NEW:** Dark mode.
+* **NEW:** Hide on mobile when keyboard is open.
+* **NEW:** Post metabox show main WAme settings as placeholders.
+* CHANGED webp support is now on server side.
+* CHANGED rewrite of chatbox output, SVGs separated, full chatbox scroll and new filters.
+* FIX 'apply_filters_deprecated' fatal error on WP < 4.6
+
+= 3.1.4 =
+* FIX php warning with new var {DISCOUNT} when price is zero.
+
+= 3.1.3 =
+* Minor improvements and link to Wame CTA Extras.
+
+= 3.1.2 =
+* **NEW:** WooCommerce Call to Action for Products on Sale, also added dynamic vars {DISCOUNT} {REGULAR}.
+* FIX Fatal error when selected button image is deleted from media library.
+* FIX WooCommerce settings not registered for translation.
+* For devs: format replacements now also accepts callbacks.
+* For devs: new javascript events for chat window 'whatsappme:show' 'whatsappme:hide'.
+
+= 3.1.1 =
+* CHANGED Tested up to WordPress 5.3
+* FIX Save on the first time can store some settings incorrectly.
+* FIX rtl styles for new button text.
+
+= 3.1.0 =
+* **NEW:** WhatsApp button image.
+* **NEW:** WhatsApp button tooltip.
+* **NEW:** Start WhatsApp button text on Chat Window.
+* **NEW:** Option to disable automatic open of Chat Window.
+* For devs: static functions moved to a WhatsAppMe_Util class.
+
+= 3.0.3 =
+* FIX in landscape or with long CTAs the chat window could be higher than view and can't be closed.
+* For developers:
+* New metabox filters 'whatsappme_metabox_output' and 'whatsappme_metabox_save'.
+* Change filter 'whatsappme_message_replacements' to 'whatsappme_format_replacements'.
+* Change filter 'whatsappme_message_send_replacements' to 'whatsappme_variable_replacements'.
+
+= 3.0.2 =
+* **NEW:** Send Facebook Pixel custom event when user launch WhatsApp.
+* FIX empty tabs on settings page due to conflicts with other themes or plugins.
+
+= 3.0.1 =
+* FIX sometimes the phone number is lost in WAme settings on save.
+* CHANGED Wame button z-index to 1000.
+
+= 3.0.0 =
+* **NEW:** Better Integration with WooCommerce: CTA and Custom Message for product pages and new dynamic variables {SKU}, {PRICE} {PRODUCT}.
+* **NEW:** Admin help tab with styles and dynamic varibles info.
+* **NEW:** For developers: a lot of new hooks to change or extend WAme functions.
+* **NEW:** Custom javascript document event 'whatsappme:open' that allow trigger other actions and/or change the link url.
+* CHANGED Rebrand "WhatsApp me" to "WAme chat".
+* CHANGED Code linted following WordPress standar.
+* FIX when post visibility was set as "hidden", it used default global visibility.
+* FIX javascript error when "ga" global object is defined but isn't Google Analytics.
+* FIX rtl styles for chat.
+
+= 2.3.3 =
+* FIX javascript error when "ga" global object is defined but isn't Google Analytics.
+
+= 2.3.2 =
+* FIX PHP notice on some archive pages.
+
+= 2.3.1 =
+* Readme texts and description.
+
+= 2.3.0 =
+* **NEW:** WPML/Polylang integration.
+* **NEW:** Added setting to launch WhatsApp Web on desktop.
+* **NEW:** Separated button delay and chat delay settings.
+* **NEW:** dynamic variables {SITE}, {URL} and {TITLE} now also works on Call To Action.
+* CHANGED Better ordered settings panel.
+* FIX incorrect post id on loops can return post config instead main config.
+* FIX typo error on filter "whatsappme_whastapp_web"
+
+= 2.2.3 =
+* **NEW:** Hide in front if editing with Elementor.
+* CHANGED improvements in public styles.
+
+= 2.2.2 =
+* **NEW:** styles/scripts minified.
+* FIX UX issues.
+
+= 2.2.0 =
+* **NEW:** Now can change telephone number on every post/page.
+* **NEW:** Send Google Tag Manager event on click.
+* **NEW:** New filter 'whatsappme_whastapp_web'. Set true if you prefer to open WhatsApp Web on desktop.
+* **NEW:** "Send button" change when dialog is opened.
+* UPDATED Tested up to Wordpress v.5.1.
+* UPDATED International Telephone Input library to v.15.
+
+= 2.1.3 =
+* FIX PHP warning on some rare cases.
+
+= 2.1.2 =
+* FIX javascript error on iOS Safari private browsing.
+
+= 2.1.1 =
+* FIX javascript error on IE11.
+
+= 2.1.0 =
+* **NEW:** Button bagde option for a less intrusive mode.
+* CHANGED now each different Call to Action is marked as read separately.
+* CHANGED now first show Call to Action (if defined) before launch WhatsApp link.
+
+= 2.0.1 =
+* FIX removed array_filter function that requires PHP 5.6 min version.
+
+= 2.0.0 =
+* **NEW: Advanced visibility settings to define where to show WAme button.**
+* **NEW:** WooCommerce integration.
+* UPDATED International Telephone Input library to v.13.
+* Minor fixes on fields cleanup and other improvements.
+
+= 1.4.3 =
+* NEW support for Google Analytics Global Site Tag (gtag.js).
+* CHANGE events label now is the destination URL to match general behavior.
+* UPDATED International Telephone Input library
+
+= 1.4.2 =
+* FIX JavaScript error introduced on v1.4.1.
+
+= 1.4.1 =
+* Fix JS frontend sometimes can't load WAme settings.
+* Fix better Google Analytics event tracking when leave page.
+
+= 1.4.0 =
+* **NEW:** Added the option to define the first message to send. You can include variables such as {SITE}, {URL} or {TITLE}.
+* Fix PHP notice when global $post is null (e.g. search results or login page).
+
+= 1.3.2 =
+* Only set admin/public hooks when it corresponds to improve performance and fix a notice on admin.
+
+= 1.3.1 =
+* Fix fatal error when the PHP mbstring extension is not active
+
+= 1.3.0 =
+* Added option to change position of button to left
+* Added formatting styles for Call to action text like in WhatsApp: *italic* **bold** strikethrough
+
+= 1.2.0 =
+* Added International Telephone Input for enhanced phone input
+* Phone number is cleared to generate correct WhatsApp links
+
+= 1.1.0 =
+* Added posts/pages option to override CTA or hide button
+* Don't enqueue assets if not show button
+* Added filters for developers
+
+= 1.0.3 =
+* Readme texts
+
+= 1.0.2 =
+* Fix plugin version
+
+= 1.0.1 =
+* Fix text domain
+
+= 1.0.0 =
+* First version

@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+	/* This is to support CSS rem values, based on WordPress default 13px font (13/16 = 0.8125) */
+	font-size: 81.3%;
+}
+
+.postbox .ui.fluid_auto {
+	width: auto;
+}
+
+.wp-list-table {
+	table-layout: auto !important;
+}
+
+.ui.button {
+	height: auto;
+}
+
+.ui.dimmer {
+	z-index: 99999 !important;
+}
+
+.ui.animated .hidden {
+	display: block;
+}
+
+.ui.menu, .ui.menu .right.menu {
+	padding-top: 0px;
+}

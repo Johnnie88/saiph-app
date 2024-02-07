@@ -1,0 +1,346 @@
+
+                        .bpa-front-cp-top-navbar,.bpa-front-cp-card,
+                        .bpa-front-data-empty-view--my-bookings.__bpa-is-guest-view,
+                        .bpa-front-ma-table-actions-wrap .bpa-front-ma-taw__card,
+                        .el-popover,
+                        .bpa-front-cp-custom-popover,
+                        .bpa-tn__dropdown-menu,
+                        .bpa-front-ma-view-appointment-card,
+                        .bpa-vac-pd__item.__bpa-pd-is-total-item,
+                        .bpa-front-cp-cancel-mob-drawer {
+                            background-color:#fff !important;
+                        }
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__form-bg{
+                            fill:#fff !important;
+                        }
+                        .bpa-cp-ma-table.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell,
+                        .bpa-front-toast-notification.--bpa-error,
+                        .bpa-front-toast-notification.--bpa-success,
+                        .bpa-front-ma--pagination-wrapper.__bpa-is-sticky,
+                        .el-year-table td.disabled .cell,
+                        .el-month-table td.disabled .cell{
+                            background-color: #f4f7fb !important;
+                        }
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__panel-bg{
+                            fill: #f4f7fb !important;
+                        }
+                        .bpa-front-cp-top-navbar,
+                        .bpa-front-cp-card,
+                        .bpa-front-form-control input,
+                        .el-date-picker__time-header .el-input .el-input__inner,
+                        .bpa-cp-ma-table.el-table .el-table__header-wrapper tr th.el-table__cell,
+                        .bpa-front-ma-view-appointment-card,
+                        .bpa-ma-vac-sec-title,
+                        .bpa-ma-vac--head__right .bpa-front-pill,
+                        .bpa-vac-pd__item.__bpa-pd-is-total-item,
+                        .bpa-front-btn__small,
+                        .bpa-front-ma-table-actions-wrap .bpa-front-ma-taw__card,
+                        .el-popover,
+                        .el-popconfirm .el-popconfirm__action,
+                        .bpa-front-cp-custom-popover,
+                        .bpa-tn__dropdown-menu,
+                        .bpa-front-form-control input:focus, 
+                        .bpa-front-form-control .el-textarea__inner:focus, 
+                        .el-date-picker__time-header .el-input .el-input__inner:focus,
+                        .bpa-cp-ma-table.el-table td.el-table__cell,
+                        .bpa-front-ma--pagination-wrapper .el-pager li,
+                        .bpa-front-cp-custom-popover .el-date-picker__header--bordered,
+                        .bpa-custom-datepicker .el-date-picker__header--bordered,
+                        .bpa-tn__dropdown-head .bpa-cp-avatar__default-img,
+                        .bpa-front-form-control.--bpa-country-dropdown.vue-tel-input:focus-within,
+                        .el-date-picker__header--bordered {
+                            border-color: #CFD6E5 !important;
+                        }
+                        .bpa-front-form-control input::placeholder,
+                        .bpa-front-form-control .el-textarea__inner::placeholder,
+                        .el-date-picker__time-header .el-input .el-input__inner::placeholder {
+                            color:rgba(114,126,149,0.75) !important;
+                        }.bpa-front-btn--primary,
+                        .bpa-front-ma--pagination-wrapper .el-pager li.active,
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn:hover,
+                        .bpa-front-ma-table-actions-wrap .bpa-front-btn--icon-without-box:hover,
+                        .bpa-front-btn--primary:hover,
+                        .el-date-table td.current:not(.disabled) span  {
+                            background: #12D488 !important;
+                        }
+                        .bpa-front-btn--primary,.bpa-ma-vac--action-btn-group .bpa-front-btn:hover,
+                        .bpa-front-ma--pagination-wrapper .btn-prev:hover,
+                        .bpa-front-ma--pagination-wrapper .btn-next:hover,
+                        .bpa-front-btn--primary:hover,
+                        .bpa-front-ma--pagination-wrapper .el-pager li.active,
+                        .bpa-front-ma--pagination-wrapper .el-pager li:hover {
+                            border-color:#12D488 !important;
+                        }
+                        .el-button--bpa-front-btn.bpa-front-btn--danger.el-button--mini:hover {
+                            border-color:var(--bpa-sc-danger) !important;
+                        }
+                        .el-button--bpa-front-btn:hover {
+                            border-color:#727E95 !important;
+                        }.bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item.__bpa-is-active,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item.__bpa-is-active span,
+                        .bpa-front-ma--pagination-wrapper .el-pager li:hover,
+                        .bpa-vac-pd__item.__bpa-pd-is-total-item .bpa-vac-pd__val,
+                        .el-date-picker__header-label.active,
+                        .el-date-picker__header-label:hover,
+                        .el-date-table td.available:hover,
+                        .el-date-table td.today:not(.current) span,
+                        .el-month-table td .cell:hover,
+                        .el-month-table td.current:not(.disabled) .cell,
+                        .el-year-table td .cell:hover,
+                        .el-year-table td.current:not(.disabled) .cell,
+                        .el-picker-panel__content .el-date-table td:not(.next-month):not(.prev-month):not(.today):not(.current) span:hover,
+                        .el-picker-panel__content .el-date-table td:not(.current):not(.today) span:hover,
+                        .bpa-front-cp-custom-popover .el-year-table td.today .cell,
+                        .bpa-front-cp-custom-popover .el-month-table td.today .cell,
+                        .bpa-custom-datepicker .el-year-table td.today .cell,
+                        .bpa-custom-datepicker .el-month-table td.today .cell {
+                            color: #12D488 !important;
+                        }
+                        .bpa-front-dcw__vector .bpa-front-dcw__vector-primary-color,.bpa-front-loader-cl-primary,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item.__bpa-is-active svg,
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__primary-bg{
+                            fill:#12D488 !important;
+                        }
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__primary-bg{
+                            stroke:#12D488 !important;
+                        }
+                        .bpa-cp-ma-table.el-table td.el-table__cell .bpa-ma-date-time-details .bpa-ma-dt__time-val svg,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item svg,
+                        .bpa-front-ma-table-actions-wrap .bpa-front-ma-taw__card .bpa-front-btn--icon-without-box span svg,
+                        .bpa-tn__dropdown-head .bpa-cp-avatar__default-img svg {
+                            fill:#727E95 !important;
+                        }
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn span svg {
+                            fill:#535D71 !important;    
+                        }
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn:hover span svg,
+                        .bpa-front-ma-table-actions-wrap .bpa-front-ma-taw__card .bpa-front-btn--icon-without-box:hover span svg {
+                            fill: var(--bpa-cl-white) !important;
+                        }
+                        .bpa-front-default-card{
+                            background: #fff !important;
+                        }
+
+                        .bpa-front-btn--primary span,
+                        .bpa-front-ma--pagination-wrapper .el-pager li.active,
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn:hover,
+                        .bpa-front-ma--pagination-wrapper .btn-prev:hover span,
+                        .bpa-front-ma--pagination-wrapper .btn-next:hover span,
+                        .bpa-front-ma--pagination-wrapper .btn-next:hover,
+                        .bpa-front-ma--pagination-wrapper .btn-prev:hover,
+                        .bpa-front-ma--pagination-wrapper .el-pagination .btn-prev .el-icon:hover,
+                        .bpa-front-ma--pagination-wrapper .el-pagination .btn-next .el-icon:hover,
+                        .bpa-front-ma--pagination-wrapper .btn-prev:hover:before,
+                        .bpa-front-ma--pagination-wrapper .btn-next:hover:after,
+                        .el-date-table td.current:not(.disabled) span,
+                        .bpa-front-cp-delete-account-wrapper .bpa-front-dcw__body-btn-group .bpa-front-btn--danger,
+                        .bpa-front-cp-delete-account-wrapper .bpa-front-dcw__body-btn-group .bpa-front-btn--danger span{  
+                            color:#fff !important;
+                        }
+                        .bpa-front-module-heading,
+                        .bpa-cp-pd__title,
+                        .bpa-cp-ma-table.el-table .bpa-cp-ma-cell-val,
+                        .bpa-cp-ma-table.el-table td.el-table__cell .cell,
+                        .bpa-cp-ma-table.el-table .el-table__header-wrapper tr th.el-table__cell,
+                        .bpa-left__service-detail .bpa-sd__appointment-title,
+                        .bpa-bd__item .bpa-item--val,
+                        .bpa-ma-vac-sec-title,
+                        .bpa-front-form-control input,
+                        .bpa-left__service-detail .bpa-sd__appointment-id,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item,
+                        .bpa-cp-ma-table.el-table td.el-table__cell,
+                        .bpa-cp-ma-table.el-table td.el-table__cell .bpa-ma-date-time-details .bpa-ma-dt__time-val,
+                        .bpa-bd__item .bpa-item--label,
+                        .bpa-vac-pd__item .bpa-vac-pd__label,
+                        .bpa-vac-pd__item .bpa-vac-pd__val,
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn__small,
+                        .bpa-front-btn--primary,
+                        .bpa-front-pill,
+                        .bpa-front-ma--pagination-wrapper .el-pager li.number,
+                        .bpa-front-dcw__body-title,
+                        .bpa-front-dcw__body-sub-title,
+                        .bpa-front-btn,
+                        .el-popconfirm__main,
+                        .bpa-front-btn__small,
+                        .el-date-picker__header-label,
+                        .el-picker-panel__content .el-date-table th,
+                        .el-picker-panel__content .el-date-table td span,
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__title,
+                        .el-form-item__error,
+                        .bpa-front-form-control input::placeholder,
+                        .bpa-front-form-control .el-textarea__inner::placeholder,
+                        .bpa-front-cp-custom-popover .el-year-table td .cell,
+                        .bpa-front-cp-custom-popover .el-month-table td .cell,
+                        .bpa-custom-datepicker .el-year-table td .cell,
+                        .bpa-custom-datepicker .el-month-table td .cell,
+                        .el-year-table td .cell,
+                        .el-month-table td .cell,
+                        .bpa-front-ma--pagination-wrapper .btn-prev span,
+                        .bpa-front-ma--pagination-wrapper .btn-next span{ 
+                        font-family: Poppins !important;   
+                        }
+                        .bpa-front-module-heading,
+                        .bpa-cp-pd__title,
+                        .bpa-cp-ma-table.el-table .el-table__header-wrapper tr th.el-table__cell,
+                        .bpa-left__service-detail .bpa-sd__appointment-title,
+                        .bpa-bd__item .bpa-item--val,
+                        .bpa-ma-vac-sec-title,  
+                        .bpa-front-form-control input,
+                        .bpa-vac-pd__item.__bpa-pd-is-total-item .bpa-vac-pd__label,
+                        .bpa-front-dcw__body-title,
+                        .el-picker-panel__content .el-date-table td:not(.next-month):not(.prev-month):not(.today):not(.current) span,
+                        .el-date-picker__header-label,
+                        .el-date-picker__time-header .el-input .el-input__inner,
+                        .bpa-front-cp-custom-popover .el-year-table td .cell,
+                        .bpa-front-cp-custom-popover .el-month-table td .cell,
+                        .bpa-custom-datepicker .el-year-table td .cell,
+                        .bpa-custom-datepicker .el-month-table td .cell,
+                        .el-year-table td .cell,
+                        .el-month-table td .cell
+                        {
+                            color: #202C45 !important;
+                        }
+                        .bpa-left__service-detail .bpa-sd__appointment-id,
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item span,
+                        .bpa-cp-ma-table.el-table .el-table__expand-icon .el-icon-arrow-right::before,
+                        .bpa-front-data-empty-view--my-bookings .bpa-front-dev__title
+                        {
+                            color: #727E95 !important;
+                        } 
+                        .bpa-tn__dropdown-head svg {
+                            fill: #727E95 !important;
+                        }
+                        .el-picker-panel .el-icon-arrow-left::before,
+                        .el-picker-panel .el-icon-arrow-right::before,
+                        .el-picker-panel .el-icon-d-arrow-left::before,
+                        .el-picker-panel .el-icon-d-arrow-right::before,
+                        .bpa-cp-ma-table.el-table .el-table__expand-icon .el-icon-arrow-right::before,
+                        .bpa-front-form-control--date-picker .el-input__prefix .el-input__icon::before,
+                        .bpa-front-cp--fw__col.__bpa-is-search-icon .bpa-front-form-control .el-input__prefix .el-icon-search:before,
+                        .bpa-front-ma--pagination-wrapper .btn-prev::before, 
+                        .bpa-front-ma--pagination-wrapper .btn-next::after {
+                            background-color: #727E95 !important;
+                        }
+                        .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item,
+                        .bpa-cp-ma-table.el-table td.el-table__cell .cell,
+                        .bpa-cp-ma-table.el-table td.el-table__cell .bpa-ma-date-time-details .bpa-ma-dt__time-val,
+                        .bpa-bd__item .bpa-item--label,
+                        .bpa-vac-pd__item .bpa-vac-pd__label,
+                        .bpa-vac-pd__item .bpa-vac-pd__val:not(.bpa-front-text-primary-color):not(.bpa-front-text--danger-color):not(.bpa-front-text--danger-color):not(.bpa-front-text-blue-color):not(.bpa-front-text--secondary-orange-color),
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn__small,
+                        .bpa-ma-vac--action-btn-group .bpa-front-btn span svg,
+                        .bpa-cp-ma-table.el-table .bpa-cp-ma-cell-val,
+                        .bpa-front-ma--pagination-wrapper .el-pager li,
+                        .bpa-front-dcw__body-sub-title,
+                        .bpa-mob-col__body .bpa-mob--service-title,
+                        .bpa-mob--date-time-details .bpa-mob-dtd__date-val, 
+                        .bpa-mob--date-time-details .bpa-mob-dtd__time-val,
+                        .bpa-front-ma--pagination-wrapper .btn-prev span,
+                        .bpa-front-ma--pagination-wrapper .btn-next span,
+                        .bpa-front-ma--pagination-wrapper .el-pagination .btn-prev .el-icon,
+                        .bpa-front-ma--pagination-wrapper .el-pagination .btn-next .el-icon,
+                        .bpa-front-ma--pagination-wrapper .btn-prev::before,
+                        .bpa-front-ma--pagination-wrapper .btn-next::after,
+                        .el-picker-panel__content .el-date-table th,
+                        .el-popconfirm .el-popconfirm__main,
+                        .el-popconfirm .el-popconfirm__action .el-button--bpa-front-btn:not(.bpa-front-btn--danger) 
+                        {
+                            color: #535D71 !important;
+                        }               
+                        @media (min-width: 1200px){    
+                            .bpa-front-module-heading
+                            {
+                                font-size: 18px !important;
+                            }    
+                            .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item,            
+                            .bpa-front-form-control input,
+                            .bpa-front-btn--primary span,
+                            .bpa-cp-ma-table.el-table .bpa-cp-ma-cell-val,
+                            .bpa-cp-ma-table.el-table td.el-table__cell .cell,    
+                            .bpa-front-ma--pagination-wrapper .el-pager li,
+                            .bpa-left__service-detail .bpa-sd__appointment-id,
+                            .bpa-bd__item .bpa-item--val,
+                            .bpa-ma-vac-sec-title,
+                            .bpa-front-dcw__body-sub-title,
+                            .bpa-vac-pd__item .bpa-vac-pd__label,
+                            .bpa-vac-pd__item .bpa-vac-pd__val,
+                            .bpa-front-ma--pagination-wrapper .btn-prev span,
+                            .bpa-front-ma--pagination-wrapper .btn-next span{
+                                font-size: 14px !important;               
+                            }   
+                            .bpa-left__service-detail .bpa-sd__appointment-title,
+                            .bpa-front-dcw__body-title{
+                                font-size: 16px !important;               
+                            }
+                            .bpa-cp-pd__title,
+                            .bpa-front-btn__small,
+                            .bpa-bd__item .bpa-item--label,
+                            .bpa-cp-ma-table.el-table td.el-table__cell .bpa-ma-date-time-details .bpa-ma-dt__time-val,
+                            .el-picker-panel__content .el-date-table th,
+                            .el-picker-panel__content .el-date-table td span {
+                                font-size: 13px !important;               
+                            }  
+                        }
+
+                        @media (max-width: 1024px) {
+                            .bpa-front-module-heading,
+                            .bpa-left__service-detail .bpa-sd__appointment-title {
+                                font-size: 16px !important;
+                            }
+                            .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item,
+                            .el-table th.el-table__cell>.cell,
+                            .bpa-cp-ma-table.el-table .bpa-cp-ma-cell-val,
+                            .bpa-front-ma--pagination-wrapper .el-pager li,
+                            .bpa-left__service-detail .bpa-sd__appointment-id,
+                            .bpa-bd__item .bpa-item--label,
+                            .bpa-ma-vac-sec-title,
+                            .bpa-front-form-control {
+                                font-size: 14px !important;
+                            }
+                            .bpa-cp-pd__title,
+                            .bpa-bd__item .bpa-item--label,
+                            .bpa-vac-pd__item .bpa-vac-pd__label,
+                            .bpa-vac-pd__item .bpa-vac-pd__val,
+                            .bpa-front-btn__small,
+                            .bpa-cp-ma-table.el-table td.el-table__cell .bpa-ma-date-time-details .bpa-ma-dt__time-val {
+                                font-size: 13px !important;    
+                            }          
+                        }
+                        @media (max-width: 576px){
+                            .bpa-front-module-heading
+                            {
+                                font-size: 16px !important;
+                            }
+                            .bpa-tn__dropdown-menu .bpa-tn__dropdown-item a.bpa-tm__item,
+                            .bpa-mob-col__body .bpa-mob--service-title ,
+                            .bpa-left__service-detail .bpa-sd__appointment-title,
+                            .bpa-bd__item .bpa-item--label,
+                            .bpa-bd__item .bpa-item--val,
+                            .bpa-ma-vac-sec-title
+                            {
+                                font-size: 14px !important;
+                            }
+                            .bpa-mob--date-time-details .bpa-mob-dtd__date-val,
+                            .bpa-mob--date-time-details .bpa-mob-dtd__time-val,
+                            .bpa-left__service-detail .bpa-sd__appointment-id,
+                            .bpa-vac-pd__item .bpa-vac-pd__label,
+                            .bpa-vac-pd__item .bpa-vac-pd__val,
+                            .bpa-front-btn__small {
+                                font-size: 13px !important;    
+                            }
+                            .bpa-front-ma--pagination-wrapper .btn-prev, 
+                            .bpa-front-ma--pagination-wrapper .btn-next{
+                                border-color: #CFD6E5 !important;
+                            }
+                            .bpa-front-ma--pagination-wrapper .btn-prev:hover,
+                            .bpa-front-ma--pagination-wrapper .btn-next:hover{
+                                background: #12D488 !important;
+                                border-color: #12D488 !important;
+                                
+                            }
+                            .bpa-front-ma--pagination-wrapper .btn-next:hover:after,
+                            .bpa-front-ma--pagination-wrapper .btn-prev:hover:before {
+                                background-color: #fff !important;
+                            }
+                        }

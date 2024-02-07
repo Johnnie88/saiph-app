@@ -1,0 +1,1 @@
+jQuery(document).ready((function(n){n(".company-dashboard-action-delete").click((function(){return window.confirm(cariera_company_dashboard.i18n_confirm_delete)}))}));
