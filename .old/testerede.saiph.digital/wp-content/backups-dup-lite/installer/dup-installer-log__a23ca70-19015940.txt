@@ -1,0 +1,1483 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 09:06:34
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.2.14                                |8.2.14
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.14 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home2/saiphd08/testerede.saiph.digital"
+REQUEST URL_________: "https://testerede.saiph.digital"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://rede.saiph.digital/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home2/saiphd08/testerede.saiph.digital"
+URL_NEW_____________: "https://testerede.saiph.digital"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home2/saiphd08/testerede.saiph.digital/20240119_bancodetalentosgrupojfm_[HASH]_20240119015940_archive.zip"
+ARCHIVE SIZE________: 141.79MB
+CREATED_____________: 2024-01-19 01:59:40
+WP VERSION__________: 6.4.2
+DUP VERSION_________: 1.5.8
+LICENSE_____________: Free version
+DB VERSION__________: 5.7.23
+DB FILE SIZE________: 26.84MB
+DB TABLES___________: 122
+DB ROWS_____________: 12489
+URL HOME____________: https://rede.saiph.digital
+URL CORE____________: https://rede.saiph.digital
+URL CONTENT_________: https://rede.saiph.digital/wp-content
+URL UPLOAD__________: https://rede.saiph.digital/wp-content/uploads
+URL PLUGINS_________: https://rede.saiph.digital/wp-content/plugins
+URL MU PLUGINS______: https://rede.saiph.digital/wp-content/mu-plugins
+URL THEMES__________: https://rede.saiph.digital/wp-content/themes
+PATH HOME___________: /home2/saiphd08/rede.saiph.digital
+PATH ABS____________: /home2/saiphd08/rede.saiph.digital
+PATH WPCONFIG_______: /home2/saiphd08/rede.saiph.digital
+PATH WPCONTENT______: /home2/saiphd08/rede.saiph.digital/wp-content
+PATH UPLOADS________: /home2/saiphd08/rede.saiph.digital/wp-content/uploads
+PATH PLUGINS________: /home2/saiphd08/rede.saiph.digital/wp-content/plugins
+PATH MUPLUGINS______: /home2/saiphd08/rede.saiph.digital/wp-content/mu-plugins
+PATH THEMES_________: /home2/saiphd08/rede.saiph.digital/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "rede.saiph.digital/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:automatic-translator-addon-for-loco-translate/automatic-translator-addon-for-loco-translate.php][ON:true ]  Automatic Translate Addon For Loco Translate
+PLUGIN [SLUG:bookly-responsive-appointment-booking-tool/main.php][ON:true ]  Bookly
+PLUGIN [SLUG:bookly-addon-pro/main.php                         ][ON:true ]  Bookly Pro (Add-on)
+PLUGIN [SLUG:cariera-plugin/cariera-core.php                   ][ON:true ]  Cariera Core
+PLUGIN [SLUG:child-theme-configurator/child-theme-configurator.php][ON:true ]  Child Theme Configurator
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:envato-market/envato-market.php                   ][ON:true ]  Envato Market
+PLUGIN [SLUG:creame-whatsapp-me/joinchat.php                   ][ON:true ]  Joinchat
+PLUGIN [SLUG:kirki/kirki.php                                   ][ON:true ]  Kirki Customizer Framework
+PLUGIN [SLUG:loco-translate/loco.php                           ][ON:true ]  Loco Translate
+PLUGIN [SLUG:loginpress/loginpress.php                         ][ON:true ]  LoginPress
+PLUGIN [SLUG:custom-css-js/custom-css-js.php                   ][ON:true ]  Simple Custom CSS and JS
+PLUGIN [SLUG:svg-support/svg-support.php                       ][ON:true ]  SVG Support
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:false]  WooCommerce
+PLUGIN [SLUG:wp-headers-and-footers/wp-headers-and-footers.php ][ON:true ]  WP Headers And Footers
+PLUGIN [SLUG:wp-job-manager/wp-job-manager.php                 ][ON:true ]  WP Job Manager
+PLUGIN [SLUG:wp-job-manager-alerts/wp-job-manager-alerts.php   ][ON:true ]  WP Job Manager - Alerts
+PLUGIN [SLUG:wp-job-manager-application-deadline/wp-job-manager-application-deadline.php][ON:true ]  WP Job Manager - Application Deadline
+PLUGIN [SLUG:wp-job-manager-applications/wp-job-manager-applications.php][ON:true ]  WP Job Manager - Applications
+PLUGIN [SLUG:wp-job-manager-bookmarks/wp-job-manager-bookmarks.php][ON:true ]  WP Job Manager - Bookmarks
+PLUGIN [SLUG:wp-job-manager-tags/wp-job-manager-tags.php       ][ON:true ]  WP Job Manager - Job Tags
+PLUGIN [SLUG:wp-job-manager-resumes/wp-job-manager-resumes.php ][ON:true ]  WP Job Manager - Resume Manager
+PLUGIN [SLUG:wp-job-manager-wc-paid-listings/wp-job-manager-wc-paid-listings.php][ON:false]  WP Job Manager - WooCommerce Paid Listings
+PLUGIN [SLUG:wp-job-manager-field-editor/wp-job-manager-field-editor.php][ON:true ]  WP Job Manager Field Editor
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home2/saiphd08/testerede.saiph.digital/dup-installer/main.installer.php|LINE:84]
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.20172]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home2/saiphd08/testerede.saiph.digital/dup-installer/main.installer.php|LINE:84]
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.11550]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home2/saiphd08/testerede.saiph.digital"
+--------------------------------------
+LOG-TIME[DELTA:   0.00816]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01857]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01242]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00167]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00409]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00040]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00109]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00312]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home2/saiphd08/testerede.saiph.digital/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'saiphd08_teste'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'saiphd08_teste' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/classes/validation/class.validation.database.service.php[742]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home2/saiphd08/testerede.saiph.digital/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.00160]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05878]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00306]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00179]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00710]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00076]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home2/saiphd08/testerede.saiph.digital"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 09:07:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Banco de Talentos - Grupo JFM"
+HOME URL NEW________: "https://testerede.saiph.digital"
+SITE URL NEW________: "https://testerede.saiph.digital"
+CONTENT URL NEW_____: "https://testerede.saiph.digital/wp-content"
+UPLOAD URL NEW______: "https://testerede.saiph.digital/wp-content/uploads"
+PLUGINS URL NEW_____: "https://testerede.saiph.digital/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://testerede.saiph.digital/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home2/saiphd08/testerede.saiph.digital"
+SITE PATH NEW_______: "/home2/saiphd08/testerede.saiph.digital"
+CONTENT PATH NEW____: "/home2/saiphd08/testerede.saiph.digital/wp-content"
+UPLOAD PATH NEW_____: "/home2/saiphd08/testerede.saiph.digital/wp-content/uploads"
+PLUGINS PATH NEW____: "/home2/saiphd08/testerede.saiph.digital/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home2/saiphd08/testerede.saiph.digital/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home2/saiphd08/testerede.saiph.digital/dup-installer"
+	FILE: "/home2/saiphd08/testerede.saiph.digital/20240119_bancodetalentosgrupojfm_[HASH]_20240119015940_installer-backup.php"
+	FILE: "/home2/saiphd08/testerede.saiph.digital/20240119_bancodetalentosgrupojfm_[HASH]_20240119015940_archive.zip"
+	FILE: "/home2/saiphd08/testerede.saiph.digital/installer.php"
+	FILE: "/home2/saiphd08/testerede.saiph.digital/dup-installer-bootlog__a23ca70-19015940.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240119_bancodetalentosgrupojfm_[HASH]_20240119015940_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 22342
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 09:07:27 - RUNTIME: 5.1435 sec. - Files processed: 21,733 of 21,733
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 DRS_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 09:07:27
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "DRS_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "DRS_actionscheduler_actions"_____________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: DRS_actionscheduler_actions]
+TABLE "DRS_actionscheduler_claims"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_actionscheduler_claims]
+TABLE "DRS_actionscheduler_groups"______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: DRS_actionscheduler_groups]
+TABLE "DRS_actionscheduler_logs"________________________[ROWS:      55] [EXTRACT|REPLACE] [INST NAME: DRS_actionscheduler_logs]
+TABLE "DRS_bookly_appointments"_________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_appointments]
+TABLE "DRS_bookly_categories"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_categories]
+TABLE "DRS_bookly_customers"____________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_customers]
+TABLE "DRS_bookly_customer_appointments"________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_customer_appointments]
+TABLE "DRS_bookly_email_log"____________________________[ROWS:     113] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_email_log]
+TABLE "DRS_bookly_forms"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_forms]
+TABLE "DRS_bookly_gift_cards"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_gift_cards]
+TABLE "DRS_bookly_gift_card_types"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_gift_card_types]
+TABLE "DRS_bookly_gift_card_type_services"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_gift_card_type_services]
+TABLE "DRS_bookly_gift_card_type_staff"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_gift_card_type_staff]
+TABLE "DRS_bookly_holidays"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_holidays]
+TABLE "DRS_bookly_log"__________________________________[ROWS:     218] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_log]
+TABLE "DRS_bookly_mailing_campaigns"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_mailing_campaigns]
+TABLE "DRS_bookly_mailing_lists"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_mailing_lists]
+TABLE "DRS_bookly_mailing_list_recipients"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_mailing_list_recipients]
+TABLE "DRS_bookly_mailing_queue"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_mailing_queue]
+TABLE "DRS_bookly_news"_________________________________[ROWS:      60] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_news]
+TABLE "DRS_bookly_notifications"________________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_notifications]
+TABLE "DRS_bookly_notifications_queue"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_notifications_queue]
+TABLE "DRS_bookly_orders"_______________________________[ROWS:      14] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_orders]
+TABLE "DRS_bookly_payments"_____________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_payments]
+TABLE "DRS_bookly_schedule_item_breaks"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_schedule_item_breaks]
+TABLE "DRS_bookly_sent_notifications"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_sent_notifications]
+TABLE "DRS_bookly_series"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_series]
+TABLE "DRS_bookly_services"_____________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_services]
+TABLE "DRS_bookly_sessions"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_sessions]
+TABLE "DRS_bookly_shop"_________________________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_shop]
+TABLE "DRS_bookly_staff"________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_staff]
+TABLE "DRS_bookly_staff_categories"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_staff_categories]
+TABLE "DRS_bookly_staff_preference_orders"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_staff_preference_orders]
+TABLE "DRS_bookly_staff_schedule_items"_________________[ROWS:      21] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_staff_schedule_items]
+TABLE "DRS_bookly_staff_services"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_staff_services]
+TABLE "DRS_bookly_stats"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_stats]
+TABLE "DRS_bookly_sub_services"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_bookly_sub_services]
+TABLE "DRS_cariera_conversations"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_cariera_conversations]
+TABLE "DRS_cariera_job_external_redirection"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_cariera_job_external_redirection]
+TABLE "DRS_cariera_listing_stats_views"_________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: DRS_cariera_listing_stats_views]
+TABLE "DRS_cariera_messages"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_cariera_messages]
+TABLE "DRS_cariera_notifications"_______________________[ROWS:      99] [EXTRACT|REPLACE] [INST NAME: DRS_cariera_notifications]
+TABLE "DRS_commentmeta"_________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_commentmeta]
+TABLE "DRS_comments"____________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: DRS_comments]
+TABLE "DRS_duplicator_packages"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_duplicator_packages]
+TABLE "DRS_e_events"____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_e_events]
+TABLE "DRS_job_manager_bookmarks"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_job_manager_bookmarks]
+TABLE "DRS_links"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_links]
+TABLE "DRS_options"_____________________________________[ROWS:    1543] [EXTRACT|REPLACE] [INST NAME: DRS_options]
+TABLE "DRS_postmeta"____________________________________[ROWS:   11519] [EXTRACT|REPLACE] [INST NAME: DRS_postmeta]
+TABLE "DRS_posts"_______________________________________[ROWS:     838] [EXTRACT|REPLACE] [INST NAME: DRS_posts]
+TABLE "DRS_revslider_css"_______________________________[ROWS:     123] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_css]
+TABLE "DRS_revslider_css_bkp"___________________________[ROWS:      47] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_css_bkp]
+TABLE "DRS_revslider_layer_animations"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_layer_animations]
+TABLE "DRS_revslider_layer_animations_bkp"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_layer_animations_bkp]
+TABLE "DRS_revslider_navigations"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_navigations]
+TABLE "DRS_revslider_navigations_bkp"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_navigations_bkp]
+TABLE "DRS_revslider_sliders"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_sliders]
+TABLE "DRS_revslider_sliders_bkp"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_sliders_bkp]
+TABLE "DRS_revslider_slides"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_slides]
+TABLE "DRS_revslider_slides_bkp"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_slides_bkp]
+TABLE "DRS_revslider_static_slides"_____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_static_slides]
+TABLE "DRS_revslider_static_slides_bkp"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_revslider_static_slides_bkp]
+TABLE "DRS_termmeta"____________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: DRS_termmeta]
+TABLE "DRS_terms"_______________________________________[ROWS:     150] [EXTRACT|REPLACE] [INST NAME: DRS_terms]
+TABLE "DRS_term_relationships"__________________________[ROWS:     292] [EXTRACT|REPLACE] [INST NAME: DRS_term_relationships]
+TABLE "DRS_term_taxonomy"_______________________________[ROWS:     150] [EXTRACT|REPLACE] [INST NAME: DRS_term_taxonomy]
+TABLE "DRS_usermeta"____________________________________[ROWS:     126] [EXTRACT|REPLACE] [INST NAME: DRS_usermeta]
+TABLE "DRS_users"_______________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: DRS_users]
+TABLE "DRS_wappo_appointments"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_appointments]
+TABLE "DRS_wappo_calendars"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_calendars]
+TABLE "DRS_wappo_calendar_service"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_calendar_service]
+TABLE "DRS_wappo_clients"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_clients]
+TABLE "DRS_wappo_failed_jobs"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_failed_jobs]
+TABLE "DRS_wappo_jobs"__________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_jobs]
+TABLE "DRS_wappo_locations"_____________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_locations]
+TABLE "DRS_wappo_logs"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_logs]
+TABLE "DRS_wappo_migrations"____________________________[ROWS:      28] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_migrations]
+TABLE "DRS_wappo_orders"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_orders]
+TABLE "DRS_wappo_order_price"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_order_price]
+TABLE "DRS_wappo_prices"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_prices]
+TABLE "DRS_wappo_reminders"_____________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_reminders]
+TABLE "DRS_wappo_services"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_services]
+TABLE "DRS_wappo_service_location"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_service_location]
+TABLE "DRS_wappo_statuses"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wappo_statuses]
+TABLE "DRS_wcpl_user_packages"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wcpl_user_packages]
+TABLE "DRS_wc_admin_notes"______________________________[ROWS:      68] [EXTRACT|REPLACE] [INST NAME: DRS_wc_admin_notes]
+TABLE "DRS_wc_admin_note_actions"_______________________[ROWS:     101] [EXTRACT|REPLACE] [INST NAME: DRS_wc_admin_note_actions]
+TABLE "DRS_wc_category_lookup"__________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: DRS_wc_category_lookup]
+TABLE "DRS_wc_customer_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_customer_lookup]
+TABLE "DRS_wc_download_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_download_log]
+TABLE "DRS_wc_order_coupon_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_order_coupon_lookup]
+TABLE "DRS_wc_order_product_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_order_product_lookup]
+TABLE "DRS_wc_order_stats"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_order_stats]
+TABLE "DRS_wc_order_tax_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_order_tax_lookup]
+TABLE "DRS_wc_product_attributes_lookup"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_product_attributes_lookup]
+TABLE "DRS_wc_product_download_directories"_____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_wc_product_download_directories]
+TABLE "DRS_wc_product_meta_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_product_meta_lookup]
+TABLE "DRS_wc_rate_limits"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_rate_limits]
+TABLE "DRS_wc_reserved_stock"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_reserved_stock]
+TABLE "DRS_wc_tax_rate_classes"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: DRS_wc_tax_rate_classes]
+TABLE "DRS_wc_webhooks"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_wc_webhooks]
+TABLE "DRS_woocommerce_api_keys"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_api_keys]
+TABLE "DRS_woocommerce_attribute_taxonomies"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_attribute_taxonomies]
+TABLE "DRS_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_downloadable_product_permissions]
+TABLE "DRS_woocommerce_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_log]
+TABLE "DRS_woocommerce_order_itemmeta"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_order_itemmeta]
+TABLE "DRS_woocommerce_order_items"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_order_items]
+TABLE "DRS_woocommerce_payment_tokenmeta"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_payment_tokenmeta]
+TABLE "DRS_woocommerce_payment_tokens"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_payment_tokens]
+TABLE "DRS_woocommerce_sessions"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_sessions]
+TABLE "DRS_woocommerce_shipping_zones"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_shipping_zones]
+TABLE "DRS_woocommerce_shipping_zone_locations"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_shipping_zone_locations]
+TABLE "DRS_woocommerce_shipping_zone_methods"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_shipping_zone_methods]
+TABLE "DRS_woocommerce_tax_rates"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_tax_rates]
+TABLE "DRS_woocommerce_tax_rate_locations"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: DRS_woocommerce_tax_rate_locations]
+TABLE "DRS_yoast_indexable"_____________________________[ROWS:     258] [EXTRACT|REPLACE] [INST NAME: DRS_yoast_indexable]
+TABLE "DRS_yoast_indexable_hierarchy"___________________[ROWS:     249] [EXTRACT|REPLACE] [INST NAME: DRS_yoast_indexable_hierarchy]
+TABLE "DRS_yoast_migrations"____________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: DRS_yoast_migrations]
+TABLE "DRS_yoast_primary_term"__________________________[ROWS:      79] [EXTRACT|REPLACE] [INST NAME: DRS_yoast_primary_term]
+TABLE "DRS_yoast_seo_links"_____________________________[ROWS:     354] [EXTRACT|REPLACE] [INST NAME: DRS_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.23 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (13.24MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`saiphd08_teste`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1072
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "DRS_actionscheduler_actions"_____________________[ROWS:    19]
+TABLE "DRS_actionscheduler_claims"______________________[ROWS:     0]
+TABLE "DRS_actionscheduler_groups"______________________[ROWS:     3]
+TABLE "DRS_actionscheduler_logs"________________________[ROWS:    55]
+TABLE "DRS_bookly_appointments"_________________________[ROWS:    17]
+TABLE "DRS_bookly_categories"___________________________[ROWS:     1]
+TABLE "DRS_bookly_customer_appointments"________________[ROWS:    17]
+TABLE "DRS_bookly_customers"____________________________[ROWS:     4]
+TABLE "DRS_bookly_email_log"____________________________[ROWS:   113]
+TABLE "DRS_bookly_forms"________________________________[ROWS:     0]
+TABLE "DRS_bookly_gift_card_type_services"______________[ROWS:     0]
+TABLE "DRS_bookly_gift_card_type_staff"_________________[ROWS:     0]
+TABLE "DRS_bookly_gift_card_types"______________________[ROWS:     0]
+TABLE "DRS_bookly_gift_cards"___________________________[ROWS:     0]
+TABLE "DRS_bookly_holidays"_____________________________[ROWS:     0]
+TABLE "DRS_bookly_log"__________________________________[ROWS:   218]
+TABLE "DRS_bookly_mailing_campaigns"____________________[ROWS:     0]
+TABLE "DRS_bookly_mailing_list_recipients"______________[ROWS:     0]
+TABLE "DRS_bookly_mailing_lists"________________________[ROWS:     0]
+TABLE "DRS_bookly_mailing_queue"________________________[ROWS:     0]
+TABLE "DRS_bookly_news"_________________________________[ROWS:    60]
+TABLE "DRS_bookly_notifications"________________________[ROWS:    33]
+TABLE "DRS_bookly_notifications_queue"__________________[ROWS:     0]
+TABLE "DRS_bookly_orders"_______________________________[ROWS:    14]
+TABLE "DRS_bookly_payments"_____________________________[ROWS:    10]
+TABLE "DRS_bookly_schedule_item_breaks"_________________[ROWS:     0]
+TABLE "DRS_bookly_sent_notifications"___________________[ROWS:     0]
+TABLE "DRS_bookly_series"_______________________________[ROWS:     0]
+TABLE "DRS_bookly_services"_____________________________[ROWS:     3]
+TABLE "DRS_bookly_sessions"_____________________________[ROWS:     0]
+TABLE "DRS_bookly_shop"_________________________________[ROWS:    44]
+TABLE "DRS_bookly_staff"________________________________[ROWS:     3]
+TABLE "DRS_bookly_staff_categories"_____________________[ROWS:     0]
+TABLE "DRS_bookly_staff_preference_orders"______________[ROWS:     0]
+TABLE "DRS_bookly_staff_schedule_items"_________________[ROWS:    21]
+TABLE "DRS_bookly_staff_services"_______________________[ROWS:     2]
+TABLE "DRS_bookly_stats"________________________________[ROWS:     0]
+TABLE "DRS_bookly_sub_services"_________________________[ROWS:     0]
+TABLE "DRS_cariera_conversations"_______________________[ROWS:     1]
+TABLE "DRS_cariera_job_external_redirection"____________[ROWS:     0]
+TABLE "DRS_cariera_listing_stats_views"_________________[ROWS:    12]
+TABLE "DRS_cariera_messages"____________________________[ROWS:     1]
+TABLE "DRS_cariera_notifications"_______________________[ROWS:    99]
+TABLE "DRS_commentmeta"_________________________________[ROWS:     2]
+TABLE "DRS_comments"____________________________________[ROWS:     8]
+TABLE "DRS_duplicator_packages"_________________________[ROWS:     1]
+TABLE "DRS_e_events"____________________________________[ROWS:     2]
+TABLE "DRS_job_manager_bookmarks"_______________________[ROWS:     0]
+TABLE "DRS_links"_______________________________________[ROWS:     0]
+TABLE "DRS_options"_____________________________________[ROWS:  1543]
+TABLE "DRS_postmeta"____________________________________[ROWS: 11519]
+TABLE "DRS_posts"_______________________________________[ROWS:   838]
+TABLE "DRS_revslider_css"_______________________________[ROWS:   123]
+TABLE "DRS_revslider_css_bkp"___________________________[ROWS:    47]
+TABLE "DRS_revslider_layer_animations"__________________[ROWS:     0]
+TABLE "DRS_revslider_layer_animations_bkp"______________[ROWS:     0]
+TABLE "DRS_revslider_navigations"_______________________[ROWS:     0]
+TABLE "DRS_revslider_navigations_bkp"___________________[ROWS:     0]
+TABLE "DRS_revslider_sliders"___________________________[ROWS:     1]
+TABLE "DRS_revslider_sliders_bkp"_______________________[ROWS:     0]
+TABLE "DRS_revslider_slides"____________________________[ROWS:     1]
+TABLE "DRS_revslider_slides_bkp"________________________[ROWS:     0]
+TABLE "DRS_revslider_static_slides"_____________________[ROWS:     1]
+TABLE "DRS_revslider_static_slides_bkp"_________________[ROWS:     0]
+TABLE "DRS_term_relationships"__________________________[ROWS:   292]
+TABLE "DRS_term_taxonomy"_______________________________[ROWS:   150]
+TABLE "DRS_termmeta"____________________________________[ROWS:    18]
+TABLE "DRS_terms"_______________________________________[ROWS:   150]
+TABLE "DRS_usermeta"____________________________________[ROWS:   126]
+TABLE "DRS_users"_______________________________________[ROWS:     3]
+TABLE "DRS_wappo_appointments"__________________________[ROWS:     2]
+TABLE "DRS_wappo_calendar_service"______________________[ROWS:     1]
+TABLE "DRS_wappo_calendars"_____________________________[ROWS:     1]
+TABLE "DRS_wappo_clients"_______________________________[ROWS:     1]
+TABLE "DRS_wappo_failed_jobs"___________________________[ROWS:     0]
+TABLE "DRS_wappo_jobs"__________________________________[ROWS:     2]
+TABLE "DRS_wappo_locations"_____________________________[ROWS:     4]
+TABLE "DRS_wappo_logs"__________________________________[ROWS:     0]
+TABLE "DRS_wappo_migrations"____________________________[ROWS:    28]
+TABLE "DRS_wappo_order_price"___________________________[ROWS:     0]
+TABLE "DRS_wappo_orders"________________________________[ROWS:     0]
+TABLE "DRS_wappo_prices"________________________________[ROWS:     0]
+TABLE "DRS_wappo_reminders"_____________________________[ROWS:     5]
+TABLE "DRS_wappo_service_location"______________________[ROWS:     1]
+TABLE "DRS_wappo_services"______________________________[ROWS:     1]
+TABLE "DRS_wappo_statuses"______________________________[ROWS:     0]
+TABLE "DRS_wc_admin_note_actions"_______________________[ROWS:   101]
+TABLE "DRS_wc_admin_notes"______________________________[ROWS:    68]
+TABLE "DRS_wc_category_lookup"__________________________[ROWS:     5]
+TABLE "DRS_wc_customer_lookup"__________________________[ROWS:     0]
+TABLE "DRS_wc_download_log"_____________________________[ROWS:     0]
+TABLE "DRS_wc_order_coupon_lookup"______________________[ROWS:     0]
+TABLE "DRS_wc_order_product_lookup"_____________________[ROWS:     0]
+TABLE "DRS_wc_order_stats"______________________________[ROWS:     0]
+TABLE "DRS_wc_order_tax_lookup"_________________________[ROWS:     0]
+TABLE "DRS_wc_product_attributes_lookup"________________[ROWS:     0]
+TABLE "DRS_wc_product_download_directories"_____________[ROWS:     2]
+TABLE "DRS_wc_product_meta_lookup"______________________[ROWS:     0]
+TABLE "DRS_wc_rate_limits"______________________________[ROWS:     0]
+TABLE "DRS_wc_reserved_stock"___________________________[ROWS:     0]
+TABLE "DRS_wc_tax_rate_classes"_________________________[ROWS:     2]
+TABLE "DRS_wc_webhooks"_________________________________[ROWS:     0]
+TABLE "DRS_wcpl_user_packages"__________________________[ROWS:     0]
+TABLE "DRS_woocommerce_api_keys"________________________[ROWS:     0]
+TABLE "DRS_woocommerce_attribute_taxonomies"____________[ROWS:     0]
+TABLE "DRS_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "DRS_woocommerce_log"_____________________________[ROWS:     0]
+TABLE "DRS_woocommerce_order_itemmeta"__________________[ROWS:     0]
+TABLE "DRS_woocommerce_order_items"_____________________[ROWS:     0]
+TABLE "DRS_woocommerce_payment_tokenmeta"_______________[ROWS:     0]
+TABLE "DRS_woocommerce_payment_tokens"__________________[ROWS:     0]
+TABLE "DRS_woocommerce_sessions"________________________[ROWS:     1]
+TABLE "DRS_woocommerce_shipping_zone_locations"_________[ROWS:     0]
+TABLE "DRS_woocommerce_shipping_zone_methods"___________[ROWS:     0]
+TABLE "DRS_woocommerce_shipping_zones"__________________[ROWS:     0]
+TABLE "DRS_woocommerce_tax_rate_locations"______________[ROWS:     0]
+TABLE "DRS_woocommerce_tax_rates"_______________________[ROWS:     0]
+TABLE "DRS_yoast_indexable"_____________________________[ROWS:   258]
+TABLE "DRS_yoast_indexable_hierarchy"___________________[ROWS:   249]
+TABLE "DRS_yoast_migrations"____________________________[ROWS:    24]
+TABLE "DRS_yoast_primary_term"__________________________[ROWS:    79]
+TABLE "DRS_yoast_seo_links"_____________________________[ROWS:   354]
+
+INSERT DATA RUNTIME: 5.4261 sec.
+STEP-2 COMPLETE @ 09:07:32 - RUNTIME: 5.4261 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home2/saiphd08/rede.saiph.digital REPLACE: /home2/saiphd08/testerede.saiph.digital [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://rede.saiph.digital REPLACE: https://testerede.saiph.digital [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 09:07:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [DRS_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:   334]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "DRS_actionscheduler_actions"_____________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_actionscheduler_actions][0]
+
+EVALUATE TABLE: "DRS_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_actionscheduler_groups"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_actionscheduler_groups][0]
+
+EVALUATE TABLE: "DRS_actionscheduler_logs"________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_actionscheduler_logs][0]
+
+EVALUATE TABLE: "DRS_bookly_appointments"_________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_appointments][0]
+
+EVALUATE TABLE: "DRS_bookly_categories"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_categories][0]
+
+EVALUATE TABLE: "DRS_bookly_customers"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_customers][0]
+
+EVALUATE TABLE: "DRS_bookly_customer_appointments"________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_customer_appointments][0]
+
+EVALUATE TABLE: "DRS_bookly_email_log"____________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_email_log][0]
+
+EVALUATE TABLE: "DRS_bookly_forms"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_gift_cards"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_gift_card_types"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_gift_card_type_services"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_gift_card_type_staff"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_holidays"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_log"__________________________________[ROWS:   218][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_log][0]
+
+EVALUATE TABLE: "DRS_bookly_mailing_campaigns"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_mailing_lists"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_mailing_list_recipients"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_mailing_queue"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_news"_________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_news][0]
+
+EVALUATE TABLE: "DRS_bookly_notifications"________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_notifications][0]
+
+EVALUATE TABLE: "DRS_bookly_notifications_queue"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_orders"_______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_orders][0]
+
+EVALUATE TABLE: "DRS_bookly_payments"_____________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_payments][0]
+
+EVALUATE TABLE: "DRS_bookly_schedule_item_breaks"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_sent_notifications"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_series"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_services"_____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_services][0]
+
+EVALUATE TABLE: "DRS_bookly_sessions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_shop"_________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_shop][0]
+
+EVALUATE TABLE: "DRS_bookly_staff"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_staff][0]
+
+EVALUATE TABLE: "DRS_bookly_staff_categories"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_staff_preference_orders"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_staff_schedule_items"_________________[ROWS:    21][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_staff_services"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_bookly_staff_services][0]
+
+EVALUATE TABLE: "DRS_bookly_stats"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_bookly_sub_services"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_cariera_conversations"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_cariera_conversations][0]
+
+EVALUATE TABLE: "DRS_cariera_job_external_redirection"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_cariera_listing_stats_views"_________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_cariera_listing_stats_views][0]
+
+EVALUATE TABLE: "DRS_cariera_messages"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_cariera_messages][0]
+
+EVALUATE TABLE: "DRS_cariera_notifications"_______________________[ROWS:    99][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_cariera_notifications][0]
+
+EVALUATE TABLE: "DRS_commentmeta"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_commentmeta][0]
+
+EVALUATE TABLE: "DRS_comments"____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_comments][0]
+
+EVALUATE TABLE: "DRS_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_e_events"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_e_events][0]
+
+EVALUATE TABLE: "DRS_job_manager_bookmarks"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_options"_____________________________________[ROWS:  1209][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_options][0]
+	CHUNK ACTION: CURRENT [search_replace][DRS_options][1]
+
+EVALUATE TABLE: "DRS_postmeta"____________________________________[ROWS: 11519][PG:  12][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][DRS_postmeta][11]
+
+EVALUATE TABLE: "DRS_posts"_______________________________________[ROWS:   838][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_posts][0]
+
+EVALUATE TABLE: "DRS_revslider_css"_______________________________[ROWS:   123][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_revslider_css][0]
+
+EVALUATE TABLE: "DRS_revslider_css_bkp"___________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_revslider_css_bkp][0]
+
+EVALUATE TABLE: "DRS_revslider_layer_animations"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_layer_animations_bkp"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_navigations"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_navigations_bkp"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_sliders"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_revslider_sliders][0]
+
+EVALUATE TABLE: "DRS_revslider_sliders_bkp"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_slides"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_revslider_slides][0]
+
+EVALUATE TABLE: "DRS_revslider_slides_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_revslider_static_slides"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_revslider_static_slides][0]
+
+EVALUATE TABLE: "DRS_revslider_static_slides_bkp"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_termmeta"____________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_termmeta][0]
+
+EVALUATE TABLE: "DRS_terms"_______________________________________[ROWS:   150][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_terms][0]
+
+EVALUATE TABLE: "DRS_term_relationships"__________________________[ROWS:   292][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_term_taxonomy"_______________________________[ROWS:   150][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_term_taxonomy][0]
+
+EVALUATE TABLE: "DRS_usermeta"____________________________________[ROWS:   126][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_usermeta][0]
+
+EVALUATE TABLE: "DRS_users"_______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_users][0]
+
+EVALUATE TABLE: "DRS_wappo_appointments"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_appointments][0]
+
+EVALUATE TABLE: "DRS_wappo_calendars"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_calendars][0]
+
+EVALUATE TABLE: "DRS_wappo_calendar_service"______________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_clients"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_clients][0]
+
+EVALUATE TABLE: "DRS_wappo_failed_jobs"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_jobs"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_jobs][0]
+
+EVALUATE TABLE: "DRS_wappo_locations"_____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_locations][0]
+
+EVALUATE TABLE: "DRS_wappo_logs"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_migrations"____________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_migrations][0]
+
+EVALUATE TABLE: "DRS_wappo_orders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_order_price"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_prices"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_reminders"_____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_reminders][0]
+
+EVALUATE TABLE: "DRS_wappo_services"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wappo_services][0]
+
+EVALUATE TABLE: "DRS_wappo_service_location"______________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wappo_statuses"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wcpl_user_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_admin_notes"______________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wc_admin_notes][0]
+
+EVALUATE TABLE: "DRS_wc_admin_note_actions"_______________________[ROWS:   101][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "DRS_wc_category_lookup"__________________________[ROWS:     5][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_customer_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_order_coupon_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_order_product_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_order_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_order_tax_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_product_attributes_lookup"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_product_download_directories"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wc_product_download_directories][0]
+
+EVALUATE TABLE: "DRS_wc_product_meta_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_rate_limits"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_reserved_stock"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_wc_tax_rate_classes"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "DRS_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_api_keys"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_attribute_taxonomies"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_sessions"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_woocommerce_sessions][0]
+
+EVALUATE TABLE: "DRS_woocommerce_shipping_zones"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_shipping_zone_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_shipping_zone_methods"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_tax_rates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_woocommerce_tax_rate_locations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_yoast_indexable"_____________________________[ROWS:   258][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_yoast_indexable][0]
+
+EVALUATE TABLE: "DRS_yoast_indexable_hierarchy"___________________[ROWS:   249][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "DRS_yoast_migrations"____________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_yoast_migrations][0]
+
+EVALUATE TABLE: "DRS_yoast_primary_term"__________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_yoast_primary_term][0]
+
+EVALUATE TABLE: "DRS_yoast_seo_links"_____________________________[ROWS:   354][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/saiphd08/rede.saiph.digital" ==============> "/home2/saiphd08/testerede.saiph.digital"
+	SEARCH[urlnd]  2:"https://rede.saiph.digital" ======================> "https://testerede.saiph.digital"
+	CHUNK ACTION: CURRENT [search_replace][DRS_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:122 	|	 Rows:15860 	|	 Cells:101959 
+UPDATED:	Tables:15 	|	 Rows:1500 	|	 Cells:1786 
+ERRORS:		0 
+RUNTIME:	2.055000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home2/saiphd08/testerede.saiph.digital/wp-config.php
+New htaccess file created:/home2/saiphd08/testerede.saiph.digital/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""saiphd08_teste""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home2/saiphd08/testerede.saiph.digital"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:07:35 - RUNTIME: 2.2753 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home2/saiphd08/testerede.saiph.digital/dup-installer/main.installer.php|LINE:84]
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home2/saiphd08/testerede.saiph.digital/index.php
+E_DEPRECATED Creation of dynamic property WP_Job_Manager_Field_Editor::$plugin_product_id is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[54]
+	--- TRACE ---
+	CLASS___: WP_Job_Manager_Field_Editor->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[435]
+	CLASS___: WP_Job_Manager_Field_Editor::get_instanceFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[748]
+	FUNCTION: include_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/index.php[17]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WP_Job_Manager_Field_Editor::$plugin_version is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[55]
+	--- TRACE ---
+	CLASS___: WP_Job_Manager_Field_Editor->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[435]
+	CLASS___: WP_Job_Manager_Field_Editor::get_instanceFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[748]
+	FUNCTION: include_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/index.php[17]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[58]
+	CLASS___: Cariera_Customize->register   FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[20]
+	CLASS___: Cariera_Customize->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[2308]
+	FUNCTION: cariera_customize_init        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[643]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/index.php[17]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/functions.wp-styles.php[90]
+	--- TRACE ---
+	FUNCTION: stripos                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/functions.wp-styles.php[90]
+	FUNCTION: wp_add_inline_style           FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/assets.php[177]
+	CLASS___: Cariera\Assets->enqueue_assetsFILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/script-loader.php[2262]
+	FUNCTION: wp_enqueue_scripts            FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/general-template.php[3052]
+	FUNCTION: wp_head                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/header.php[11]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/template.php[790]
+	FUNCTION: load_template                 FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/template.php[725]
+	FUNCTION: locate_template               FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/templates/fullwidth-page.php[18]
+	FUNCTION: include                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/index.php[17]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home2/saiphd08/testerede.saiph.digital/wp-login.php
+E_DEPRECATED Creation of dynamic property WP_Job_Manager_Field_Editor::$plugin_product_id is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[54]
+	--- TRACE ---
+	CLASS___: WP_Job_Manager_Field_Editor->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[435]
+	CLASS___: WP_Job_Manager_Field_Editor::get_instanceFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[748]
+	FUNCTION: include_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WP_Job_Manager_Field_Editor::$plugin_version is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[55]
+	--- TRACE ---
+	CLASS___: WP_Job_Manager_Field_Editor->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[435]
+	CLASS___: WP_Job_Manager_Field_Editor::get_instanceFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/wp-job-manager-field-editor/wp-job-manager-field-editor.php[748]
+	FUNCTION: include_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Kirki\Field\Repeater::$compiler is deprecated
+	FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/kirki/kirki-packages/compatibility/src/Field.php[305]
+	--- TRACE ---
+	CLASS___: Kirki\Compatibility\Field->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/plugins/kirki/kirki-packages/compatibility/src/Kirki.php[215]
+	CLASS___: Kirki\Compatibility\Kirki::add_fieldFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[58]
+	CLASS___: Cariera_Customize->register   FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[20]
+	CLASS___: Cariera_Customize->__constructFILE: /home2/saiphd08/testerede.saiph.digital/wp-content/themes/cariera/inc/customizer.php[2308]
+	FUNCTION: cariera_customize_init        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: /home2/saiphd08/testerede.saiph.digital/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home2/saiphd08/testerede.saiph.digital/wp-settings.php[643]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-load.php[50]
+	FUNCTION: require                       FILE: /home2/saiphd08/testerede.saiph.digital/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home2/saiphd08/testerede.saiph.digital/wp-content/wp_test_script_a23ca70-19015940.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/home2/saiphd08/testerede.saiph.digital/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03327]  MESSAGE:END RENDER PAGE

@@ -1,0 +1,36 @@
+tr.atlt_settings-field table,
+tr.atlt_settings-field table tr th,
+tr.atlt_settings-field table tr td {
+   text-align: center;
+   border-collapse: collapse !IMPORTANT;
+   border-spacing: 0 !IMPORTANT;
+   font-size: 14px;
+}
+tr.atlt_settings-field table tr th,
+tr.atlt_settings-field table tr td {
+   border: 2px solid #ddd;
+   padding: 12px;
+   font-size: 14px;
+}
+tr.atlt_settings-field table tr th {
+   font-weight: bold;
+   background: #e9e9e9;
+   min-width: 200px;
+}
+tr.atlt_settings-field table tr th span,
+tr.atlt_settings-field table tr td span {
+   font-size: 11px;
+   font-weight: bold;
+}
+
+
+.wp-submenu a[href*="loco-atlt"] {
+   background: #4a4f55;
+}
+.wp-submenu a[href*="loco-atlt"]:hover {
+   background: #393e45 !Important;
+}
+
+tr.atlt_settings-field td input[type=text] {
+   width: 78%!important;
+}

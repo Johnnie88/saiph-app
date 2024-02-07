@@ -1,0 +1,3298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*
+ * LoginPress Style for Settings Page.
+ */
+.loginpress-admin-setting *,
+.login-action-login #login *,
+.login-action-lostpassword #login *,
+.login-action-register #login * {
+	box-sizing: border-box;
+}
+
+.loginpress_page_loginpress-settings #normal-sortables {
+	padding-top: 20px;
+}
+
+#loginpress_setting .recaptcha_type,
+#loginpress_setting .site_key,
+#loginpress_setting .secret_key,
+#loginpress_setting .site_key_v2_invisible,
+#loginpress_setting .secret_key_v2_invisible,
+#loginpress_setting .site_key_v3,
+#loginpress_setting .secret_key_v3,
+#loginpress_setting .good_score,
+#loginpress_setting .captcha_theme,
+#loginpress_setting .captcha_language,
+#loginpress_setting .captcha_enable,
+#loginpress_setting .loginpress_password_reset_time_limit,
+#loginpress_setting .roles_for_password_reset {
+	display: none;
+}
+
+.toplevel_page_loginpress-settings .inside [class*="tab-wrapper"] {
+	border-bottom: 2px solid #EAEDF4;
+}
+
+body .add_white_list, #loginpress_limit_login_log td .loginpress-attempts-whitelist {
+	display: inline-block;
+	background-color: #ffffff !important;
+	color: #3a3a3a !important;
+	border: 1px solid #a5a5a5 !important;
+	cursor: pointer;
+	box-shadow: none;
+	border-radius: 5px !important;
+	padding: 12px 20px 10px !important;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+body[class*="toplevel_page_loginpress"] #wpbody-content{
+	display: flex;
+	flex-direction: column;
+}
+body[class*="toplevel_page_loginpress"] .loginpress-header-wrapper{
+    order: -2;
+	margin-bottom: 10px;
+}
+body[class*="toplevel_page_loginpress"] .loginpress-alert-notice{
+	order: -1;
+}
+.loginpress_autologin_actions .lp-tbody-cell {
+	width: 100% !important;
+}
+
+.loginpress_autologin_users tr td:last-child input {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+th.loginpress_action {
+	text-align: left !important;
+}
+
+body .add_black_list, .loginpress-attempts-blacklist {
+	display: inline-block;
+	background-color: #000 !important;
+	color: #fff !important;
+	border: 1px solid #000;
+	cursor: pointer;
+	border: none !important;
+	box-shadow: none;
+	border-radius: 5px !important;
+	padding: 12px 20px 10px !important;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.add_black_list:hover, .loginpress-attempts-blacklist:hover {
+	background-color: #555 !important;
+}
+
+body .add_white_list:before, #loginpress_limit_login_log td .loginpress-attempts-whitelist:before, 
+body .add_black_list:before, td .loginpress-attempts-blacklist:before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(../img/icons-sprite.png) -102px -93px no-repeat;
+    background-size: auto;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+ 
+body .add_black_list:before, td .loginpress-attempts-blacklist:before{
+    background-position: -62px 0px;
+}
+
+tr.rename_login_slug .regular-text {
+	align-items: center;
+	padding: 13px 15px;
+	line-height: 2;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 50%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #2B3D54;
+	font-size: 14px;
+	line-height: 24px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	transition: all 0.3s;
+
+}
+
+body.add_white_list:hover,
+#loginpress_limit_login_log .loginpress-attempts-whitelist:hover,
+#loginpress_limit_login_attempts .loginpress-attempts-whitelist:hover,
+body .loginpress-user-redirects-update:hover,
+body .loginpress-redirects-role-update:hover {
+	background-color: #dbdbdb !important;
+	color: #000 !important;
+}
+
+body #loginpress_create_new_hidelogin_slug {
+	margin: 15px 15px 15px 15px !important;
+}
+
+[dir="rtl"] body[class*="loginpress_page_"] p, 
+[dir="rtl"] body[class*="loginpress_page_"] .description,
+[dir="rtl"] body[class*="loginpress_page_"] a, 
+[dir="rtl"] body[class*="loginpress_page_"] th, 
+[dir="rtl"] body[class*="loginpress_page_"] td, 
+[dir="rtl"] body[class*="loginpress_page_"] button, 
+[dir="rtl"] body[class*="loginpress_page_"] [type="submit"], 
+[dir="rtl"] body[class*="loginpress_page_"] [type="button"]{
+    line-height: 1.8 !important;
+}
+
+body #loginpress_reset_login_slug {
+	margin-top: 15px;
+}
+
+body #loginpress_create_new_hidelogin_slug,
+body #loginpress_reset_login_slug {
+	border: none;
+	background-color: #516885;
+	padding: 15px 15px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+body #loginpress_create_new_hidelogin_slug:hover,
+body #loginpress_reset_login_slug:hover {
+	border: none;
+	background-color: #2B3D54;
+}
+
+.bulk_option_wrapper #loginpress_limit_bulk_blacklist_submit{
+	margin-left: 10px;
+}
+
+.bulk_option_wrapper #loginpress_limit_bulk_blacklist_submit,
+.bulk_option_wrapper #loginpress_limit_bulk_attempts_submit,
+.bulk_option_wrapper #loginpress_limit_bulk_blacklists_submit,
+.bulk_option_wrapper #loginpress_limit_bulk_whitelists_submit {
+	border: none;
+	background-color: #5C7697;
+	padding: 14px 20px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	max-width: 100%;
+	display: inline-block;
+	text-align: center;
+	outline: none;
+	text-transform: capitalize;
+}
+
+.select.selectbox {
+	max-width: 110px;
+	margin-left: 10px;
+	margin-right: 15px;
+	width: 100%;
+}
+
+.toplevel_page_loginpress-settings select {
+	background-color: #fff;
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 12px 15px;
+	line-height: 2;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	box-shadow: none;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.toplevel_page_loginpress-settings .dataTable {
+	padding-top: 30px;
+}
+
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody .loginpress-attempts-whitelist,
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody .loginpress-attempts-blacklist,
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody .loginpress-attempts-unlock {
+	font-size: 12px;
+	line-height: 1;
+	padding: 5px 5px !important;
+	font-weight: 400;
+	height: auto;
+	min-height: auto;
+	border-radius: 4px !important;
+}
+
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody .loginpress-attempts-whitelist,
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody .loginpress-attempts-blacklist {
+	padding-top: 5px;
+}
+
+.loginpress-social-accordions {
+	padding: 20px 0;
+	margin: 0;
+	margin-top: 0 !important;
+}
+
+.loginpress-social-accordions .loginpress-social-tabs{
+	border: none;
+}
+
+body .loginpress-accordions {
+	display: block;
+	padding: 10px;
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 33px;
+	text-decoration: none;
+	position: relative;
+	color: #516885 !important;
+	font-family: "Poppins", sans-serif;
+	padding: 10px 40px 10px 0px;
+	display: inline-block;
+	text-decoration: none !important;
+	background-color: #fff0;
+	border: none;
+	width: auto;
+}
+
+.loginpress-accordions:hover, .loginpress-accordions.loginpress-accordions-acive {
+	color: #F6366A !important;
+}
+
+.loginpress-social-accordions:not(:first-child) {
+	border-top: 1px solid #D2DDF2;
+}
+
+.loginpress-social-tabs,
+.loginpress-social-tabs p,
+.loginpress-social-tabs ul {
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Poppins", sans-serif;
+	color: #516885;
+	border: none;
+	padding: 0;
+}
+
+input[type=date], 
+input[type=datetime-local], 
+input[type=datetime], 
+input[type=email], 
+input[type=month], 
+input[type=number], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+input[type=week], 
+input[type="file"] {
+	padding: 13px 15px;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #fff;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .inside [class*="tab-wrapper"] [class*="tab"] {
+	border: 2px solid #EAEDF4;
+	border-bottom: 0;
+	background-color: #EAEDF4;
+	color: #8F9EC3 !important;
+	font-size: 16px;
+	font-weight: 500 !important;
+	line-height: 24px;
+	padding: 9px 30px;
+	border-radius: 5px 5px 0 0;
+	margin: 0 5px 0 0;
+	transition: all 0.3s;
+	text-decoration: none;
+	outline: none !important;
+	box-shadow: none !important;
+	display: inline-block;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .inside [class*="tab-wrapper"] [class*="active"], 
+.toplevel_page_loginpress-settings #wpbody-content .inside [class*="tab-wrapper"] [class*="tab"]:hover {
+	background-color: #ffff;
+	color: #516885 !important;
+	text-decoration: none;
+}
+
+.toplevel_page_loginpress-settings ul.ui-autocomplete{
+    border-left: 2px solid #D2DDF2 !important; 
+    border-right: 2px solid #D2DDF2 !important; 
+    border-bottom: 2px solid #D2DDF2 !important; 
+    border-radius: 5px !important;
+	min-height: 30px;
+}
+
+#wpbrigade_infs_general_videobox h3 {
+	padding: 0px 10px 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.wpbrigade_videobox .column {
+	width: 50%;
+	float: left;
+	padding-right: 2.5%;
+	border-right: 1px solid #ebebeb;
+	padding-bottom: 2em;
+}
+
+.select.selectbox {
+	max-width: 110px;
+	margin-left: 10px;
+	margin-right: 15px;
+	width: 100%;
+}
+
+.row-per-page {
+	width: 600px;
+	margin-bottom: -60px;
+	position: relative;
+	z-index: 50;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+}
+
+.upload-file input {
+	opacity: 0;
+	margin: -2px 0 0 -2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100% + 4px) !important;
+	height: calc(100% + 4px) !important;
+}
+
+.upload-file span{
+	cursor: pointer;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+	display: block;
+}
+
+.upload-file span::before {
+	content: "\f317";
+	font-family: dashicons;
+	display: inline-block;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	speak: never;
+	text-decoration: inherit;
+	text-transform: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: top;
+	text-align: center;
+	transition: color .1s ease-in;
+	margin-right: 4px;
+	font-size: 26px;
+	vertical-align: bottom;
+}
+
+.upload-file {
+	background: none;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 46px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #fff;
+	position: relative;
+	padding: 11px 15px;
+	height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.wpbrigade_videobox .column h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.wpbrigade_videobox .column.right {
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 2.5%;
+	border: 0;
+	max-width: 49%;
+}
+
+.wpbrigade_videobox::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.wpbrigade-video-link {
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	margin: 0 1.5em 1.5em 0;
+}
+
+.wpbrigade-video-link img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wpbrigade-video-popup-overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .9);
+	display: none;
+}
+
+.wpbrigade-video-popup {
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	height: 450px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	padding: 50px 20px 20px;
+}
+
+.wpbrigade-video-popup iframe {
+	width: 100%;
+	height: 380px;
+}
+
+.wpbrigade-close-popup {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.wpbrigade-video-description-wrapper {
+	overflow: hidden;
+}
+
+.wpbrigade-video-description-wrapper p {
+	margin: 0;
+}
+
+.wpbrigade-video-description-wrapper p~p {
+	margin-top: 10px;
+}
+
+.wpbrigade-heading {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	margin: 0;
+	padding: 9px 0 4px;
+	line-height: 29px;
+	display: block;
+}
+
+.loginpress-premium {
+	float: left;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	margin-left: .5em;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	background: #444;
+	color: #fff;
+	text-decoration: none;
+}
+
+.loginpress-premium:hover,
+.loginpress-premium:focus {
+	color: #fff;
+	background-color: #616060;
+}
+
+html[dir="rtl"] .loginpress-premium {
+	float: right;
+	margin-right: .5em;
+	margin-left: 0;
+}
+
+.loginpress-advertise {
+	max-width: 26%;
+	float: right;
+	width: 355px;
+}
+
+.autologin-sniper img {
+	height: 20px;
+	width: 20px;
+}
+
+.loginpress-advertise .inside iframe {
+	height: 118px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.advertise-box .inside iframe {
+	height: 114px;
+	display: block;
+	margin: 0 auto;
+}
+
+.loginpress-support {
+	background-color: #fff;
+	padding: 13px;
+	margin-top: 25px;
+}
+
+.loginpress-support h3 {
+	margin-bottom: 0;
+}
+
+.advertise-box {
+	background-color: #fff;
+	color: #000 !important;
+	border-color: #734726 !important;
+	margin-top: 25px;
+}
+
+.advertise-box h3 {
+	color: #fff !important;
+	border-color: #23282d !important;
+	background-color: #23282d;
+	padding: 5px;
+	text-align: center;
+}
+
+.inside-advertise ul li .dashicons-admin-post {
+	font-size: 14px;
+}
+
+.inside-advertise {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.loginpress-video {
+	margin-top: 25px;
+	background-color: #fff;
+	padding: 13px;
+}
+
+.loginpress-video h3 {
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+.loginpress-addon-promotion-video {
+	text-align: center;
+}
+
+.loginpress-addon-promotion-video span.dashicons-dashboard {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+.loginpress-promotion-big-button {
+	margin-top: 2.75%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.loginpress-promotion-big-button a {
+    border-radius: 5px !important;
+    background-color: #f53069 !important;
+    color: #fff !important;
+    border: 1px solid #F6366A !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+	font-weight: 600 !important;
+    height: auto !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    transition: all 300ms ease 0ms;
+}
+
+.loginpress-promotion-big-button a:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+	background: url(../img/icons-sprite.png) -8px -80px no-repeat;
+    background-size: 190px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.loginpress-promotion-big-button a:hover {
+	transform: translateY(-10px);
+	opacity: 0.9;
+}
+
+#loginpress_setting form>h2 {
+	display: none;
+}
+
+.site_key,
+.secret_key,
+.recaptcha_type,
+.captcha_theme,
+.captcha_language,
+.good_score,
+.captcha_enable,
+.privacy_policy,
+.rename_email_send_to {
+	display: none;
+}
+
+/*************config-page*******/
+
+.loginpress-import-export-page h2 {
+	padding-top: 15px;
+}
+
+.export_setting .export-sniper {
+	padding: 5px;
+	display: none;
+}
+
+.export_setting .export-text {
+	padding: 5px;
+	display: none;
+	color: #009306;
+}
+
+.import_setting .import-sniper {
+	padding: 5px;
+	display: none;
+}
+
+.import_setting .import-text {
+	padding: 5px;
+	color: #009306;
+	display: none;
+}
+
+.import_setting .wrong-import {
+	padding: 5px;
+	color: #ff0000;
+	/*display: none;*/
+}
+
+/*************config-page*******/
+
+
+/**********help-page**********/
+.loginpress-help-page h2 {
+	padding-top: 15px;
+}
+
+.loginpress-log-file {
+	background: #0085ba !important;
+	border-color: #0073aa #006799 #006799 !important;
+	-webkit-box-shadow: 0 1px 0 #006799 !important;
+	box-shadow: 0 1px 0 #006799 !important;
+	color: #fff !important;
+	text-decoration: none !important;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+.log-file-sniper {
+	padding: 5px;
+	display: none;
+}
+
+.log-file-text {
+	padding: 5px;
+	display: none;
+	color: #009306;
+}
+
+/**************help-page***************/
+
+/**********license-page**********/
+.loginpress-license-page h2 {
+	padding-top: 15px;
+}
+
+/**********license-page**********/
+
+
+.recaptcha-promo-img {
+	display: none;
+}
+
+.recaptcha-promo {
+	position: relative;
+}
+
+.recaptcha-promo-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	opacity: 0;
+}
+
+.recaptcha-promo-link span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	content: '';
+	font-size: 37px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.recaptcha-promo:hover .recaptcha-promo-link {
+	opacity: 1;
+}
+
+/*---- !LoginPress-Settings-Checkbox ----*/
+
+#wpcontent,
+#wpcontent p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+}
+
+/* new Styling */
+
+/* Layout Styling Start */
+body.toplevel_page_loginpress-settings,
+.toplevel_page_loginpress-settings #wpcontent,
+.loginpress_page_loginpress-help,
+.loginpress_page_loginpress-help #wpcontent,
+.loginpress_page_loginpress-import-export,
+.loginpress_page_loginpress-import-export #wpcontent,
+.loginpress_page_loginpress-license,
+.loginpress_page_loginpress-license #wpcontent {
+	background-color: #F2F5F6;
+}
+
+body a.toplevel_page_loginpress-settings {
+	background-color: transparent;
+}
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length label, 
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_filter label {
+	white-space: pre;
+}
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length select, 
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_filter select {
+	margin: 0 5px;
+	;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 0px 0 0;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.toplevel_page_loginpress-settings .bulk_option_wrapper select {
+	max-width: 190px;
+	width: calc(100% - 130px);
+	margin-right: 10px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting h2:not(.nav-tab-wrapper),
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting h2:not(.nav-tab-wrapper) {
+	font-family: "Poppins", sans-serif;
+	color: #516885;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 40px 0 0;
+	line-height: 1.3;
+	width: 100%;
+	display: none;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 32px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	margin: 0;
+}
+
+/* Layout Styling End */
+
+/* tabs styling Start */
+
+.loginpress-tabs-main .tabs-toggle{
+    display: none;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper {
+	width: 250px;
+	padding-top: 40px;
+	border: none;
+}
+.loginPress-feature-video{
+	height: auto;
+	aspect-ratio: 16/9;
+}
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab {
+	display: block;
+	float: none;
+	margin: 0;
+	background-color: transparent;
+	border: none;
+	white-space: normal;
+	padding: 20px 15px 20px 57px;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Poppins", sans-serif;
+	color: #516885;
+	border-radius: 3px 0 0 3px;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	outline: none;
+	text-decoration: none;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	min-height: 77px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab span:empty,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab span:empty{
+	display: none;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab,
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab.nav-tab-active,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab.nav-tab-active {
+	background-color: #fff;
+	color: #F6366A;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after {
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/icons-sprite.png);
+	background-position: -87px -62px;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab.nav-tab-active:after{
+    background-position: -118px -62px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab:after {
+	background-position: 0 0;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_autologin-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_autologin-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab.nav-tab-active:after{
+    background-position: -31px 0;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab:after{
+    background-position: -94px -31px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_hidelogin-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_hidelogin-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab.nav-tab-active:after{
+    background-position: -125px -31px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab:after{
+    background-position: -41px -31px;
+    width: 27px;
+    height: 30px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after{
+    background-position: -67px -31px;
+    width: 27px;
+    height: 30px;
+    left: 16px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab:after{
+    background-position: -25px -62px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_login_redirects-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_login_redirects-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab.nav-tab-active:after{
+    background-position: -56px -62px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab:after{
+    background-position: -149px -62px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_social_logins-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_social_logins-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab.nav-tab-active:after{
+    background-position: -180px -62px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab:after{
+    background-position: -157px -32px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_pro_license-tab:after, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab.nav-tab-active:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_pro_license-tab:after, 
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab.nav-tab-active:after{
+    background-position: -188px -32px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span {
+	display: block;
+	word-break: break-word;
+	font-size: 11px;
+	line-height: 12px;
+	color: #8F9EC3;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+/* tabs styling End */
+
+/* Settings styling Start */
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings,
+.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting > .loginpress-settings{
+	background-color: transparent;
+	width: calc(100% - 265px);
+	margin-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #fff;
+	padding-top: 20px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .inside {
+	font-size: 14px;
+	line-height: 24px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	margin: 15px 0 0;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .inside a:hover {
+	text-decoration: underline;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table {
+	margin-top: 15px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr th {
+	font-size: 16px;
+	line-height: 24px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	width: 275px !important;
+	padding: 20px 10px 15px 0;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset {
+	max-width: 450px;
+	flex-wrap: wrap;
+}
+
+/* Checkbox styling Start */
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset label p, 
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset label {
+	font-size: 14px;
+	line-height: 24px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	overflow: auto;
+	margin-top: 0;
+}
+
+.loginpress-settings .message.error {
+	margin-top: 5px;
+	color: #f35959 !important;
+	border-left: 5px solid red;
+	padding-left: 9px;
+}
+
+.checkbox.loginpress-check-hidden {
+	display: none;
+}
+
+.loginpress-check-hidden+.loginpress-checkbox {
+	display: inline-block;
+	outline: 0;
+    width: 36px;
+    height: 20px;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	border-radius: 2em;
+	padding: 2px;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	border: 2px solid #D2DDF2;
+	background: #fff;
+	margin-right: 15px;
+	margin-top: 2px;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+	float: left;
+}
+
+input[type=checkbox].loginpress-check-hidden+.loginpress-checkbox:after {
+	position: relative;
+	display: block;
+	content: "";
+	width: 12px;
+	height: 12px;
+	box-sizing: border-box;
+	border: 2px solid #D2DDF2;
+	border-radius: 2em;
+	background: #D2DDF2;
+	-webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+	transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+	box-shadow: none;
+	left: 0;
+}
+
+input[type=checkbox].loginpress-check-hidden:checked+.loginpress-checkbox {
+	border-color: #2B3D54;
+	background-color: #2B3D54;
+}
+
+input[type=checkbox].loginpress-check-hidden:checked+.loginpress-checkbox:after {
+	position: relative;
+	display: block;
+	content: "";
+	width: 12px;
+	height: 12px;
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	border-radius: 2em;
+	background: #ffffff;
+	-webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+	transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+	left: 16px;
+}
+
+body .loginpress_login_redirect_users tr th, body .loginpress_login_redirect_users tr td,
+body .loginpress_login_redirect_users tr th:last-child, body .loginpress_login_redirect_users tr td:last-child,
+body .loginpress_login_redirect_roles tr th, body .loginpress_login_redirect_roles tr td,
+body .loginpress_login_redirect_roles tr th:last-child, body .loginpress_login_redirect_roles tr td:last-child {
+	text-align: center;
+}
+
+body .login_redirects input[type="text"] {
+	width: 300px;
+	padding: 10px;
+}
+
+.loginpress-user-redirects-update,
+.loginpress-redirects-role-update {
+	display: inline-block;
+	background-color: #ffffff !important;
+	color: #3a3a3a !important;
+	border: 1px solid #a5a5a5 !important;
+	cursor: pointer;
+	box-shadow: none;
+	border-radius: 5px !important;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.loginpress-user-redirects-delete:hover, 
+.loginpress-redirects-role-delete:hover {
+	background-color: #0c7dcf !important;
+	transition: all 0.2;
+}
+
+#wpcontent table tr td.loginpress_login_redirects_url,
+#wpcontent table tr td.loginpress_logout_redirects_url {
+	padding-right: 10px !important;
+}
+
+body .loginpress-user-redirects-delete,
+body .loginpress-redirects-role-delete {
+	line-height: 1.153846;
+	margin-top: 0 !important;
+	font-size: 12px;
+}
+
+
+/* Field styling End */
+
+body input[type=date],
+body input[type=datetime-local],
+body input[type=datetime],
+body input[type=email],
+body input[type=month],
+body input[type=number],
+body input[type=password],
+body input[type=search],
+body input[type=tel],
+body input[type=text],
+body input[type=time],
+body input[type=url],
+body input[type=week],
+body input[type="file"] {
+	padding: 10px 15px;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #2B3D54;
+	font-size: 14px;
+	line-height: 24px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #fff;
+}
+
+body input[type=number]{
+	max-width: 300px;
+}
+
+body #wpcontent input[type="file"] {
+	padding: 11px 15px;
+	cursor: pointer;
+	text-indent: -999px;
+}
+
+input[type=date]:hover,
+input[type=datetime-local]:hover,
+input[type=datetime]:hover,
+input[type=email]:hover,
+input[type=month]:hover,
+input[type=number]:hover,
+input[type=password]:hover,
+input[type=search]:hover,
+input[type=tel]:hover,
+input[type=text]:hover,
+input[type=time]:hover,
+input[type=url]:hover,
+input[type=week]:hover,
+input[type="file"]:hover {
+	border-color: #B0C4EC;
+}
+
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+input[type="file"]:focus {
+	border-color: #5C7697;
+}
+
+input[type=date]::placeholder,
+input[type=datetime-local]::placeholder,
+input[type=datetime]::placeholder,
+input[type=email]::placeholder,
+input[type=month]::placeholder,
+input[type=number]::placeholder,
+input[type=password]::placeholder,
+input[type=search]::placeholder,
+input[type=tel]::placeholder,
+input[type=text]::placeholder,
+input[type=time]::placeholder,
+input[type=url]::placeholder,
+input[type=week]::placeholder,
+input[type="file"]::placeholder {
+	color: rgba(92, 118, 151, 0.5);
+	line-height: 24px;
+}
+
+.loginpress_autologin_users td:last-child,
+.loginpress_login_redirect_users td:last-child,
+.loginpress_login_redirect_roles td:last-child {
+	margin: -3px;
+	min-width: 160px;
+}
+
+#loginpress_limit_login_log td:last-child {
+	margin: -3px;
+	min-width: 200px;
+}
+
+.roles_for_password_reset td>fieldset>p {
+	display: inline-block !important;
+}
+
+.roles_for_password_reset td fieldset label,
+.enable_social_login_links fieldset label {
+	width: 50%;
+	padding: 10px 10px !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+}
+
+.toplevel_page_loginpress-settings span.loginpress-settings-span{
+    display: block;
+    font-style: italic;
+	padding-top: 3px;
+	font-size: 13px;
+}
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td .description {
+	font-family: "Poppins", sans-serif;
+	color: #2B3D54;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 4px 0 0 1px;
+	max-width: 480px;
+	width: 100%;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table .ip_add_remove .description{
+	padding-left: 0;
+}
+
+#loginpress_limit_login_attempts .disable_xml_rpc_request{
+	border: none;
+}
+
+/* Submit Button styling Start */
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .submit input[type="submit"],
+.loginpress_page_loginpress-license .form-table input[type="submit"] {
+	max-width: 400px;
+	min-width: 180px;
+	border: none;
+	/* width: 100%; */
+	background-color: #3C50E0;
+	padding: 13px 20px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.loginpress_page_loginpress-license .form-table input[name="loginpress_pro_license_deactivate"] {
+	max-width: 190px;
+	padding: 13px 12px;
+}
+
+.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .submit input[type="submit"]:hover {
+	background-color: #2634a1;
+}
+
+/* Submit Button styling End */
+
+/* Radio styling Start */
+
+input[type=radio] {
+	border: 2px solid #D2DDF2;
+	border-radius: 50%;
+	background: #fff;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin: 0 32px 0 0 !important;
+	outline: 0;
+	padding: 0 !important;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+	-webkit-appearance: none;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+	transition: .05s border-color ease-in-out;
+	position: relative;
+}
+[dir="rtl"] input[type=radio] {
+	margin: 0 8px 0 21px !important;
+}
+input[type=radio]:focus{
+	border: 2px solid #D2DDF2;
+	box-shadow: none;
+}
+
+input[type=radio]::before {
+	content: "";
+	border-radius: 50%;
+	width: 10px !important;
+	height: 10px !important;
+	margin: 0 !important;
+	background-color: #D2DDF2;
+	line-height: 1.14285714;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+input[type=radio]:checked::before {
+	background-color: #516885;
+}
+
+/* Radio styling End */
+
+/* Select styling Start */
+
+.toplevel_page_loginpress-settings select {
+	background-color: #fff;
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 12px 15px;
+	line-height: 2;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	box-shadow: none;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.toplevel_page_loginpress-settings select:focus {
+	border-color: #5C7697;
+}
+
+/* Select styling End */
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length label,
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_filter label {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	margin-top: 15px
+}
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length label {
+	text-transform: capitalize;
+}
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length label select,
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_filter label input {
+	height: 40px;
+
+}
+
+.toplevel_page_loginpress-settings .dataTables_wrapper .dataTables_length label select {
+	height: 40px;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	min-width: 100px;
+	order: 0;
+}
+
+#wpbody-content .loginpress-admin-setting a, 
+#wpbody-content .loginpress-help-page a {
+	color: #3C50E0;
+	font-weight: 600;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+#wpbody-content .loginpress-admin-setting a:hover, 
+#wpbody-content .loginpress-help-page a:hover {
+	text-decoration: none !important;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate {
+	display: flex;
+	align-items: center;
+	padding-top: 17px;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate span {
+	display: flex;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button {
+	background: #D2DDF2;
+	border: 0 !important;
+	border-radius: 5px;
+	margin: 0 3px;
+	font-size: 14px !important;
+	line-height: 24px;
+	color: #5C7697;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	padding: 0 4px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	cursor: pointer !important;
+	
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button:hover {
+	background-color: #5C7697 !important;
+	color: #fff;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.next,
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.previous {
+	font-size: 0 !important;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.next {
+	background-image: url(../img/pagination-right-arrow.svg) !important;
+	background-color: #fff !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.previous {
+	background-image: url(../img/pagination-left-arrow.svg) !important;
+	background-color: #fff !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.current,
+html .toplevel_page_loginpress-settings .dataTables_paginate .paginate_button.current:hover {
+	background: #516885 !important;
+	color: #fff !important;
+}
+
+html .toplevel_page_loginpress-settings .dataTables_paginate a.paginate_button:hover {
+	background: #d3ddf1;
+}
+
+.loginpress-admin-setting .inside hr{
+    margin: 30px 0;
+}
+
+/* Top Header Bar */
+
+#wpcontent .loginpress-header-wrapper {
+	width: calc(100% + 20px);
+    margin: 0 0px 0 -20px;
+    background-color: #fff;
+    background-image: url(../img/loginpress-logo-divid-logo.svg);
+    background-position: left -90px top -86px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container {
+	max-width: 100%;
+    padding: 43px 20px 43px 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo {
+	width: 40%;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo a {
+	display: inline-block;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo a img {
+	vertical-align: middle;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo a:focus {
+	outline: none !important;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta {
+	width: 60%;
+	text-align: right;
+	font-size: 0;
+	gap: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a {
+	max-width: 180px;
+	border: none;
+	background-color: #2B3D54;
+	padding: 10px 20px;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	max-width: 100%;
+	display: inline-block;
+	text-align: center;
+	outline: none;
+	text-transform: normal;
+  	border: 1px solid #2B3D54;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a:hover {
+	background-color: #fff;
+	color: #516885;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta .loginpress-pro-cta {
+	background-color: #F6366A;
+	color: #fff;
+  	border: 1px solid #F6366A;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta .loginpress-pro-cta .dashicons {
+	color: #FFD700;
+	margin-right: 5px;
+	display: none;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta .loginpress-pro-cta:hover {
+	color: #F6366A;
+	background-color: #fff;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a:after {
+	content: "";
+	display: block;
+	width: 136px;
+	max-width: 100%;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url(../img/icons-sprite.png) -8px -81px no-repeat;
+    background-size: 190px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a.loginpress-documentation:before{
+    background-position: -86px 0px;
+    background: url(../img/icons-sprite.png) -101px -1px no-repeat;
+}
+
+#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a.loginpress-documentation:hover:before{
+    background-position: -78px -1px;
+}
+
+/* Video Popup Styling */
+
+.inside {
+	position: relative;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .inside .video a {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	padding: 13px 30px 13px 55px;
+	background-color: #EAEDF4;
+	text-decoration: none;
+	color: #2B3D54;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	border-radius: 5px;
+	transition: all 0.3s;
+	display: inline-block;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .inside .video a:hover {
+	background-color: #c2c7d3;
+  text-decoration: none !important;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .inside .video a:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	width: 24px;
+	height: 24px;
+	background: url(../img/icons-sprite.png) -52px -93px no-repeat;
+	background-size: auto;
+	transform: translateY(-50%);
+}
+
+.toplevel_page_loginpress-settings #wpcontent .inside .desc p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #2B3D54;
+	font-family: "Poppins", sans-serif;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .inside .desc .loginpress-addon-promotion-desc.prom-content,
+.toplevel_page_loginpress-settings #wpcontent .inside .desc .loginpress-addon-promotion-video,
+.toplevel_page_loginpress-settings .loginpress-promotion-big-button {
+	padding-right: 0 !important;
+}
+
+#wpbody-content .loginpress-admin-setting a.loginpress-premium {
+	font-size: 16px;
+	margin: 0;
+	background-color: #F6366A;
+	border-radius: 3px 0 0 3px;
+	border: none;
+	transition: all 0.3s;
+	display: inline-block;
+	padding: 18px 13px 18px 58px;
+	line-height: 1.625;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+}
+
+.loginpress-premium:hover,
+.loginpress-premium:focus {
+	background-color: #2B3D54;
+  text-decoration: none;
+}
+
+.loginpress-premium .dashicons-star-filled {
+    float: none;
+    height: 35px;
+    margin-right: 0;
+    width: 35px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translatey(-50%);
+    display: block;
+}
+
+.loginpress-premium .dashicons-star-filled:before {
+	color: #FFD700;
+	font-size: 35px;
+}
+
+.styledSelect {
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 13px 40px 13px 15px;
+	line-height: 2;
+	min-height: 30px;
+	border: 2px solid #D2DDF2;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	max-width: 450px;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	box-shadow: none;
+	outline: none !important;
+	box-shadow: none !important;
+	width: 100%;
+	background: #fff url(../img/dropdown-arrow-icon.svg) right 15px center no-repeat;
+}
+
+.styledSelect:hover {
+	border-color: #B0C4EC;
+}
+
+.styledSelect.active {
+	border-color: #5C7697 !important;
+	box-shadow: none;
+}
+
+.s-hidden{
+	display: none;
+}
+
+.select {
+	position: relative;
+}
+
+body .options {
+	display: none;
+	position: absolute;
+	top: calc(100% + 2px);
+	right: 15px;
+	left: 0;
+	z-index: 5;
+	margin: 0 !important;
+	padding: 2px 0 0 0;
+	list-style: none;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	max-height: 300px;
+	overflow-y: auto;
+	border: solid 2px #5C7697;
+	box-shadow: none;
+	font-family: "Poppins", Sans-serif;
+	width: 100%;
+	max-width: 450px;
+}
+
+body .options li {
+	margin: 0;
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: normal;
+	color: #5C7697;
+	text-transform: none;
+	cursor: pointer;
+	font-family: "Poppins", Sans-serif;
+	border-top: 2px solid rgba(92, 119, 151, 0.3);
+	transition: all 0.3s;
+}
+
+body .options li:first-child {
+	border-top: 0;
+}
+
+body .options li:hover,
+body .options li.active {
+	background-color: #f1f5fe;
+	text-decoration: none;
+	position: relative;
+}
+
+.options li::before {
+	display: none !important;
+}
+
+.options li[rel=""] {
+	display: none;
+}
+
+.styledSelect .text-ellipses {
+	color: rgba(92, 119, 151, 0.5);
+	font-size: 14px;
+}
+
+.styledSelect .text-ellipses.valueAdded {
+	color: #5C7697;
+}
+
+/* license styling */
+.loginpress-license-settings table tr th {
+	font-size: 16px;
+	line-height: 24px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	width: 275px !important;
+	padding: 20px 10px 15px 0;
+}
+
+.loginpress-license-settings table tr td .description {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 4px 0 0 1px;
+	max-width: 450px;
+	display: block;
+}
+
+.loginpress-license-settings table tr td .button-secondary {
+	border: none;
+	background-color: #516885;
+	padding: 13px 25px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.loginpress-license-settings table tr td .button-secondary:hover {
+	background-color: #2B3D54;
+	color: #fff;
+}
+
+.loginpress-license-settings table tr .loginpress-license-desc {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	color: #5C7697;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 4px 0 0 1px;
+	max-width: 520px;
+	display: block;
+}
+
+/* Help Styling */
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page {
+	padding: 0px 20px 0 0;
+	max-width: 1370px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page>h2,
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page>h3 {
+	font-size: 22px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	font-weight: 600;
+	line-height: 32px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre {
+	margin: 20px 0;
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea {
+	background-color: #fff;
+	border: 2px solid #D2DDF2;
+	border-radius: 5px;
+	padding: 20px;
+	color: #2B3D54;
+	width: 100%;
+	max-width: 650px;
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea:focus {
+	outline: none !important;
+}
+
+/* width */
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea::-webkit-scrollbar {
+	width: 15px;
+	background-color: #fff;
+}
+
+/* Track */
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	border-radius: 0px;
+}
+
+/* Handle */
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea::-webkit-scrollbar-thumb {
+	background: #516885;
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+/* Handle on hover */
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea::-webkit-scrollbar-thumb:hover {
+	background: #2d3d52;
+	cursor: pointer
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page .loginpress-log-file {
+	border: 1px solid #2B3D54 !important;
+	background-color: #2c3d53 !important;
+	padding: 13px 25px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff !important;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+	text-shadow: none;
+	box-shadow: none !important;
+}
+
+.loginpress_page_loginpress-help #wpcontent .loginpress-help-page .loginpress-log-file:hover {
+	background-color: #fff !important;
+    color: #2c3d53 !important;
+	border: 1px solid #2c3d53 !important;
+}
+
+/* Import/Export Styling */
+
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page {
+	padding: 0px 20px 0 0;
+	max-width: 1370px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page>h2,
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page>h3 {
+	font-size: 22px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	font-weight: 600;
+	line-height: 32px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+}
+
+.loginpress-import-export-page table tr th {
+	font-size: 16px;
+	line-height: 24px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	width: 275px !important;
+	padding: 20px 10px 15px 0;
+}
+
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .import_setting .loginpress-import:disabled {
+	border: 1px solid #d2ddf2;
+    background-color: #D2DDF2 !important;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #8F9EC3 !important;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .export_setting .loginpress-export,
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .import_setting .loginpress-import {
+	border: none;
+	background-color: #2c3d53;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	transition: all 0.3s;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #2B3D54;
+}
+
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .export_setting .loginpress-export:hover,
+.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .import_setting .loginpress-import:hover {
+	background-color: #fff;
+	border: 1px solid #2B3D54;
+	color: #2B3D54;
+}
+
+#wpcontent .loginpress-settings-heading,
+#wpcontent .loginpress-license-heading {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.toplevel_page_loginpress-settings #loginpress_limit_login_log tbody tr:last-child th {
+	border-bottom: 1px solid #D2DDF2 !important;
+}
+
+.loginpress-video-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgb(0 0 0 / 80%);
+    z-index: 100;
+    display: none;
+    left: 160px;
+}
+
+.folded .loginpress-video-popup {
+    left: 36px;
+}
+
+.loginpress-cross {
+	position: fixed;
+	top: 44px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.loginpress-video-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+.loginpress-video-play .loginpress-video-popup {
+	display: block;
+}
+
+.loginpress-video-play body {
+	overflow: hidden;
+}
+
+.loginpress-video-frame iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.loginpress-video-frame iframe {
+	width: calc(177.78vh);
+	height: calc(100vh);
+	box-sizing: border-box;
+	padding: 2.5rem 4.4444444444rem;
+	margin: 0 auto;
+	display: block;
+}
+
+.loginpress-cross {
+	cursor: pointer;
+	position: fixed;
+	right: 32px;
+	top: 44px;
+	width: 32px;
+	height: 32px;
+	opacity: 1;
+	z-index: 2;
+	transition: all 0.3s;
+}
+
+.loginpress-cross:hover {
+	opacity: 0.7;
+}
+
+.loginpress-cross:before,
+.loginpress-cross:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: #fff;
+}
+
+.loginpress-cross:before {
+	transform: rotate(45deg);
+}
+
+.loginpress-cross:after {
+	transform: rotate(-45deg);
+}
+
+.loginpress-video-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.metabox-holder form th label{
+    cursor: default;
+}
+
+.loginpress-video-play .loginpress-video-popup {
+	display: block;
+}
+
+.loginpress-video-play body {
+	overflow: hidden;
+}
+
+.loginpress-video-frame iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.loginpress-video-frame iframe {
+	width: calc(177.78vh);
+	height: calc(100vh);
+	box-sizing: border-box;
+	padding: 2.5rem 4.4444444444rem;
+	margin: 0 auto;
+	display: block;
+}
+
+.loginpress-video-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.loginpress-video-frame iframe {
+	position: relative;
+	z-index: 1;
+	background: #000;
+	background-clip: content-box;
+}
+
+.loginpress-video-frame {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 16px);
+	margin-left: 8px;
+}
+
+.loginpress-video-popup:after {
+	content: '';
+	display: inline-block;
+	width: 2px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.loginpress_page_loginpress-addons #wpcontent .loginpress-addons-wrap>h2,
+.loginpress_page_loginpress-addons #wpcontent .loginpress-addons-wrap>h3,
+.loginpress_page_loginpress-license #wpcontent .wrap>h2,
+.loginpress_page_loginpress-license #wpcontent .wrap>h3 {
+	font-size: 22px;
+	margin-top: 10px !important;
+	margin-bottom: 0px !important;
+	font-weight: 600;
+	line-height: 32px;
+	color: #516885;
+	font-family: "Poppins", sans-serif;
+}
+
+body.loginpress_page_loginpress-addons .main_notice_msg {
+	background: #F6366A;
+	margin: 20px 0 20px;
+	padding: 15px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Poppins", sans-serif;
+	border-radius: 5px;
+}
+
+.addon_cards_wraper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	width: calc(100% + 15px);
+	box-sizing: border-box;
+}
+
+#loginpress_limit_login_attempts .ip_add_remove .regular-text{
+    max-width: 300px;
+    width: 100%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.loginpress-extension {
+	float: none;
+	box-sizing: border-box;
+	width: calc(33% - 30px);
+	margin: 0px 15px 30px;
+	border: 2px solid #c8d6f1;
+	display: inline-block;
+	height: auto;
+	vertical-align: top;
+	background: #fff;
+	min-height: 300px;
+	position: relative;
+	padding-bottom: 70px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+body.loginpress_page_loginpress-addons .loginpress-extension .loginpress_addons_links {
+	position: relative;
+	background-color: #DEE5F2;
+	text-decoration: none !important;
+}
+
+.loginpress-extension h3 {
+	margin: -2px -2px 0 0;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 10px 60px 10px 20px;
+	border-bottom: 2px solid #c8d6f1;
+	background-size: 115px 100px;
+	height: 100px;
+	color: #5C7697;
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.3;
+	display: flex;
+	align-items: center;
+}
+
+.loginpress-extension h3 span{
+    width: calc(100% - 100px);
+    display: block;
+}
+
+#wpbody-content .loginpress-extension .button-primary {
+	border: 0;
+	text-shadow: none;
+	background: #516885;
+	padding: 12px 18px;
+	height: auto;
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: none;
+	border-radius: 5px;
+	transition: background-color .3s;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+#wpbody-content .loginpress-extension .button-primary:active,
+#wpbody-content .loginpress-extension .button-primary:hover,
+#wpbody-content .loginpress-extension .button-primary:focus {
+	background: #2B3D54;
+	box-shadow: none;
+	outline: none;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td, 
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody th{
+	border-right: 1px solid #D2DDF2;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td:first-child, 
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody th:first-child{
+	border-left: 1px solid #D2DDF2 !important;
+}
+
+body table.dataTable.display tbody tr.even>.sorting_1, 
+body table.dataTable.order-column.stripe tbody tr.even>.sorting_1,
+body table.dataTable.display tbody tr.odd>.sorting_1, 
+body table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{
+	background-color: transparent;
+}
+
+body table.dataTable.stripe tbody tr.odd, 
+body table.dataTable.display tbody tr.odd{
+	background-color: #F6F9FF;
+}
+
+body table.dataTable.stripe tbody tr.even, 
+body table.dataTable.display tbody tr.even{
+	background: #fff;
+}
+
+#loginpress_limit_login_attempts [id*="loginpress_limit_log"] thead, 
+#loginpress_limit_login_attempts [id*="loginpress_limit_log"] tfoot, 
+#loginpress_login_redirect_users tbody tr:first-child, 
+#loginpress_login_redirect_roles tbody tr:first-child, 
+#loginpress_autologin_users tbody tr:first-child{
+    background-color: #DEE5F2;
+}
+
+#loginpress_limit_login_attempts [id*="loginpress_limit_log"] thead .sorting{
+    background: url(../img/thead-sort-icon.svg) right 5px center no-repeat;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] thead th{
+	border-bottom: 1px solid #D2DDF2;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tfoot th{
+	border-top: 1px solid #D2DDF2;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td .loginpress-whitelist-clear, 
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td .loginpress-blacklist-clear{
+	background-color: #2c3d53;
+	border: 1px solid #2c3d53;
+	transition: all 0.3s;
+	font-weight: 500;
+}
+
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td .loginpress-whitelist-clear:hover, 
+body #loginpress_limit_login_attempts [id*="loginpress_limit_log"] tbody td .loginpress-blacklist-clear:hover{
+	background-color: #fff;
+	color: #2c3d53;
+}
+
+.loginpress_page_loginpress-license #wpcontent form input+label{
+    font-family: "Poppins", sans-serif;
+    color: #2B3D54;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 4px 0 0 1px;
+    max-width: 450px;
+    display: block;
+}
+
+.loginpress-settings-desc{
+    font-size: 12px;
+    line-height: 1.4;
+    font-style: italic;
+    display: block;
+    margin-top: 2px; 
+}
+tr.list-active {
+    z-index: 99;
+    position: relative;
+}
+
+/* Right to left content styling */
+
+[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .inside .loginpress-social-login-tab-wrapper, 
+[dir="rtl"] .toplevel_page_loginpress-settings .inside [class*="tab-wrapper"]{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+[dir="rtl"] .form-table td fieldset label{
+    display: flex;
+    padding-left: 10px !important;
+    padding-right: 0 !important;
+}
+
+[dir="rtl"] .form-table td fieldset label .loginpress-check-hidden+.loginpress-checkbox{
+    margin-left: 15px;
+    margin-right: 0;
+    min-width: 36px;
+}
+
+[dir="rtl"] input[type=checkbox].loginpress-check-hidden:checked+.loginpress-checkbox:after{
+    left: 0px;
+}
+
+[dir="rtl"] input[type=checkbox].loginpress-check-hidden+.loginpress-checkbox:after{
+    left: -15px;
+}
+
+[dir="rtl"]  input[type=checkbox].loginpress-check-hidden+.loginpress-checkbox:after{
+    left: -15px;
+}
+
+[dir="rtl"] .toplevel_page_loginpress-settings #wpcontent .inside .video a{
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] body .add_black_list, .loginpress-attempts-blacklist{
+    margin-right: 5px;
+}
+
+[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .inside .loginpress-social-login-tab-wrapper, 
+[dir="rtl"] .toplevel_page_loginpress-settings .inside [class*="tab-wrapper"]{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+[dir="rtl"] .form-table td fieldset label{
+    display: flex;
+    padding-left: 10px !important;
+    padding-right: 0 !important;
+}
+
+[dir="rtl"] .form-table td fieldset label .loginpress-check-hidden+.loginpress-checkbox{
+    margin-left: 15px;
+    margin-right: 0;
+    min-width: 36px;
+}
+
+[dir="rtl"] input[type=checkbox].loginpress-check-hidden:checked+.loginpress-checkbox:after{
+    left: 0px;
+}
+
+[dir="rtl"] input[type=checkbox].loginpress-check-hidden+.loginpress-checkbox:after{
+    left: -15px;
+}
+
+[dir="rtl"]  input[type=checkbox].loginpress-check-hidden+.loginpress-checkbox:after{
+    left: -15px;
+}
+
+[dir="rtl"] .toplevel_page_loginpress-settings #wpcontent .inside .video a{
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .rpt-review-notice, 
+[dir="rtl"] .loginpress-review-notice{
+    padding: 15px 30px 15px 0;
+    margin: 20px 0 0 20px;
+}
+
+[dir="rtl"] body .add_black_list, .loginpress-attempts-blacklist{
+    margin-right: 5px;
+}
+
+[dir="rtl"] .loginpress_page_loginpress-addons #wpbody-content .addon_cards_wraper .loginpress-radio-btn:after{
+    left: -18px;
+}
+
+[dir="rtl"] .loginpress_page_loginpress-addons #wpbody-content .addon_cards_wraper .loginpress-uninstall-pro-addon + .loginpress-radio-btn:after{
+    left: 0;
+}
+
+[dir="rtl"] .loginpress_page_loginpress-addons #wpbody-content .addon_cards_wraper .loginpress_addons_links .loginpress_addons_thumbnails{
+    margin-right: 0;
+    margin-left: 20px;
+}
+ 
+@media (min-width: 1380px) {
+	body[class*="page_loginpress"] #wpbody-content .wrap{
+		max-width: 1370px;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.loginpress-video-frame iframe {
+		width: 100%;
+		height: calc(56.25vw);
+		padding: 40px;
+		max-width: 1200px;
+	}
+
+	.loginpress-cross {
+		top: 44px;
+		right: 10px;
+		width: 24px;
+		height: 24px;
+	}
+
+	.loginpress-cross:after,
+	.loginpress-cross:before {
+		left: 11px;
+		height: 24px;
+	}
+}
+
+@media (min-width: 960px) and (min-width: 767px) {
+	.loginpress-video-frame iframe {
+		max-width: 960px;
+		height: 512px;
+		max-height: 100vh;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper,
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		display: flex !important;
+		flex-direction: column;
+	}
+}
+
+
+
+@media screen and (max-width: 1320px) {
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a:after {
+		width: 130px;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo a img {
+		max-width: 220px;
+    width: 100%;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings,
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting > .loginpress-settings{
+		background-color: #fff;
+		width: calc(100% - 225px);
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper,
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper {
+		width: 210px;
+	}
+
+	.toplevel_page_loginpress-settings #wpcontent .inside .video a {
+		padding: 15px 15px 15px 45px;
+		top: -45px;
+		font-size: 14px;
+		line-height: 22px;
+		position: relative;
+		top: 0;
+		right: 0;
+		margin: 0px;
+	}
+
+	.toplevel_page_loginpress-settings #wpcontent .inside .video a:before {
+		left: 10px;
+	}
+
+	.toplevel_page_loginpress-settings #wpcontent .inside .desc>* {
+		padding-right: 0px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr th,
+	.loginpress-license-settings table tr th,
+	.loginpress-import-export-page table tr th {
+		font-size: 14px;
+		line-height: 21px;
+		width: 170px !important;
+	}
+
+	#wpcontent table tr td {
+		padding-right: 0 !important;
+	}
+
+	body input[type=date],
+	body input[type=datetime-local],
+	body input[type=datetime],
+	body input[type=email],
+	body input[type=month],
+	body input[type=number],
+	body input[type=password],
+	body input[type=search],
+	body input[type=tel],
+	body input[type=text],
+	body input[type=time],
+	body input[type=url],
+	body input[type=week],
+	body input[type="file"] {
+		height: 40px;
+		padding: 7px ​10px;
+	}
+
+	.toplevel_page_loginpress-settings #wpcontent .inside .desc p {
+		font-size: 14px;
+		line-height: 20px;
+		margin-top: 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab,
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span,
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span {
+		font-size: 10px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-addon-promotion-video .inside {
+		display: block;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td .description {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.loginpress_page_loginpress-help #wpcontent .loginpress-help-page pre textarea {
+		font-size: 14px;
+	}
+
+	body #wpcontent input[type="file"] {
+		padding: 6px 15px;
+	}
+
+	/* body[class*="loginpress_page_loginpress"] #wpbody-content {
+		padding-top: 110px !important;
+	} */
+
+	#wpbody-content .loginpress-admin-setting a.loginpress-premium {
+		font-size: 13px;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	.upload-file {
+		max-width: 350px;
+	}
+
+	[id*="loginpress"] form .video{
+		margin-top: 15px;
+	}
+
+}
+
+@media screen and (max-width: 772px) {
+	.loginpress-video-popup, 
+	.auto-fold .loginpress-video-popup{
+		left: 0px;
+	}
+
+	.wp-responsive-open .loginpress-video-popup, 
+	.auto-fold .wp-responsive-open .loginpress-video-popup{
+		left: 190px;
+	}
+
+	.loginpress-cross {
+		top: 55px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		display: flex !important;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		display: block !important;
+	}
+
+	[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab, 
+	[dir="rtl"] .loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab{
+		padding-right: 57px;
+		padding-left: 15px;
+	}
+
+	[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after, 
+	[dir="rtl"] .loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after{
+		left: auto;    
+		right: 15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting{
+		flex-direction: column;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-settings, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		width: 100%;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings,  
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-settings{
+		margin-top: 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		flex-direction: row;
+		padding-top: 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list {
+		display: flex;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab{
+		background-color: rgb(255 255 255 / 50%);
+		padding: 55px 15px 15px 15px;
+		min-height: auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab:after{
+		left: 50%;
+		top: 15px;
+		transform: translateX(-50%);
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list span {
+		display: none;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset {
+		max-width: 100%;
+	}
+
+	#wpbody-content .loginpress-admin-setting a.loginpress-premium {
+		display: none;
+	}
+
+	.loginpress-premium .dashicons-star-filled {
+		top: 10px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-logo a img {
+		max-width: 86px;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta .loginpress-pro-cta span{
+		display: none;
+	}
+
+	.loginpress-header-wrapper .loginpress-header-container {
+		padding: 10px 15px 10px 70px !important;
+	}
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta {
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a.loginpress-pro-cta:before {
+		display: none;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a {
+		max-width: 100%;
+		padding: 4px 15px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a:after {
+		width: auto;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a.loginpress-documentation{
+		padding: 0;
+		font-size: 0;
+		background-color: transparent;
+		border: none;
+		display: flex;
+		align-items: center;
+	}
+
+	#wpcontent .loginpress-header-wrapper .loginpress-header-container .loginpress-header-cta a.loginpress-documentation:before {
+		background-position: -78px -1px;
+		margin-right: 0;
+	}
+
+	#wpcontent .loginpress-header-wrapper{
+		background-position: left -30px top -30px;
+		background-size: 88px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after{
+		left: 50%;
+	}
+}
+
+@media (max-width: 960px) {
+	.auto-fold .loginpress-video-popup {
+		left: 36px;
+	}
+
+	.loginpress-video-popup {
+		left: 160px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.loginpress-advertise {
+		max-width: 100%;
+		float: left;
+	}
+
+	h1 .nav-tab,
+	h2 .nav-tab,
+	h3 .nav-tab {
+		margin: 0 !important;
+	}
+
+	body #wpcontent input[type="file"] {
+		display: block;
+	}
+
+	.loginpress-extension {
+		width: calc(50% - 30px);
+
+	}
+}
+
+@media screen and (max-width: 772px) {
+	.loginpress-video-popup, 
+	.auto-fold .loginpress-video-popup{
+		left: 0px;
+	}
+
+	.wp-responsive-open .loginpress-video-popup, 
+	.auto-fold .wp-responsive-open .loginpress-video-popup{
+		left: 190px;
+	}
+
+	.loginpress-cross {
+		top: 55px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.wpbrigade-video-popup {
+		max-width: 455px;
+		width: 100%;
+		height: auto;
+		padding: 37px 20px 9px;
+	}
+
+	.wpbrigade-video-popup iframe {
+		height: 200px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting{
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		width: 100%;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-settings{
+		background-color: transparent;
+		width: 100%;
+	}
+	
+	#wpbody-content .loginpress-admin-setting a.loginpress-premium{
+		width: 100%;
+		min-width: 230px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper{
+		padding-top: 0;
+		flex-direction: column;
+		border-radius: 0 0 5px 5px;
+		overflow: hidden;
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+		display: none;
+		position: absolute;
+		top: calc(100% - 1px);
+		z-index: 10;
+		border-top: 1px solid #daddde;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-main, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-main{
+		position: relative;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list{
+		display: block;
+		width: 100%;
+		margin-bottom: 0;
+		cursor: pointer;
+		min-width: fit-content;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab {
+		background-color: rgb(255 255 255 / 100%);
+		padding: 15px 15px 15px 46px;
+		min-height: auto;
+		width: 100%;
+		text-align: left;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.loginpress-tabs-main .tabs-toggle {
+		display: block;
+		font-size: 14px;
+		font-weight: 500;
+		padding: 10px 15px;
+		background-color: #fff;
+		border-radius: 5px;
+		border: none;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.loginpress-tabs-main .tabs-toggle.active{
+		border-radius: 5px 5px 0 0;
+	}
+
+	.loginpress-tabs-main .tabs-toggle:after{
+		content: "";
+		right: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 14px;
+		height: 8px;
+		background: url(../img/menu-dropdown-icon.svg) center center no-repeat;
+		background-size: contain;
+		display: block;
+    	position: absolute;
+	}
+
+	.loginpress-tabs-main .tabs-toggle.active:after{
+		transform: translateY(-50%) rotate(180deg);
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-settings-heading{
+		display: none;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab:after{
+		left: 15px;
+		top: 50%;
+		transform: translate(0%, -50%);
+		width: 21px;
+		height: 21px;
+		background-size: 150px;
+	}
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-settings{
+		background-color: transparent;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab{
+		height: 100%;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr th, 
+	.loginpress-license-settings table tr th, .loginpress-import-export-page table tr th{
+		padding: 10px 0 0;
+		width: 100% !important;
+	}
+
+	::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	
+	::-webkit-scrollbar:vertical {
+		width: 12px;
+	}
+	
+	::-webkit-scrollbar:horizontal {
+		height: 12px;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .5);
+		border-radius: 10px;
+		border: 2px solid #ffffff;
+	}
+	
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ffffff;
+	}
+
+	input[type=radio] {
+		margin: 0 15px 0 0px !important;
+	}
+
+	#wpcontent {
+		padding-left: 15px !important;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset label p, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-settings .form-table tr td fieldset label {
+		font-size: 13px;
+	}
+
+	.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .import_setting .loginpress-import:disabled,
+	.loginpress_page_loginpress-import-export #wpcontent .loginpress-import-export-page .import_setting .loginpress-import {
+		margin-top: 15px;
+		display: block;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after{
+		background-position: -59px -42px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover .nav-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab.nav-tab-active:after{
+			background-position: -81px -42px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_autologin-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_autologin-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_autologin-tab.nav-tab-active:after {
+		background-position: -21px 0;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab:after, .loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab:after {
+		background-position: -64px -21px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_hidelogin-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_hidelogin-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_hidelogin-tab.nav-tab-active:after {
+		background-position: -86px -21px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab:after {
+		background-position: -28px -21px;
+		width: 18px;
+		height: 21px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_limit_login_attempts-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_limit_login_attempts-tab.nav-tab-active:after {
+		left: 15px;
+		background-position: -46px -21px;
+		width: 18px;
+		height: 21px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab:after {
+		background-position: -17px -42px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_login_redirects-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_login_redirects-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_login_redirects-tab.nav-tab-active:after {
+		background-position: -38px -42px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab:after {
+		background-position: -102px -43px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_social_logins-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_social_logins-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_social_logins-tab.nav-tab-active:after {
+		background-position: -123px -43px;
+	}
+
+	.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper input{
+		padding-left: 5px !important;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab:after {
+		background-position: -107px -23px;
+	}
+
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_pro_license-tab:after, 
+	.toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab.nav-tab-active:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list:hover #loginpress_pro_license-tab:after, 
+	.loginpress_page_loginpress-license #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list #loginpress_pro_license-tab.nav-tab-active:after {
+		background-position: -128px -23px;
+	}
+
+	body .loginpress-accordions{
+		background-color: transparent;
+	}
+
+	.loginpress-social-accordions .loginpress-social-tabs{
+		padding: 1px 15px;
+	}
+	[dir="rtl"] input[type=radio] {
+		margin: 0 0 0 15px !important;
+	}
+
+	[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .settings-tabs-list .nav-tab{
+		text-align: right;
+		padding: 15px 46px 15px 15px;
+	}
+
+	[dir="rtl"] .toplevel_page_loginpress-settings #wpbody-content .loginpress-admin-setting .loginpress-tabs-wrapper .nav-tab:after {
+		right: 15px;
+		left: auto;
+		top: 50%;
+	}
+
+	[dir="rtl"] .loginpress-tabs-main .tabs-toggle {
+		padding: 10px 50px 10px 15px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	#wpcontent .loginpress-header-wrapper{
+		background-position: left -30px top -30px;
+		background-size: 88px;
+		top: 46px;
+	}
+
+	#wpbody-content {
+		padding-bottom: 30px !important;
+	}
+}

@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: saipp-app
+metadata:
+    template: azd-init@1.5.1
+services:
+    kirki-pro-headline-divider:
+        project: src\wp-content\plugins\kirki\pro-src\packages\kirki-pro-headline-divider
+        host: containerapp
+        language: js
+    kirki-pro-input-slider:
+        project: src\wp-content\plugins\kirki\pro-src\packages\kirki-pro-input-slider
+        host: containerapp
+        language: js
+        dist: build
+    kirki-pro-margin-padding:
+        project: src\wp-content\plugins\kirki\pro-src\packages\kirki-pro-margin-padding
+        host: containerapp
+        language: js
+        dist: build
+    kirki-pro-responsive:
+        project: src\wp-content\plugins\kirki\pro-src\packages\kirki-pro-responsive
+        host: containerapp
+        language: js
+    kirki-pro-tabs:
+        project: src\wp-content\plugins\kirki\pro-src\packages\kirki-pro-tabs
+        host: containerapp
+        language: js
+    src:
+        project: src\wp-content\plugins\bookly-responsive-appointment-booking-tool\frontend\resources\js\src
+        host: containerapp
+        language: js
