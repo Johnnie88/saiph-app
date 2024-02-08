@@ -1,0 +1,34 @@
+/* Menu */
+#adminmenu {
+
+	#menu-posts-job_application {
+
+		.wp-menu-image::before {
+			content: "\f307";
+			font-family: dashicons !important;
+			font-style: normal;
+			font-weight: normal;
+			speak: none;
+
+			display: inline-block;
+			text-decoration: inherit;
+			width: 1em;
+			text-align: center;
+
+			/* For safety - reset parent styles, that can break glyph codes*/
+			font-variant: normal;
+			text-transform: none;
+
+			/* fix buttons height, for twitter bootstrap */
+			line-height: 1em;
+		}
+
+		li a[href="edit.php?post_type=job_application_form"] {
+			border-top: solid 1px rgba(#ccc, 0.3);
+			margin-top: 4px;
+			padding-top: 5px + 4px;
+
+		}
+	}
+
+}

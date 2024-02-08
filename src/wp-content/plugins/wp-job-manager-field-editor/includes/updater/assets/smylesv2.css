@@ -1,0 +1,71 @@
+.smylesv2-card input.smylesv2-error {
+	background-color: #fff6f6;
+	border-color: #e0b4b4;
+	color: #9f3a38;
+	box-shadow: none;
+}
+
+/* Error Placeholder */
+.smylesv2-card input.smylesv2-error::-webkit-input-placeholder {
+	color: #e7bdbc;
+}
+
+.smylesv2-card input.smylesv2-error::-moz-placeholder {
+	color: #e7bdbc;
+}
+
+.smylesv2-card input.smylesv2-error::-ms-input-placeholder {
+	color: #e7bdbc;
+}
+
+/* Focused Error Placeholder */
+.smylesv2-card input.smylesv2-error:focus::-webkit-input-placeholder {
+	color: #da9796;
+}
+
+.smylesv2-card input.smylesv2-error:focus::-moz-placeholder {
+	color: #da9796;
+}
+
+.smylesv2-card input.smylesv2-error:focus::-ms-input-placeholder {
+	color: #da9796;
+}
+
+.ui.dimmer.modals {
+	z-index: 999998 !important;
+}
+
+#smylesv2-modal {
+	z-index: 999999 !important;
+}
+
+#smylesv2-modal .button {
+	height: auto !important;
+}
+
+.smylesv2-card-top {
+	background-color: #EAEAEA !important;
+	border: 2px solid #222832 !important;
+	border-radius: 5px 5px 0 0 !important;
+	color: #222832 !important;
+	text-align: center;
+	pointer-events: none;
+	flex-grow: unset !important;
+}
+
+.smylesv2-card-top:hover {
+	color: #f8b334 !important;
+	background-color: #222832 !important;
+}
+
+.smylesv2-card-top a.header {
+	background-color: #EAEAEA !important;
+	color: #222832 !important;
+	text-align: center;
+	pointer-events: auto;
+}
+
+.smylesv2-card-top a.header:hover {
+	background-color: #222832 !important;
+	color: #f8b334 !important;
+}

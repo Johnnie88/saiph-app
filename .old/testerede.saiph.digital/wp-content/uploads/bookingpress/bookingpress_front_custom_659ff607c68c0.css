@@ -1,0 +1,390 @@
+.bpa-front-tabs,.bpa-appointment-cancellation_container {
+                                --bpa-pt-main-green: #12D488 !important;  
+                                --bpa-pt-main-green-darker: #12D488 !important;
+                                --bpa-pt-main-green-alpha-12: #e2faf1 !important;
+                            }
+                            .bpa-front-tabs .bpa-front-tab-menu,
+                            .bpa-front-tabs .bpa-front-default-card,
+                            .bpa-full-container-loader,
+                            .bpa-front-tabs .bpa-front-tabs--foot, 
+                            .bpa-front-data-empty-view,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-list,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item .bpa-front-si-card--checkmark-icon,
+                            .bpa-front-thankyou-module-container, 
+                            .bpa-front-cancel-module-container,
+                            .bpa-front--dt__calendar .vc-nav-popover-container{
+                                background-color: #fff !important;
+                            }
+                            .bpa-front-data-empty-view .bpa-front-dev__form-bg,
+                            .bpa-front__no-timeslots-body svg .bpa-front-dev__form-bg{
+                                fill: #fff !important;
+                            }
+                            .bpa-front-form-control .el-textarea__inner::placeholder,
+                            .bpa-front-form-control input::placeholder,
+                            .bpa-front-form-control--file-upload .bpa-fu__placeholder,
+                            .el-date-picker__time-header .el-input .el-input__inner::placeholder {
+                                color:rgba(114,126,149,0.75) !important;
+                            }
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown:hover,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-item.highlighted,
+                            .bpa-front-toast-notification.--bpa-error,
+                            .bpa-front-toast-notification.--bpa-success,
+                            .bpa-front-thankyou-module-container .bpa-front-cc__error-toast-notification{
+                                background-color: #f4f7fb !important;
+                            } 
+                            .bpa-front-loader-cl-primary,
+                            .bpa-front-data-empty-view .bpa-front-dev__primary-bg,
+                            .bpa-front__no-timeslots-body svg .bpa-front-dev__primary-bg{ 
+                                fill:#12D488 !important;
+                            }
+                            .bpa-front-data-empty-view .bpa-front-dev__primary-bg,
+                            .bpa-front__no-timeslots-body svg .bpa-front-dev__primary-bg{
+                                stroke:#12D488 !important;
+                            }
+                            .bpa-front-thankyou-module-container .bpa-front-tmc__head .bpa-front-tmc__vector--confirmation .bpa-front-vc__bg,
+                            .bpa-front-data-empty-view .bpa-front-dev__panel-bg,
+                            .bpa-front__no-timeslots-body svg .bpa-front-dev__panel-bg{
+                                fill: #f4f7fb !important;
+                            }
+                            .bpa-front-module--atc-wrapper .bpa-front-btn:hover {
+                                border-color: #727E95 !important;
+                            }
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu,
+                            .bpa-front-default-card,
+                            .bpa-front-module--service-item .bpa-front-si-card,
+                            .bpa-front--dt__time-slots,
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item,
+                            .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                            .bpa-front-tabs--foot,
+                            .bpa-front--dt__calendar .vc-container,
+                            .bpa-front--dt__calendar .vc-header,
+                            .bpa-front--dt__calendar .vc-day,
+                            .bpa-front-form-control input,
+                            .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details,
+                            .bpa-front-form-control.--bpa-country-dropdown,
+                            .bpa-front-form-control .el-textarea__inner,
+                            .bpa-front-form-control--v-date-picker .el-input__inner,
+                            .el-date-picker__time-header .el-input .el-input__inner,
+                            .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item .bpa-front-tm--item-icon,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-list,
+                            .bpa-fm--bs__deposit-payment-module .bpa-dpm__item.--bpa-is-dpm-total-item,
+                            .bpa-fm--bs__deposit-payment-module,
+                            .bpa-front-module--booking-summary .bpa-is-coupon-module-enable .bpa-fm--bs__coupon-module-textbox,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item,
+                            .bpa-front-thankyou-module-container,
+                            .bpa-front-tmc__summary-content .bpa-front-tmc__sc-item,
+                            .bpa-front-module--add-to-calendar,
+                            .bpa-front-module--atc-wrapper .bpa-front-btn,
+                            .bpa-cp-ls__tab-menu .bpa-tm__item .bpa-tm__item-icon,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown,
+                            .bpa-front-form-control input:focus, 
+                            .bpa-front-form-control .el-textarea__inner:focus, 
+                            .el-date-picker__time-header .el-input .el-input__inner:focus,
+                            .bpa-front-module--date-and-time.__sm .bpa-front--dt__ts-sm-back-btn .bpa-front-btn,
+                            .bpa-front-module--service-items-row .bpa-front-module--service-item,
+                            .bpa-custom-datepicker .el-date-picker__header--bordered,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si-card__left .bpa-front-si__default-img,
+                            .bpa-fm__booking-summary-v47 .bpa-front-module--bs-customer-detail,
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item.__bpa-is-disabled:hover,
+                            .bpa-front--dt__calendar .vc-nav-popover-container,
+                            .bpa-front--dt__calendar .vc-nav-items .vc-nav-item:hover,
+                            .bpa-front-form-control--checkbox .el-checkbox__inner:hover,
+                            .bpa-front-form-control--checkbox .el-checkbox__inner {
+                                border-color: #CFD6E5 !important;
+                            }
+                            .bpa-front-module--service-item.__bpa-is-selected .bpa-front-si-card,
+                            .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag.__bpa-is-active,
+                            .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag:hover,
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item:hover, 
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active .bpa-front-tm--item-icon,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item.__bpa-is-selected,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item.__is-selected,
+                            .bpa-front-form-control--checkbox .el-checkbox__input.is-checked .el-checkbox__inner,
+                            .bpa-front-form-control--checkbox .el-checkbox__inner:hover,
+                            .el-radio__input.is-checked .el-radio__inner,
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item.__bpa-is-selected  {
+                                border-color: #12D488 !important;
+                            }
+                            .bpa-front--dt__calendar .vc-day .vc-day-content.is-disabled{
+                                background-color:rgba(207,214,229,0.1) !important;
+                            }
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item.__bpa-is-disabled{    
+                                background-color:rgba(207,214,229,0.1) !important;
+                            }
+                            .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item.__bpa-is-disabled:hover{
+                                background-color:rgba(207,214,229,0.1) !important;    
+                            }
+                            
+                            .bpa-front-tabs .bpa-front-module-heading,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-weeks .vc-weekday,
+                            .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item span,
+                            .bpa-front-tabs .bpa-front-form-control input,
+                            .bpa-front-tabs .bpa-front-form-control .el-textarea__inner,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item .bpa-front-bs-sm__item-val,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-head p,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p,
+                            .bpa-front-tabs .el-form-item__label .bpa-front-form-label,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .--bpa-is-desc,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item p,                        
+                            .bpa-front-tabs .bpa-front-tab-menu .bpa-front-tab-menu--item,
+                            .el-form-item__error,
+                            .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                            .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong,
+                            .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si__card-body--heading,
+                            .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt-ts__sub-heading,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item span,
+                            .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item .bpa-front-total-payment-amount-label,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-front-module--bs-ad--price,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-title, 
+                            .bpa-front-tabs--foot .bpa-front-btn,
+                            .bpa-front-form-control.--bpa-country-dropdown.vue-tel-input strong,
+                            .bpa-front-tmc__booking-id .bpa-front-bi__label,
+                            .bpa-front-tmc__booking-id .bpa-front-bi__val,
+                            .bpa-front-tmc__head .bpa-front-tmc__title,
+                            .bpa-front-tmc__summary-content .bpa-front-tmc__sc-item .bpa-front-sc-item__label,
+                            .bpa-front-tmc__summary-content .bpa-front-tmc__sc-item .bpa-front-sc-item__val,
+                            .bpa-front-module--add-to-calendar .bpa-fm--atc__heading,
+                            .bpa-front-tmc__head p,
+                            .bpa-front-data-empty-view .bpa-front-dev__title,
+                            .bpa-front-form-control input::placeholder,
+                            .bpa-front-form-control .el-textarea__inner::placeholder,
+                            .bpa-front-form-control--file-upload .bpa-fu__placeholder,
+                            .bpa-custom-datepicker .el-year-table td .cell,
+                            .bpa-custom-datepicker .el-month-table td .cell,
+                            .bpa-front--dt__calendar .vc-nav-title,
+                            .bpa-front--dt__calendar .vc-nav-items .vc-nav-item,
+                            .bpa-front-thankyou-module-container .bpa-front-cc__error-toast-notification,
+                            .bpa-front__no-timeslots-body .bpa-front-ntb__val,
+                            .bpa-front-module--note-desc,
+                            .bpa-front-refund-confirmation-content .bpa-front-rcc__body .bpa-front-rcc__empty-msg,
+                            .bpa-front--dt__calendar .vc-day .vc-day-content,
+                            .bpa-front-form-control--checkbox .el-checkbox__label 
+                            {
+                                font-family: Poppins !important;
+                            }
+                            .bpa-front-ci-pill.__bpa-is-active .bpa-front-ci-item-title,
+                            .bpa-front-tabs .bpa-front-form-control input,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item .bpa-front-bs-sm__item-val,
+                            .bpa-front-tabs .bpa-front-form-control .el-textarea__inner,                        
+                            .bpa-front-tabs .bpa-front-module-heading,
+                            .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item .bpa-front-total-payment-amount-label,
+                            .bpa-front-tmc__booking-id .bpa-front-bi__val,
+                            .bpa-front-tmc__head .bpa-front-tmc__title,
+                            .bpa-front-tmc__summary-content .bpa-front-tmc__sc-item .bpa-front-sc-item__val,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-item.highlighted strong,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-item.highlighted span,
+                            .bpa-custom-datepicker .el-year-table td .cell,
+                            .bpa-custom-datepicker .el-month-table td .cell{ 
+                                color: #202C45 !important;
+                            }
+                            .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong,
+                            .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt-ts__sub-heading,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-title,             
+                            .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si__card-body--heading,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .--bpa-is-desc,
+                            .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item span,
+                            .bpa-front--dt__ts-sm-back-btn label,
+                            .bpa-front-tabs .el-form-item__label span,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item span,
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item p,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu a,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-weeks .vc-weekday,
+                            .bpa-front-tabs--foot .bpa-front-btn.bpa-front-btn--borderless,
+                            .bpa-front-tmc__summary-content .bpa-front-tmc__sc-item .bpa-front-sc-item__label,
+                            .bpa-front-thankyou-module-container button.bpa-front-btn:not(:hover):not(:active):not(.has-text-color),
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-item strong,
+                            .bpa-front-form-control.--bpa-country-dropdown .vti__dropdown-item span,
+                            .bpa-front--dt__calendar .vc-nav-title,
+                            .bpa-front--dt__calendar .vc-nav-title:hover,
+                            .bpa-front--dt__calendar .vc-nav-items .vc-nav-item:hover,
+                            .bpa-front__no-timeslots-body .bpa-front-ntb__val,
+                            .bpa-front-refund-confirmation-content .bpa-front-rcc__body .bpa-front-rcc__empty-msg,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item::before{
+                                color: #535D71 !important;      
+                            }
+                            .bpa-front-tabs--foot .bpa-front-btn.bpa-front-btn--borderless,
+                            .bpa-front--dt__calendar .vc-arrows-container .vc-svg-icon path,
+                            .bpa-front--dt__calendar .vc-nav-header .vc-nav-arrow .vc-svg-icon path{
+                                fill: #535D71 !important;
+                            }
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-head p,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu a span,
+                            .bpa-front-tabs .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item:hover,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p,
+                            .bpa-front-tmc__booking-id .bpa-front-bi__label,
+                            .bpa-front-tmc__head,
+                            .bpa-front-tmc__head p,
+                            .bpa-front-module--add-to-calendar .bpa-fm--atc__heading,
+                            .bpa-front-module--atc-wrapper .bpa-front-btn:hover,
+                            .bpa-front-data-empty-view .bpa-front-dev__title,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-day .vc-day-content,
+                            .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                            .bpa-front--dt__calendar .vc-nav-items .vc-nav-item,
+                            .bpa-front-module--note-desc,
+                            .bpa-front--dt__calendar .vc-day.is-today .vc-day-content.is-disabled,
+                            .bpa-front-form-control--checkbox .el-checkbox__label {
+                                color: #727E95 !important;
+                            }
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item .bpa-front-tm--item-icon svg,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si-card__left .bpa-front-si__default-img svg{
+                                fill: #727E95 !important;
+                            }
+                            .bpa-front-tabs--foot .bpa-front-btn--primary span,
+                            .bpa-front-tabs--foot .bpa-front-btn--primary strong,
+                            .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong.--is-service-price,
+                            .bpa-front-tabs .bpa-front--dt__calendar .vc-day .vc-highlights + .vc-day-content{
+                                color: #fff !important;
+                            }
+                            .bpa-front-tabs--foot .bpa-front-btn--primary svg{
+                                fill: #fff !important;
+                            }
+                            .bpa-front--dt__ts-body--item.__bpa-is-selected {
+                                background-color: #e2faf1 !important;
+                            }
+                            .bpa-front-module--booking-summary .bpa-front-module--bs-head .bpa-head__vector-item, 
+                            .bpa-front-module--confirmation .bpa-head__vector--confirmation .bpa-head__vector-item,
+                            .bpa-front-thankyou-module-container .bpa-front-tmc__head .bpa-front-tmc__vector--confirmation .bpa-head__vector-item {
+                                fill: #12D488 !important;
+                            }
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu a.bpa-front-tab-menu--item.__bpa-is-active,
+                            .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-front-module--bs-ad--price,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active::before,
+                            .bpa-custom-datepicker .el-year-table td.today .cell,
+                            .bpa-custom-datepicker .el-month-table td.today .cell,
+                            .bpa-front--dt__calendar .vc-day.is-today .vc-day-content,
+                            .bpa-front-form-control--checkbox .el-checkbox__input.is-checked + .el-checkbox__label {
+                                color: #12D488 !important;
+                            }
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active span,
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active .bpa-front-tm--item-icon,
+                            .bpa-front-tabs .bpa-front-tabs--foot .bpa-front-btn--primary:focus {                 
+                                box-shadow: 0 4px 8px rgba(18,212,136,0.06), 0 8px 16px rgba(18,212,136,0.16) !important;
+                            }               
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu a.__bpa-is-active span {
+                                color: var(--bpa-cl-white) !important;
+                            }               
+                            .bpa-front-tabs--vertical-left .bpa-front-tab-menu a.__bpa-is-active .bpa-front-tm--item-icon svg {
+                                fill: var(--bpa-cl-white) !important;
+                            }
+                            .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item svg.bpa-front-pm-pay-local-icon{
+                                fill: #727E95 !important;
+                            }               
+                            @media (min-width: 1200px){
+                                .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si__card-body--heading,                        
+                                .bpa-front-tabs .bpa-front-module-heading, 
+                                .bpa-front-tmc__head .bpa-front-tmc__title,
+                                .bpa-front-cancel-module-container .bpa-front-cmc__title,
+                                .bpa-front-tmc__booking-id .bpa-front-bi__label,
+                                .bpa-front-module--add-to-calendar .bpa-fm--atc__heading{
+                                    font-size: 18px !important;
+                                }
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p,
+                                .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-head p,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item .bpa-front-bs-sm__item-val,    
+                                .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt-ts__sub-heading,
+                                .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item .bpa-front-total-payment-amount-label,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-front-module--bs-ad--price,
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-title,
+                                .bpa-front-refund-confirmation-content .bpa-front-rcc__body .bpa-front-rcc__empty-msg,
+                                .bpa-front-tmc__head p,
+                                .bpa-front-cancel-module-container .bpa-front-cmc__desc {
+                                    font-size: 16px !important;
+                                }
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .--bpa-is-desc,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item span,
+                                .bpa-front-tabs .el-form-item__label span,
+                                .bpa-front-tabs .bpa-front-form-control input,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item span,
+                                .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item p,
+                                .bpa-front-tabs--vertical-left .bpa-front-tab-menu a,
+                                .bpa-front-tabs .bpa-front-form-control .el-textarea__inner,    
+                                .bpa-front--dt__calendar .vc-day .vc-day-content,
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-weeks .vc-weekday,
+                                .bpa-front-tabs--foot .bpa-front-btn,
+                                .bpa-front__no-timeslots-body .bpa-front-ntb__val,
+                                .bpa-front-thankyou-module-container .bpa-front-cc__error-toast-notification,
+                                .bpa-front-form-control--checkbox .el-checkbox__label, {
+                                    font-size: 14px !important;
+                                }
+                                .--bpa-top.bpa-front-tabs--vertical-left .bpa-front-tab-menu a,
+                                .bpa-front-module--note-desc{
+                                    font-size: 15px !important;
+                                }
+                            }
+                            @media (max-width: 1024px){                      
+                                .bpa-front-tabs .bpa-front-module-heading,    
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-title,
+                                .bpa-front-tmc__head .bpa-front-tmc__title,
+                                .bpa-front-cancel-module-container .bpa-front-cmc__title,
+                                .bpa-front-tmc__booking-id .bpa-front-bi__label,
+                                .bpa-front-module--add-to-calendar .bpa-fm--atc__heading {
+                                    font-size: 16px !important;
+                                }
+                                .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si__card-body--heading,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt-ts__sub-heading,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-head p,
+                                .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item .bpa-front-total-payment-amount-label,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-front-module--bs-ad--price{
+                                    font-size: 15px !important; 
+                                }   
+                                .bpa-front-tabs--vertical-left .bpa-front-tab-menu a,
+                                .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .--bpa-is-desc,
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p,
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item span,    
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-weeks .vc-weekday,  
+                                .bpa-front-tabs .el-form-item__label span,
+                                .bpa-front-tabs .bpa-front-form-control input, 
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item .bpa-front-bs-sm__item-val,
+                                .bpa-front-tabs--foot .bpa-front-btn   
+                                {
+                                    font-size: 14px !important;
+                                } 
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item span {
+                                    font-size: 13px !important;
+                                }
+                                .bpa-front-module--date-and-time.__sm .bpa-front--dt__ts-sm-back-btn .bpa-front-btn span svg{
+                                    fill: #535D71 !important;
+                                }     
+                            }
+                                
+                            @media (max-width: 576px){                               
+                                .bpa-front-tabs .bpa-front-module-heading{
+                                    font-size: 16px !important;
+                                }
+                                .bpa-front-tabs .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si__card-body--heading,    
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-weeks .vc-weekday{
+                                    font-size: 15px !important; 
+                                }    
+                                .bpa-front-tabs--vertical-left .bpa-front-tab-menu a,
+                                .bpa-front-module--category .bpa-front-cat-items .bpa-front-ci-pill.el-tag,
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p strong,
+                                .bpa-front-tabs .bpa-front--dt__calendar .vc-title,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt-ts__sub-heading,
+                                .bpa-front-tabs .el-form-item__label span,
+                                .bpa-front-tabs .bpa-front-form-control input,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-head p,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item .bpa-front-bs-sm__item-val,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-summary-content .bpa-front-module--bs-summary-content-item span,
+                                .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item .bpa-front-total-payment-amount-label,
+                                .bpa-front-tabs .bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-front-module--bs-ad--price
+                                {
+                                    font-size: 14px !important;
+                                } 
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .--bpa-is-desc,
+                                .bpa-front-module--service-item .bpa-front-si-card .bpa-front-si__card-body .bpa-front-si-cb__specs .bpa-front-si-cb__specs-item p,
+                                .bpa-front-tabs .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item span,
+                                .bpa-front-module--payment-methods .bpa-front-module--pm-body .bpa-front-module--pm-body__item p,
+                                .bpa-front-tabs--foot .bpa-front-btn {
+                                    font-size: 13px !important; 
+                                }
+                                .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active span,
+                                .bpa-front-tabs--vertical-left .bpa-front-tab-menu .bpa-front-tab-menu--item.__bpa-is-active .bpa-front-tm--item-icon {                 
+                                    box-shadow: none !important;
+                                };      
+                            }

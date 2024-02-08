@@ -1,0 +1,1978 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LoginPress - Customizing the WordPress Login\n"
+"POT-Creation-Date: 2023-08-28 17:56+0500\n"
+"PO-Revision-Date: 2023-08-28 18:15+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: loginpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-loginpress-addons.php:66
+#: classes/class-loginpress-addons.php:70
+msgid "Something went wrong in loading the Add-Ons, Try again later!"
+msgstr ""
+"Coś poszło nie tak podczas ładowania dodatków, spróbuj ponownie później!"
+
+#: classes/class-loginpress-addons.php:117
+msgid "Activating "
+msgstr "Aktywacja "
+
+#: classes/class-loginpress-addons.php:125
+msgid " Activated."
+msgstr " Aktywowany."
+
+#: classes/class-loginpress-addons.php:135
+msgid "Deactivating "
+msgstr "Dezaktywowanie "
+
+#: classes/class-loginpress-addons.php:143
+msgid " Deactivated."
+msgstr " Dezaktywowany."
+
+#: classes/class-loginpress-addons.php:151
+msgid " Something Wrong."
+msgstr " Coś nie tak."
+
+#: classes/class-loginpress-addons.php:215
+#: classes/class-loginpress-addons.php:335
+#: classes/class-loginpress-addons.php:390
+#: classes/class-loginpress-promotion.php:132
+msgid "UPGRADE NOW"
+msgstr "UAKTUALNIJ TERAZ"
+
+#: classes/class-loginpress-addons.php:308
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+#: classes/class-loginpress-addons.php:316
+msgid "Activate Plugin"
+msgstr "Aktywacja wtyczki"
+
+#: classes/class-loginpress-addons.php:329
+msgid "Install"
+msgstr "Instaluj"
+
+#: classes/class-loginpress-addons.php:420
+msgid "You have a lifetime license, it will never expire."
+msgstr "Masz dożywotnią licencję, nigdy nie wygaśnie."
+
+#: classes/class-loginpress-addons.php:424
+#, php-format
+msgid "Your (%2$s) license key is valid until %s."
+msgstr "Twój (%2$s) klucz licencyjny jest ważny do %s."
+
+#: classes/class-loginpress-addons.php:446
+msgid "You need to activate your license to download the following add-ons."
+msgstr "Musisz aktywować licencję, aby pobrać następujące dodatki."
+
+#: classes/class-loginpress-addons.php:467
+msgid "You need to upgrade to LoginPress Pro to access these add-ons."
+msgstr ""
+"Musisz uaktualnić do LoginPress Pro, aby uzyskać dostęp do tych dodatków."
+
+#: classes/class-loginpress-addons.php:963
+msgid "Extend the functionality of LoginPress with these awesome Add-ons"
+msgstr "Rozszerz funkcjonalność LoginPress dzięki tym niesamowitym dodatkom"
+
+#: classes/class-loginpress-custom-password.php:46
+#: include/customizer-strings.php:92 include/template-loginpress.php:589
+msgid "Password"
+msgstr "Hasło"
+
+#: classes/class-loginpress-custom-password.php:55
+msgid "Confirm Password"
+msgstr "Potwierdź hasło"
+
+#: classes/class-loginpress-custom-password.php:79
+#, php-format
+msgid "%1$sError:%2$s Please enter your password twice."
+msgstr "%1$s Błąd:%2$s Wprowadź dwukrotnie swoje hasło."
+
+#: classes/class-loginpress-custom-password.php:85
+#, php-format
+msgid "%1$sError:%2$s Passwords don't match."
+msgstr "%1$s Błąd:%2$s Hasła nie są zgodne."
+
+#: classes/class-loginpress-custom-password.php:138
+msgid ""
+"If you have already set your own password, you may disregard this email and "
+"use the password you have already set."
+msgstr ""
+"Jeśli masz już ustawione własne hasło, możesz zignorować ten adres e-mail i "
+"użyć już ustawionego hasła."
+
+#: classes/class-loginpress-filter-plugin.php:45
+#, php-format
+msgid "Buy %s now"
+msgstr "Kup %s teraz"
+
+#: classes/class-loginpress-filter-plugin.php:46
+msgid "Buy Now"
+msgstr "Kup teraz"
+
+#: classes/class-loginpress-filter-plugin.php:188
+msgid "Analytify"
+msgstr "Analytify"
+
+#: classes/class-loginpress-filter-plugin.php:197
+msgid ""
+"Analytify is reshaping Google Analytics in WordPress. See Social Media, "
+"Keywords, Realtime, Country, Mobile and Browsers Statistics under pages and "
+"posts."
+msgstr ""
+"Analytify przekształca Google Analytics w WordPress. Zobacz Media "
+"społecznościowe, słowa kluczowe, statystyki w czasie rzeczywistym, kraj, "
+"urządzenia mobilne i przeglądarki pod stronami i postami."
+
+#: classes/class-loginpress-filter-plugin.php:200
+msgid "Related Posts"
+msgstr "Powiązane wpisy"
+
+#: classes/class-loginpress-filter-plugin.php:209
+msgid ""
+"Related Post Thumbnails plugin is for those who want the showcase of their "
+"related posts after the post detail. The plugin allows customizing thumbnail "
+"sizes, display settings, and type of relations. The plugin is using original "
+"WordPress taxonomy. It returns generated HTML, that is essential for page "
+"load speed of blogs that use many Javascript widgets."
+msgstr ""
+"Wtyczka Related Post Thumbnails jest przeznaczona dla tych, którzy chcą "
+"zaprezentować swoje powiązane posty po szczegółach postu. Wtyczka umożliwia "
+"dostosowanie rozmiarów miniatur, ustawień wyświetlania i rodzaju relacji. "
+"Wtyczka używa oryginalnej taksonomii WordPress. Zwraca wygenerowany kod "
+"HTML, który jest niezbędny do szybkości ładowania strony blogów "
+"korzystających z wielu widżetów JavaScript."
+
+#: classes/class-loginpress-filter-plugin.php:212
+msgid "LoginPress Pro"
+msgstr "LoginPress Pro"
+
+#: classes/class-loginpress-filter-plugin.php:222
+msgid ""
+"LoginPress Plugin by WPBrigade holds a lot of customization fields to change "
+"the layout of the login page of WordPress. You can modify the look and feel "
+"of login page completely even the login error messages, forgot error "
+"messages, registration error messages, forget password hint message and many "
+"more."
+msgstr ""
+"LoginPress Plugin firmy WPBrigade zawiera wiele pól dostosowywania, aby "
+"zmienić układ strony logowania WordPress. Możesz całkowicie zmodyfikować "
+"wygląd strony logowania, nawet komunikaty o błędach logowania, komunikaty o "
+"błędach zapomnienia, komunikaty o błędach rejestracji, komunikat o "
+"podpowiedzi do hasła i wiele innych."
+
+#: classes/class-loginpress-force-reset-pass.php:176
+msgid "Year"
+msgstr "Rok"
+
+#: classes/class-loginpress-force-reset-pass.php:176
+msgid "Years"
+msgstr "Lata"
+
+#: classes/class-loginpress-force-reset-pass.php:177
+msgid "Month"
+msgstr "Miesiąc"
+
+#: classes/class-loginpress-force-reset-pass.php:177
+msgid "Months"
+msgstr "Miesiące"
+
+#: classes/class-loginpress-force-reset-pass.php:178
+#: classes/class-loginpress-force-reset-pass.php:189
+msgid "Day"
+msgstr "Dia"
+
+#: classes/class-loginpress-force-reset-pass.php:178
+#: classes/class-loginpress-force-reset-pass.php:189
+msgid "Days"
+msgstr "Dni"
+
+#: classes/class-loginpress-force-reset-pass.php:180
+#, php-format
+msgid "%1$s %2$s, %3$s %4$s and %5$s %6$s"
+msgstr "%1$s %2$s, %3$s %4$s i %5$s %6$s"
+
+#: classes/class-loginpress-force-reset-pass.php:186
+#, php-format
+msgid "%1$s %2$s and %3$s %4$s"
+msgstr "%1$s %2$s i %3$s %4$s"
+
+#: classes/class-loginpress-force-reset-pass.php:208
+#, php-format
+msgid ""
+"It's been %1$s%2$s%3$s since you last updated your password. Kindly update "
+"your password."
+msgstr ""
+"Minęło %1$s%2$s%3$s od ostatniej aktualizacji hasła. Prosimy o aktualizację "
+"hasła."
+
+#: classes/class-loginpress-login-order.php:89 custom.php:1997
+#: include/customizer-strings.php:149
+#, php-format
+msgid "%1$sError:%2$s The username field is empty."
+msgstr "%1$sError:%2$s Pole nazwy użytkownika jest puste."
+
+#: classes/class-loginpress-login-order.php:91 custom.php:1999
+#: include/customizer-strings.php:150
+#, php-format
+msgid "%1$sError:%2$s The password field is empty."
+msgstr "%1$sError:%2$s Pole hasła jest puste."
+
+#: classes/class-loginpress-login-order.php:112
+#: include/customizer-strings.php:156
+#, php-format
+msgid "%1$sError:%2$s Invalid Email Address"
+msgstr "%1$sError:%2$s Błędny adres email"
+
+#: classes/class-loginpress-login-order.php:134 custom.php:1993
+#: include/customizer-strings.php:148
+#, php-format
+msgid "%1$sError:%2$s Invalid Username."
+msgstr "%1$sError:%2$s Błędna nazwa użytkownika."
+
+#: classes/class-loginpress-notifications.php:133
+msgid "Leave A Review?"
+msgstr "Podzielisz się opinią?"
+
+#: classes/class-loginpress-notifications.php:134
+msgid ""
+"We hope you've enjoyed using LoginPress! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+"Mamy nadzieję, że podobało Ci się korzystanie z LoginPress! Czy rozważyłbyś "
+"pozostawienie nam opinii na WordPress.org?"
+
+#: classes/class-loginpress-notifications.php:136
+msgid "Sure! I'd love to!"
+msgstr "Jasne! Z chęcią!"
+
+#: classes/class-loginpress-notifications.php:137
+msgid "I've already left a review"
+msgstr "Zostawiłam już recenzję"
+
+#: classes/class-loginpress-notifications.php:138
+msgid "Maybe Later"
+msgstr "Może później"
+
+#: classes/class-loginpress-notifications.php:139
+msgid "Never show again"
+msgstr "Nigdy nie pokazuj ponownie"
+
+#: classes/class-loginpress-notifications.php:167
+msgid "Upgrade LoginPress Addons!"
+msgstr "Uaktualnij dodatki LoginPress!"
+
+#: classes/class-loginpress-notifications.php:168
+msgid "Extend LoginPress with these add-ons and supercharge your login pages."
+msgstr ""
+"Rozszerzyć LoginPress z tymi dodatkami i doładować swoje strony logowania."
+
+#: classes/class-loginpress-notifications.php:173
+msgid "Learn More"
+msgstr "Dowiedz się więcej"
+
+#: classes/class-loginpress-notifications.php:188
+msgid "Upgrade"
+msgstr "Aktualizuj"
+
+#: classes/class-loginpress-notifications.php:189
+msgid "to LoginPress Pro 3.0"
+msgstr "do LoginPress Pro 3.0"
+
+#: classes/class-loginpress-notifications.php:318
+msgid "FLAT 50% OFF"
+msgstr "MIESZKANIE 50% ZNIŻKI"
+
+#: classes/class-loginpress-notifications.php:343
+#, php-format
+msgid ""
+"<strong>Biggest Winter Deal</strong> in the WordPress Universe! Get "
+"<strong>LoginPress Pro and all Premium Add-ons</strong> with <strong>20%% "
+"OFF</strong> [Limited Availability].<a href=\"https://loginpress.pro/"
+"pricing/?utm_source=loginpress-lite&utm_medium=freepluginbanner-"
+"button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: "
+"none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;"
+"\"></span> Grab The Deal</a>\n"
+"  \t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: "
+"10px;\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with "
+"free version</a>"
+msgstr ""
+"<strong>Największa zimowa oferta</strong> we wszechświecie WordPress! "
+"Pobierz <strong>LoginPress Pro i wszystkie dodatki Premium</strong> z "
+"<strong>20%% OFF</strong> [ograniczona dostępność].<a href=\"https://"
+"loginpress.pro/pricing/?utm_source=loginpress-"
+"lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" "
+"target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons "
+"dashicons-smiley\" style=\"margin-left: 10px;\"></span> Grab The Deal</a>\n"
+"  \t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: "
+"10px;\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with "
+"free version</a>"
+
+#: classes/class-loginpress-notifications.php:368
+#, php-format
+msgid ""
+"<strong>Biggest Summer Deal</strong> in the WordPress Universe! Get "
+"<strong>LoginPress Pro and all Premium Add-ons</strong> with <strong>20%% "
+"OFF</strong> [Limited Availability].<a href=\"https://loginpress.pro/"
+"pricing/?utm_source=loginpress-lite&utm_medium=freepluginbanner-"
+"button&utm_campaign=early20\" target=\"_blank\" style=\"text-decoration: "
+"none;\"><span class=\"dashicons dashicons-smiley\" style=\"margin-left: 10px;"
+"\"></span> Grab The Deal</a>\n"
+"\t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;"
+"\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with free "
+"version</a>"
+msgstr ""
+"<strong>Największa letnia oferta</strong> we wszechświecie WordPress! "
+"Pobierz <strong>LoginPress Pro i wszystkie dodatki Premium</strong> z "
+"<strong>20%% OFF</strong> [ograniczona dostępność].<a href=\"https://"
+"loginpress.pro/pricing/?utm_source=loginpress-"
+"lite&utm_medium=freepluginbanner-button&utm_campaign=early20\" "
+"target=\"_blank\" style=\"text-decoration: none;\"><span class=\"dashicons "
+"dashicons-smiley\" style=\"margin-left: 10px;\"></span> Grab The Deal</a>\n"
+"\t\t\t\t\t<a href=\"%1$s\" style=\"text-decoration: none; margin-left: 10px;"
+"\"><span class=\"dashicons dashicons-dismiss\"></span> I'm good with free "
+"version</a>"
+
+#: classes/class-loginpress-promo.php:13
+msgid "Google Fonts"
+msgstr "Czcionki Google"
+
+#: classes/class-loginpress-promo.php:29 classes/class-loginpress-promo.php:49
+#: classes/control-presets.php:84
+msgid "Unlock Premium Feature"
+msgstr "Odblokuj funkcje premium"
+
+#: classes/class-loginpress-promo.php:34
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: classes/class-loginpress-promotion.php:43
+msgid "Auto Login"
+msgstr "Logowanie automatyczne"
+
+#: classes/class-loginpress-promotion.php:44
+msgid "No More Manual Login"
+msgstr "Koniec z ręcznym logowaniem"
+
+#: classes/class-loginpress-promotion.php:49
+msgid "Hide Login"
+msgstr "Ukryj login"
+
+#: classes/class-loginpress-promotion.php:50
+msgid "Hide your login page"
+msgstr "Ukryj swoją stronę logowania"
+
+#: classes/class-loginpress-promotion.php:55
+msgid "Limit Login Attempts"
+msgstr "Limit prób logowania"
+
+#: classes/class-loginpress-promotion.php:56
+msgid "Limits for login attempts"
+msgstr "Limity prób logowania"
+
+#: classes/class-loginpress-promotion.php:61
+msgid "Login Redirects"
+msgstr "Przekierowania logowania"
+
+#: classes/class-loginpress-promotion.php:62
+msgid "Automatically redirects the login"
+msgstr "Automatycznie przekierowuje login"
+
+#: classes/class-loginpress-promotion.php:67
+msgid "Social Login"
+msgstr "Logowanie społecznościowe"
+
+#: classes/class-loginpress-promotion.php:68
+msgid "Third Party login access"
+msgstr "Dostęp do logowania przez osoby trzecie"
+
+#: classes/class-loginpress-promotion.php:73
+#, php-format
+msgid "Upgrade to Pro%1$s for More Features%2$s"
+msgstr "Uaktualnij do wersji Pro%1$s aby uzyskać więcej funkcji%2$s"
+
+#: classes/class-loginpress-promotion.php:93
+msgid ""
+"This LoginPress add-on lets you change the login page URL to anything you "
+"want. It will give a hard time to spammers who keep hitting to your login "
+"page. This is helpful for Brute force attacks. One caution to use this add-"
+"on is you need to remember the custom login url after you change it. We have "
+"an option to email your custom login url so you remember it."
+msgstr ""
+"Ten dodatek LoginPress pozwala zmienić adres URL strony logowania na "
+"cokolwiek chcesz. Będzie to trudne dla spamerów, którzy nadal trafiają na "
+"twoją stronę logowania. Jest to pomocne w przypadku ataków siłowych. Jedną z "
+"przestrog związanych z korzystaniem z tego dodatku jest to, że musisz "
+"zapamiętać niestandardowy adres URL logowania po jego zmianie. Mamy opcję "
+"wysłania e-mailem niestandardowego adresu URL logowania, abyś go zapamiętał."
+
+#: classes/class-loginpress-promotion.php:96
+msgid ""
+"Everybody needs a control of their Login page. This will help you to track "
+"your login attempts by each user. You can limit the login attempts for each "
+"user. Brute force attacks are the most common way to gain access to your "
+"website. This add-on acts as a sheild to these hacking attacks and gives you "
+"control to set the time between each login attempts."
+msgstr ""
+"Każdy musi mieć kontrolę nad swoją stroną logowania. Pomoże Ci to śledzić "
+"próby logowania przez każdego użytkownika. Możesz ograniczyć próby logowania "
+"dla każdego użytkownika. Ataki siłowe są najczęstszym sposobem uzyskania "
+"dostępu do Twojej witryny. Ten dodatek działa jak osłona dla tych ataków "
+"hakerskich i daje kontrolę nad ustawieniem czasu między kolejnymi próbami "
+"logowania."
+
+#: classes/class-loginpress-promotion.php:99
+msgid ""
+"Social login from LoginPress is an add-on which provides facility your users "
+"to login and Register via Facebook, Google and Twitter. This add-on will "
+"eliminate the Spam and Bot registrations. This add-on will help your users "
+"to hassle free registrations/logins on your site."
+msgstr ""
+"Logowanie społecznościowe z LoginPress to dodatek, który umożliwia "
+"użytkownikom logowanie się i rejestrację za pośrednictwem Facebooka, Google "
+"i Twittera. Ten dodatek wyeliminuje rejestracje spamu i bota. Ten dodatek "
+"pomoże użytkownikom w bezproblemowej rejestracji / logowaniu się na Twojej "
+"stronie."
+
+#: classes/class-loginpress-promotion.php:102
+msgid ""
+"Redirect users based on their roles and specific usernames. This is helpful, "
+"If you have an editor and want to redirect him to his editor stats page. "
+"Restrict your subscribers, guests or even customers to certain pages instead "
+"of wp-admin. This add-on has a cool UX/UI to manage all the login redirects "
+"you have created on your site."
+msgstr ""
+"Przekierowuj użytkowników na podstawie ich ról i określonych nazw "
+"użytkowników. Jest to pomocne, jeśli masz redaktora i chcesz go przekierować "
+"na jego stronę statystyk edytora. Ogranicz swoich subskrybentów, gości, a "
+"nawet klientów do określonych stron zamiast wp-admin. Ten dodatek ma fajny "
+"UX / UI do zarządzania wszystkimi przekierowaniami logowania utworzonymi w "
+"Twojej witrynie."
+
+#: classes/class-loginpress-promotion.php:105
+msgid ""
+"This LoginPress add-on lets you (Adminstrator) generates a unique URL for "
+"your certain users who you don't want to provide a password to login into "
+"your site. This Pro add-on gives you a list of all the users who you have "
+"given auto generated login links. You can disable someones access and delete "
+"certain users."
+msgstr ""
+"Ten dodatek LoginPress pozwala (Adminstrator) wygenerować unikalny adres URL "
+"dla niektórych użytkowników, którzy nie chcą podawać hasła do logowania się "
+"do Twojej witryny. Ten dodatek Pro zawiera listę wszystkich użytkowników, "
+"którym nadano automatycznie wygenerowane linki logowania. Możesz wyłączyć "
+"komuś dostęp i usunąć określonych użytkowników."
+
+#: classes/class-loginpress-settings-api.php:122
+msgid "Getting Started Video"
+msgstr "Rozpoczęcie wideo"
+
+#: classes/class-loginpress-settings-api.php:425 custom.php:806
+msgid "Choose File"
+msgstr "Wybierz plik"
+
+#: classes/class-loginpress-setup.php:73
+msgid "Default Settings Restored"
+msgstr "Przywrócone ustawienia domyślne"
+
+#. Plugin Name of the plugin/theme
+#: classes/class-loginpress-setup.php:131
+#: classes/class-loginpress-setup.php:132 custom.php:348 loginpress.php:328
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#: classes/class-loginpress-setup.php:143
+#: classes/class-loginpress-setup.php:144
+#: classes/class-loginpress-setup.php:213
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/class-loginpress-setup.php:153
+#: classes/class-loginpress-setup.php:154
+msgid "Customizer"
+msgstr "Dostosowanie"
+
+#: classes/class-loginpress-setup.php:163
+#: classes/class-loginpress-setup.php:164
+msgid "Help"
+msgstr "Pomoc"
+
+#: classes/class-loginpress-setup.php:173
+#: include/loginpress-import-export.php:13
+msgid "Import/Export LoginPress Settings"
+msgstr "Import/eksport ustawień LoginPress"
+
+#: classes/class-loginpress-setup.php:174
+msgid "Import / Export"
+msgstr "Import / Eksport"
+
+#: classes/class-loginpress-setup.php:183
+#: classes/class-loginpress-setup.php:184
+msgid "Add-Ons"
+msgstr "Dodatki"
+
+#: classes/class-loginpress-setup.php:214
+msgid "Login Page Setting"
+msgstr "Ustawienie strony logowania"
+
+#: classes/class-loginpress-setup.php:215
+#, php-format
+msgid ""
+"%3$sEverything else is customizable through %1$sWordPress Customizer%2$s.%4$s"
+msgstr ""
+"%3$s Wszystko inne można dostosować za pomocą %1$sWordPress Customizer%2$s. "
+"%4$s"
+
+#: classes/class-loginpress-setup.php:253
+msgid "Force Password Reset"
+msgstr "Wymuś resetowanie hasła"
+
+#: classes/class-loginpress-setup.php:254
+#: classes/class-loginpress-setup.php:255
+msgid "Enable to enforce password reset after certain duration."
+msgstr "Włącz, aby wymusić resetowanie hasła po upływie określonego czasu."
+
+#: classes/class-loginpress-setup.php:260
+msgid "Password Reset Duration"
+msgstr "Czas resetowania hasła"
+
+#: classes/class-loginpress-setup.php:261
+msgid ""
+"Set the duration in days after which the user will be forced to change "
+"password again. e.g 10."
+msgstr ""
+"Ustaw czas trwania w dniach, po którym użytkownik będzie zmuszony do "
+"ponownej zmiany hasła. np. 10."
+
+#: classes/class-loginpress-setup.php:262
+#: classes/class-loginpress-setup.php:283
+msgid "10"
+msgstr "10"
+
+#: classes/class-loginpress-setup.php:272
+msgid "Password Reset For"
+msgstr "Resetowanie hasła dla"
+
+#: classes/class-loginpress-setup.php:273
+msgid ""
+"Choose the roles for password reset forcefully to secure the site's security."
+msgstr ""
+"Wybierz role do wymuszenia resetowania hasła, aby zapewnić bezpieczeństwo "
+"witryny."
+
+#: classes/class-loginpress-setup.php:279
+msgid "Session Expire"
+msgstr "Wygaśnięcie sesji"
+
+#: classes/class-loginpress-setup.php:282
+msgid "Set the session expiration time in minutes. e.g: 10"
+msgstr "Ustaw czas wygaśnięcia sesji w minutach. np.: 10"
+
+#: classes/class-loginpress-setup.php:306
+msgid "Auto Remember Me"
+msgstr "Auto Remember Me"
+
+#: classes/class-loginpress-setup.php:307
+#, php-format
+msgid ""
+"Enable to keep the %1$sRemember Me%2$s option always checked on the Login "
+"Page."
+msgstr ""
+"Włącz, aby opcja %1$sZapamiętaj mnie%2$s była zawsze zaznaczona na stronie "
+"logowania."
+
+#: classes/class-loginpress-setup.php:312
+msgid "Custom Password Fields"
+msgstr "Niestandardowe pola hasła"
+
+#: classes/class-loginpress-setup.php:313
+#, php-format
+msgid "Enable to add %1$sCustom Password Fields%2$s to the Registration Form."
+msgstr ""
+"Włącz, aby dodać %1$sNiestandardowe pola hasła%2$s do formularza "
+"rejestracyjnego."
+
+#: classes/class-loginpress-setup.php:318
+msgid "Login Order"
+msgstr "Kolejność logowania"
+
+#: classes/class-loginpress-setup.php:323
+msgid "Both Username Or Email Address"
+msgstr "Zarówno nazwa użytkownika, jak i adres e-mail"
+
+#: classes/class-loginpress-setup.php:324
+msgid "Only Username"
+msgstr "Tylko nazwa użytkownika"
+
+#: classes/class-loginpress-setup.php:325
+msgid "Only Email Address"
+msgstr "Tylko adres e-mail"
+
+#: classes/class-loginpress-setup.php:330
+msgid "Enable PCI Compliance"
+msgstr "Włączanie zgodności ze standardem PCI"
+
+#: classes/class-loginpress-setup.php:331
+#, php-format
+msgid "Enable to add %1$sPCI Compliance%2$s to WordPress Login Forms."
+msgstr ""
+"Włącz, aby dodać %1$szgodność PCI%2$s do formularzy logowania WordPress."
+
+#: classes/class-loginpress-setup.php:342
+msgid "Reset customizer settings"
+msgstr "Resetowanie ustawień konfiguratora"
+
+#: classes/class-loginpress-setup.php:343
+#, php-format
+msgid ""
+"Enable to reset customizer settings.%1$sNote: All your customization will be "
+"reverted back to the LoginPress default theme.%2$s"
+msgstr ""
+"Włącz, aby zresetować ustawienia konfiguratora. %1$s Uwaga: Wszystkie "
+"dostosowania zostaną przywrócone do domyślnego motywu LoginPress. %2$s"
+
+#: classes/class-loginpress-setup.php:414
+msgid "LoginPress - Rebranding your boring WordPress Login pages"
+msgstr "LoginPress - Rebranding nudnych stron logowania WordPress"
+
+#: classes/class-loginpress-setup.php:435
+msgid "Help & Troubleshooting"
+msgstr "Pomoc i rozwiązywanie problemów"
+
+#: classes/class-loginpress-setup.php:437
+#, php-format
+msgid "Free plugin support is available on the %1$s plugin support forums%2$s."
+msgstr ""
+"Bezpłatna obsługa wtyczek jest dostępna na forach obsługi wtyczek %1$s%2$s."
+
+#: classes/class-loginpress-setup.php:441
+#, php-format
+msgid ""
+"For premium features, add-ons and priority email support, %1$s upgrade to "
+"pro%2$s."
+msgstr ""
+"Aby uzyskać funkcje premium, dodatki i priorytetową pomoc techniczną za "
+"pośrednictwem poczty e-mail, %1$s uaktualnić do wersji pro%2$s."
+
+#: classes/class-loginpress-setup.php:443
+#, php-format
+msgid ""
+"For premium features, add-ons and priority email support, Please submit a "
+"question %1$shere%2$s!"
+msgstr ""
+"Aby uzyskać informacje o funkcjach premium, dodatkach i priorytetowej pomocy "
+"technicznej za pośrednictwem poczty e-mail, prześlij pytanie %1$stutaj%2$s!"
+
+#: classes/class-loginpress-setup.php:447
+#, php-format
+msgid ""
+"Found a bug or have a feature request? Please submit an issue %1$shere%2$s!"
+msgstr ""
+"Znalazłeś błąd lub masz prośbę o funkcję? Prześlij zgłoszenie %1$stutaj%2$s!"
+
+#: classes/class-loginpress-setup.php:452
+msgid "Download Log File"
+msgstr "Pobierz plik dziennika"
+
+#: classes/class-loginpress-setup.php:454
+msgid "LoginPress Log File Downloaded Successfully!"
+msgstr "Plik dziennika LoginPress pobrany pomyślnie!"
+
+#: classes/class-loginpress-setup.php:512
+msgid "Lost Password URL"
+msgstr "Adres URL utraconego hasła"
+
+#: classes/class-loginpress-setup.php:513
+msgid ""
+"Use WordPress default lost password URL instead of WooCommerce custom lost "
+"password URL."
+msgstr ""
+"Użyj domyślnego adresu URL utraconego hasła WordPress zamiast "
+"niestandardowego adresu URL utraconego hasła WooCommerce."
+
+#: classes/class-loginpress-setup.php:533
+msgid "Language Switcher"
+msgstr "Przełączanie języków"
+
+#: classes/class-loginpress-setup.php:534
+#, php-format
+msgid "Enable to remove %1$sLanguage Switcher Dropdown%2$s on Login Forms."
+msgstr ""
+"Włącz, aby usunąć %1$sLista rozwijana przełącznika języków%2$s w "
+"formularzach logowania."
+
+#: classes/class-loginpress-setup.php:552
+msgid "and LoginPress page"
+msgstr "i strona LoginPress"
+
+#: classes/class-loginpress-setup.php:557
+msgid "Remove Settings On Uninstall"
+msgstr "Usuń ustawienia po odinstalowaniu"
+
+#: classes/class-loginpress-setup.php:558
+#, php-format
+msgid ""
+"Enable to remove all custom settings made %1$s by LoginPress upon uninstall."
+msgstr ""
+"Włącz, aby usunąć wszystkie niestandardowe ustawienia wprowadzone %1$s przez "
+"LoginPress po odinstalowaniu."
+
+#: classes/class-loginpress-setup.php:606
+#, php-format
+msgid "Upgrade%1$s to Pro%2$s"
+msgstr "Uaktualnij%1$s do wersji Pro%2$s"
+
+#: classes/class-loginpress-setup.php:608
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/class-loginpress-setup.php:618
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: classes/control-presets.php:88
+msgid "Contact us for Custom Design"
+msgstr "Skontaktuj się z nami w sprawie Custom Design"
+
+#: classes/controls/group.php:55
+msgid "Info:"
+msgstr "Info:"
+
+#: custom.php:167
+msgctxt "Wrong YouTube Video ID (Customizer)"
+msgid "Wrong YouTube Video ID"
+msgstr "Nieprawidłowy identyfikator filmu w YouTube"
+
+#: custom.php:349
+msgid "Customize Your WordPress Login Page with LoginPress :)"
+msgstr "Dostosuj swoją stronę logowania WordPress za pomocą LoginPress :)"
+
+#: custom.php:360
+msgid "Themes"
+msgstr "Motywy"
+
+#: custom.php:361
+msgid "Choose Theme"
+msgstr "Wybierz motyw"
+
+#: custom.php:375 custom.php:382 custom.php:630 custom.php:637
+msgid "Company"
+msgstr "Firma"
+
+#: custom.php:376 custom.php:387 custom.php:631
+msgid "Persona"
+msgstr "Osoba"
+
+#: custom.php:377 custom.php:378 custom.php:632 custom.php:633
+msgid "Corporate"
+msgstr "Komercyjny"
+
+#: custom.php:379 custom.php:634
+msgid "Startup"
+msgstr "Uruchomienie"
+
+#: custom.php:380 custom.php:635
+msgid "Wedding"
+msgstr "Ślub"
+
+#: custom.php:381 custom.php:636
+msgid "Wedding #2"
+msgstr "Ślub #2"
+
+#: custom.php:383 custom.php:638
+msgid "Bikers"
+msgstr "Rowerzystów"
+
+#: custom.php:384
+msgid "Fitness"
+msgstr "Fitnes"
+
+#: custom.php:385
+msgid "Shopping"
+msgstr "Zakupy"
+
+#: custom.php:386
+msgid "Writers"
+msgstr "Pisarzy"
+
+#: custom.php:388
+msgid "Geek"
+msgstr "Geek"
+
+#: custom.php:389
+msgid "Innovation"
+msgstr "Innowacja"
+
+#: custom.php:390
+msgid "Photographers"
+msgstr "Fotografowie"
+
+#: custom.php:391
+msgid "Animated Wapo"
+msgstr "Animowane Wapo"
+
+#: custom.php:392
+msgid "Animated Wapo 2"
+msgstr "Animowane Wapo 2"
+
+#: custom.php:422
+msgid "Custom Design"
+msgstr "Projekt niestandardowy"
+
+#: custom.php:442
+msgid "Logo"
+msgstr "Logo"
+
+#: custom.php:443
+msgid "Customize Your Logo Section"
+msgstr "Dostosuj swoją sekcję logo"
+
+#: custom.php:463
+msgid "Disable Logo:"
+msgstr "Wyłącz logo:"
+
+#: custom.php:477
+msgid "Logo Image:"
+msgstr "Obraz logo:"
+
+#: custom.php:491
+msgid "Login Favicon:"
+msgstr "Zaloguj się Favicon:"
+
+#: custom.php:493
+msgid "Add a custom favicon specific for your login page"
+msgstr "Dodawanie niestandardowego faviconu specyficznego dla strony logowania"
+
+#: custom.php:516
+msgid "Logo Hover Title:"
+msgstr "Tytuł najechania na logo:"
+
+#: custom.php:518
+msgid "Logo Title:"
+msgstr "Tytuł logo:"
+
+#: custom.php:522
+msgid "Logo URL:"
+msgstr "Logo URL:"
+
+#: custom.php:522
+msgid "Login Page Title:"
+msgstr "Tytuł strony logowania:"
+
+#: custom.php:524
+msgid "Login page title that is shown on WordPress login page."
+msgstr "Tytuł strony logowania wyświetlany na stronie logowania WordPress."
+
+#: custom.php:555
+msgid "Background"
+msgstr "Tło"
+
+#: custom.php:570
+msgid "Background Color:"
+msgstr "Kolor tła:"
+
+#: custom.php:593
+msgid "Enable Background Image?"
+msgstr "Włączyć obraz tła?"
+
+#: custom.php:608
+msgid "Background Image:"
+msgstr "Zdjęcie w tle:"
+
+#: custom.php:613
+msgid "Select Image"
+msgstr "Wybierz obraz"
+
+#: custom.php:658
+msgid "Background Gallery:"
+msgstr "Galeria tła:"
+
+#: custom.php:672
+msgid "Background Repeat:"
+msgstr "Powtarzanie tła:"
+
+#: custom.php:697
+msgid "Select Position:"
+msgstr "Wybierz pozycję:"
+
+#: custom.php:723
+msgid "Background Image Size: "
+msgstr "Rozmiar obrazu w tle"
+
+#: custom.php:753
+msgid "Enable Background Video?"
+msgstr "Włączyć wideo w tle?"
+
+#: custom.php:773
+msgid "Medium"
+msgstr "Średni"
+
+#: custom.php:779
+msgid "Media"
+msgstr "Media"
+
+#: custom.php:780
+msgid "YouTube"
+msgstr "YouTube"
+
+#: custom.php:796
+msgid "Background Video:"
+msgstr "Wideo w tle:"
+
+#: custom.php:801
+msgid "Select Video"
+msgstr "Wybierz video"
+
+#: custom.php:802
+msgid "Change Video"
+msgstr "Zmień wideo"
+
+#: custom.php:803
+msgid "Default"
+msgstr "Domyślny"
+
+#: custom.php:804
+msgid "Remove"
+msgstr "Usuń"
+
+#: custom.php:805
+msgid "Select File"
+msgstr "Wybierz plik"
+
+#: custom.php:823
+msgid "Error Message:"
+msgstr "Komunikat błędu:"
+
+#: custom.php:842
+msgid "ID of the YouTube video"
+msgstr "Identyfikator filmu z YouTube"
+
+#: custom.php:843
+#, php-format
+msgid ""
+"YouTube video ID is correct though the Live Preview is not supported. The "
+"video on the %slogin page%s can be checked, once it is published."
+msgstr ""
+"Identyfikator filmu w YouTube jest poprawny, chociaż podgląd na żywo nie "
+"jest obsługiwany. Film na %sstronie logowania%s można sprawdzić po jego "
+"opublikowaniu."
+
+#: custom.php:862
+msgid "Video Size:"
+msgstr "Rozmiar wideo:"
+
+#: custom.php:883
+msgid "Object Position:"
+msgstr "Pozycja obiektu:"
+
+#: custom.php:888
+msgid "50% 50%"
+msgstr "50% 50%"
+
+#: custom.php:907
+msgid "Muted Video?"
+msgstr "Wyciszone wideo?"
+
+#: custom.php:917
+msgid "Customize Login Form"
+msgstr "Dostosuj formularz logowania do własnych potrzeb"
+
+#: custom.php:941
+msgid "Enable Form Transparency:"
+msgstr "Włącz przezroczystość formularza:"
+
+#: custom.php:955
+msgid "Form Background Image:"
+msgstr "Formularz Obraz tła:"
+
+#: custom.php:1082
+msgid "Customize Forget Form"
+msgstr "Dostosuj formularz zapomnienia"
+
+#: custom.php:1096
+msgid "Forget Form Background Image:"
+msgstr "Zapomnij o obrazie tła w postaci formularza:"
+
+#: custom.php:1111
+msgid "Forget Form Background Color:"
+msgstr "Zapomnij o kolorze tła formularza:"
+
+#: custom.php:1121
+msgid "Button Beauty"
+msgstr "Button Beauty"
+
+#: custom.php:1153
+msgid "Error Messages"
+msgstr "Komunikaty o błędach"
+
+#: custom.php:1184
+msgid "Welcome Messages"
+msgstr "Wiadomości powitalne"
+
+#: custom.php:1222
+msgid "Message Field Background Color:"
+msgstr "Kolor tła pola komunikatu:"
+
+#: custom.php:1334
+msgid "Form Footer"
+msgstr "Stopka formularza"
+
+#: custom.php:1357
+msgid "Enable Footer Text:"
+msgstr "Włącz tekst Footera:"
+
+#: custom.php:1364 include/template-loginpress.php:564
+#: include/template-loginpress.php:625
+msgid "Lost your password?"
+msgstr "Zapomniałeś hasła?"
+
+#: custom.php:1372
+msgid "Lost Password Text:"
+msgstr "Zagubiony tekst hasła:"
+
+#: custom.php:1388
+msgid "Select Text Decoration:"
+msgstr "Wybierz dekorację tekstu:"
+
+#: custom.php:1409
+msgid "Footer Text Color:"
+msgstr "Kolor tekstu stopki:"
+
+#: custom.php:1424
+msgid "Footer Text Hover Color:"
+msgstr "Kolor tekstu stopki Unosić się:"
+
+#: custom.php:1445
+msgid "Text Font Size:"
+msgstr "Rozmiar czcionki tekstowej:"
+
+#: custom.php:1467
+msgid "Footer Background Color:"
+msgstr "Kolor tła Footera:"
+
+#: custom.php:1492
+msgid "Enable \"Back to\" Text:"
+msgstr "Włączyć opcję \"Powrót do tekstu\":"
+
+#: custom.php:1509
+msgid "\"Back to\" Text Decoration:"
+msgstr "\"Powrót do\" Dekoracji Tekstowej:"
+
+#: custom.php:1530
+msgid "\"Back to\" Text Color:"
+msgstr "\"Powrót do\" Text Color:"
+
+#: custom.php:1545
+msgid "\"Back to\" Text Hover Color:"
+msgstr "\"Powrót do\" Text Hover Color:"
+
+#: custom.php:1573
+msgid "\"Back to\" Text Font Size:"
+msgstr "\"Powrót do\" Rozmiar czcionki tekstowej:"
+
+#: custom.php:1595
+msgid "\"Back to\" Background Color:"
+msgstr "\"Powrót do\" Background Color:"
+
+#: custom.php:1621
+msgid "Enable Copyright Note:"
+msgstr "Włącz notatkę dotyczącą praw autorskich:"
+
+#: custom.php:1633
+msgid "\"Copyright\" Background Color:"
+msgstr "Kolor tła \"copyright\":"
+
+#: custom.php:1649
+msgid "\"Copyright\" Text Color:"
+msgstr "Kolor tekstu \"copyright\":"
+
+#: custom.php:1656 custom.php:1685 custom.php:1835
+#, php-format
+msgid "© %1$s %2$s, All Rights Reserved."
+msgstr "© %1$s %2$s, Wszelkie prawa zastrzeżone"
+
+#: custom.php:1692
+msgid "Copyright Note:"
+msgstr "Uwaga dotycząca praw autorskich:"
+
+#: custom.php:1693
+#, php-format
+msgid "%1$s will be replaced with the current year."
+msgstr "%1$s zostanie zastąpiony bieżącym rokiem."
+
+#: custom.php:1710
+msgid ""
+"Show some Love. Please help others learn about this free plugin by placing "
+"small link in footer. Thank you very much!"
+msgstr ""
+"Pokaż trochę miłości. Pomóż innym dowiedzieć się o tej darmowej wtyczce, "
+"umieszczając mały link w stopce. Dziękuję bardzo!"
+
+#: custom.php:1726
+msgid "Love Position:"
+msgstr "Pozycja miłosna:"
+
+#: custom.php:1732
+msgid "Left"
+msgstr "Lewo"
+
+#: custom.php:1733
+msgid "Right"
+msgstr "Prawo"
+
+#: custom.php:1743
+msgid "Custom CSS/JS"
+msgstr "Własny CSS/JS"
+
+#: custom.php:1756
+msgid "Customize CSS:"
+msgstr "Dostosuj CSS:"
+
+#: custom.php:1761
+#, php-format
+msgid ""
+"Custom CSS doesn't make effect live. For preview please save the setting and "
+"visit %1$s login%2$s page or after save refresh the customizer."
+msgstr ""
+"Niestandardowy CSS nie działa na żywo. Aby uzyskać podgląd, zapisz "
+"ustawienie i odwiedź stronę logowania %1$s %2$s lub po zapisaniu odśwież "
+"konfigurator."
+
+#: custom.php:1771
+msgid "Customize JS:"
+msgstr "Dostosuj JS:"
+
+#: custom.php:1776
+#, php-format
+msgid ""
+"Custom JS doesn't make effect live. For preview please save the setting and "
+"visit %1$s login%2$s page or after save refresh the customizer."
+msgstr ""
+"Custom JS nie działa na żywo. Aby uzyskać podgląd, zapisz ustawienie i "
+"odwiedź stronę logowania %1$s %2$s lub po zapisaniu odśwież konfigurator."
+
+#: custom.php:1812
+msgid "Powered by:"
+msgstr "Obsługiwany przez:"
+
+#: custom.php:1995 include/customizer-strings.php:148
+#, php-format
+msgid "%1$sError:%2$s Invalid Password."
+msgstr "%1$sBŁĄD:%2$s Nieprawidłowe hasło."
+
+#: custom.php:2001 include/customizer-strings.php:151
+#, php-format
+msgid "%1$sError:%2$s The email address isn't correct.."
+msgstr "%1$sBŁĄD:%2$s Adres email jest nieprawidłowy."
+
+#: custom.php:2003 include/customizer-strings.php:152
+#, php-format
+msgid "%1$sError:%2$s Please type your email address."
+msgstr "%1$sBŁĄD:%2$s Wpisz swój adres e-mail."
+
+#: custom.php:2005 include/customizer-strings.php:153
+#, php-format
+msgid ""
+"%1$sError:%2$s This username is already registered. Please choose another "
+"one."
+msgstr ""
+"%1$sError:%2$s Ta nazwa użytkownika jest już zarejestrowana. Proszę wybrać "
+"inną."
+
+#: custom.php:2007 include/customizer-strings.php:154
+#, php-format
+msgid ""
+"%1$sError:%2$s This email is already registered, please choose another one."
+msgstr ""
+"%1$sBŁĄD:%2$s Ten adres e-mail jest już zarejestrowany, proszę wybrać inny."
+
+#: custom.php:2009 include/customizer-strings.php:157
+#, php-format
+msgid "%1$sError:%2$s Passwords Don't match."
+msgstr "%1$s Błąd: %2$s hasła nie pasują."
+
+#: custom.php:2011 include/customizer-strings.php:155
+#, php-format
+msgid "%1$sError:%2$s Invalid username or email."
+msgstr "%1$sBŁĄD:%2$s Błędna nazwa użytkownika lub hasło."
+
+#: custom.php:2093 include/template-loginpress.php:538
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: custom.php:2095
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: custom.php:2097 include/customizer-strings.php:92
+#: include/template-loginpress.php:451 include/template-loginpress.php:585
+msgid "Username or Email Address"
+msgstr "Nazwa użytkownika lub adres e-mail"
+
+#: custom.php:2191 custom.php:2195
+msgid "Your password has been reset."
+msgstr "Twoje hasło zostało zresetowane."
+
+#: custom.php:2195 include/template-loginpress.php:466
+#: include/template-loginpress.php:562
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#: include/class-remote-notification-client.php:126
+#: include/class-remote-notification-client.php:137
+msgid "Cheatin&#8217; huh?"
+msgstr "Oszukujemy, co?"
+
+#: include/class-remote-notification-client.php:503
+msgid "Dismiss notification"
+msgstr "Odrzucenie zgłoszenia"
+
+#: include/class-remote-notification-client.php:710
+#, php-format
+msgid "The server response was invalid (code %s)"
+msgstr "Błąd: nieprawidłowa odpowiedź serwera (kod %s)"
+
+#: include/class-remote-notification-client.php:716
+msgid "The server response is empty"
+msgstr "Odpowiedź serwera jest pusta"
+
+#: include/class-remote-notification-client.php:722
+msgid "Cannot decode the response content"
+msgstr "Nie można zdekodować treści odpowiedzi"
+
+#. translators: 1: Name of this plugin
+#: include/create-loginpress-page.php:62
+#, php-format
+msgid ""
+"<p>This page is used by %1$s to preview the login page in the Customizer.</p>"
+msgstr ""
+"<p>Ta strona jest używana przez %1$s do podglądu strony logowania w "
+"programie Customizer.</p>"
+
+#: include/create-loginpress-page.php:67
+msgctxt "Page slug"
+msgid "loginpress"
+msgstr "loginpress"
+
+#: include/create-loginpress-page.php:68
+msgctxt "Page title"
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#: include/customizer-strings.php:9
+msgid "Logo Width:"
+msgstr "Logo Width:"
+
+#: include/customizer-strings.php:9
+msgid "Logo Height:"
+msgstr "Logo Height:"
+
+#: include/customizer-strings.php:9
+msgid "Space Bottom:"
+msgstr "Spacja na dole:"
+
+#: include/customizer-strings.php:23
+msgid "Input Fields:"
+msgstr "Pola wejściowe:"
+
+#: include/customizer-strings.php:24
+msgid "Input Field Labels:"
+msgstr "Etykiety pól wejściowych:"
+
+#: include/customizer-strings.php:25
+msgid "Login Form:"
+msgstr "Formularz logowania:"
+
+#: include/customizer-strings.php:26
+msgid "Lost Your Password Text"
+msgstr "Tekst hasła został utracony"
+
+#: include/customizer-strings.php:27
+msgid "Back To Site Text"
+msgstr "Powrót do tekstu strony internetowej"
+
+#: include/customizer-strings.php:28
+msgid "LoginPress Footer Text"
+msgstr "LoginPress Footer Tekst LoginPress"
+
+#: include/customizer-strings.php:29
+msgid "Background Image"
+msgstr "Obrazek tła"
+
+#: include/customizer-strings.php:30
+msgid "Background Video"
+msgstr "Tło video"
+
+#: include/customizer-strings.php:31
+msgid "Form Logo"
+msgstr "Logo formularza"
+
+#: include/customizer-strings.php:32
+msgid "Login Page Meta"
+msgstr "Strona logowania Meta"
+
+#: include/customizer-strings.php:35
+msgid ""
+"This section helps you to easily Customize the login form input field "
+"elements."
+msgstr ""
+"Ta sekcja pomaga w łatwym dostosowywaniu elementów pola wejściowego "
+"formularza logowania."
+
+#: include/customizer-strings.php:36
+msgid ""
+"This section helps you to easily Customize the login form input field labels."
+msgstr ""
+"Ta sekcja pomaga w łatwy sposób dostosować etykiety pól wejściowych "
+"formularza logowania."
+
+#: include/customizer-strings.php:37
+msgid ""
+"This section helps you to easily Customize the login form elements whether "
+"they are form labels, fields or backgrounds."
+msgstr ""
+"Ta sekcja ułatwia dostosowywanie elementów formularza logowania, niezależnie "
+"od tego, czy są to etykiety formularzy, pola czy tła."
+
+#: include/customizer-strings.php:38
+msgid ""
+" Customize the \"Lost your password\" and \"Register\" text section under "
+"the form."
+msgstr ""
+" Dostosuj sekcję tekstową \"Zgubiłem hasło\" i \"Zarejestruj się\" pod "
+"formularzem."
+
+#: include/customizer-strings.php:39
+msgid "Customize the \"Back to\" text section under the form."
+msgstr "Dostosuj sekcję tekstową \"Powrót do\" pod formularzem."
+
+#: include/customizer-strings.php:40
+msgid ""
+"Customize the copyright note and branding sections at the footer of login "
+"page."
+msgstr ""
+"Dostosuj sekcje dotyczące praw autorskich i branding w stopce strony "
+"logowania."
+
+#: include/customizer-strings.php:41
+msgid "Customize the background Image."
+msgstr "Dostosuj obraz tła."
+
+#: include/customizer-strings.php:42
+msgid "Customize the background Video."
+msgstr "Dostosuj wideo w tle."
+
+#: include/customizer-strings.php:43
+msgid "Customize the form logo."
+msgstr "Dostosuj logo formularza."
+
+#: include/customizer-strings.php:44
+msgid "Customize the login page meta tags."
+msgstr "Dostosuj metatagi strony logowania."
+
+#: include/customizer-strings.php:55
+msgid "Form Width:"
+msgstr "Szerokość formy:"
+
+#: include/customizer-strings.php:56
+msgid "Form Minimum Height:"
+msgstr "Formularz Minimalna wysokość:"
+
+#: include/customizer-strings.php:57
+msgid "Form Radius:"
+msgstr "Formować Radius:"
+
+#: include/customizer-strings.php:58
+msgid "Form Shadow:"
+msgstr "Forma Shadow:"
+
+#: include/customizer-strings.php:59
+msgid "Form Shadow Opacity:"
+msgstr "Formularz \"Cień nieprzejrzystości\":"
+
+#: include/customizer-strings.php:60
+msgid "Input Text Field Width:"
+msgstr "Pole tekstowe wejściowe Szerokość pola tekstowego:"
+
+#: include/customizer-strings.php:61
+msgid "Input Text Field Radius:"
+msgstr "Promień pola tekstu wejściowego:"
+
+#: include/customizer-strings.php:62
+msgid "Input Text Field Shadow:"
+msgstr "Cień pola tekstu wejściowego:"
+
+#: include/customizer-strings.php:63
+msgid "Input Text Field Shadow Opacity:"
+msgstr "Krycie cienia pola tekstu wejściowego:"
+
+#: include/customizer-strings.php:64
+msgid "Input Field Label Font Size:"
+msgstr "Rozmiar czcionki etykiety pola wejściowego:"
+
+#: include/customizer-strings.php:65
+msgid "Remember Me Font Size:"
+msgstr "Zapamiętaj \"Me Font Size\":"
+
+#: include/customizer-strings.php:84
+msgid "Form Background Color:"
+msgstr "Kolor tła formularza:"
+
+#: include/customizer-strings.php:85
+msgid "Input Field Background Color:"
+msgstr "Kolor tła pola wejściowego:"
+
+#: include/customizer-strings.php:86
+msgid "Input Field Text Color:"
+msgstr "Kolor tekstu pola wejściowego:"
+
+#: include/customizer-strings.php:87
+msgid "Input Field Label Color:"
+msgstr "Kolor etykiety pola wejściowego:"
+
+#: include/customizer-strings.php:88
+msgid "Remember me Label Color:"
+msgstr "Zapamiętaj mnie, Label Color:"
+
+#: include/customizer-strings.php:94
+msgid "Form Padding:"
+msgstr "Formularz Padding:"
+
+#: include/customizer-strings.php:95
+msgid "Border (Example: 2px dotted black):"
+msgstr "Obramowanie (przykład: 2px w kropki):"
+
+#: include/customizer-strings.php:96
+msgid "Input Text Field Margin:"
+msgstr "Wprowadzanie marginesu pola tekstowego:"
+
+#: include/customizer-strings.php:97
+msgid "Username Label:"
+msgstr "Nazwa użytkownika Etykieta:"
+
+#: include/customizer-strings.php:98
+msgid "Password Label:"
+msgstr "Etykieta hasła:"
+
+#: include/customizer-strings.php:111
+msgid "Button Color:"
+msgstr "Kolor przycisku:"
+
+#: include/customizer-strings.php:112
+msgid "Button Border Color:"
+msgstr "Przycisk Kolor graniczny:"
+
+#: include/customizer-strings.php:113
+msgid "Button Color (Hover):"
+msgstr "Kolor przycisku (najech):"
+
+#: include/customizer-strings.php:114
+msgid "Button Border (Hover):"
+msgstr "Przycisk Granica (Hover):"
+
+#: include/customizer-strings.php:115
+msgid "Button Box Shadow:"
+msgstr "Cień pola przycisku:"
+
+#: include/customizer-strings.php:116
+msgid "Button Text Color:"
+msgstr "Kolor tekstu przycisku:"
+
+#: include/customizer-strings.php:117
+msgid "Button Text Color (Hover):"
+msgstr "Kolor tekstu przycisku (kursor):"
+
+#: include/customizer-strings.php:122
+msgid "Button Size:"
+msgstr "Rozmiar guzika:"
+
+#: include/customizer-strings.php:122
+msgid "Button Top Padding:"
+msgstr "Wyściółka górnego przycisku:"
+
+#: include/customizer-strings.php:122
+msgid "Button Bottom Padding:"
+msgstr "Wyściółka dolna przycisku:"
+
+#: include/customizer-strings.php:122
+msgid "Radius:"
+msgstr "Promień:"
+
+#: include/customizer-strings.php:122
+msgid "Shadow:"
+msgstr "Cień:"
+
+#: include/customizer-strings.php:122
+msgid "Shadow Opacity:"
+msgstr "Krycie cienia:"
+
+#: include/customizer-strings.php:122
+msgid "Text Size:"
+msgstr "Rozmiar tekstu:"
+
+#: include/customizer-strings.php:161
+msgid "Incorrect Username Message:"
+msgstr "Nieprawidłowa wiadomość o nazwie użytkownika:"
+
+#: include/customizer-strings.php:162
+msgid "Incorrect Password Message:"
+msgstr "Nieprawidłowe hasło:"
+
+#: include/customizer-strings.php:163
+msgid "Empty Username Message:"
+msgstr "Pusta wiadomość z nazwą użytkownika:"
+
+#: include/customizer-strings.php:164
+msgid "Empty Password Message:"
+msgstr "Puste hasło:"
+
+#: include/customizer-strings.php:165
+msgid "Invalid Email Message:"
+msgstr "Nieprawidłowa wiadomość e-mail:"
+
+#: include/customizer-strings.php:166
+msgid "Empty Email Message:"
+msgstr "Pusta wiadomość e-mail:"
+
+#: include/customizer-strings.php:167
+msgid "Username Already Exist Message:"
+msgstr "Nazwa użytkownika Już istniejąca wiadomość:"
+
+#: include/customizer-strings.php:168
+msgid "Email Already Exist Message:"
+msgstr "Email Już istniejąca wiadomość e-mail:"
+
+#: include/customizer-strings.php:169
+msgid "Forget Password Message:"
+msgstr "Zapomnij o wiadomości na temat hasła:"
+
+#: include/customizer-strings.php:170
+msgid "Login with Email Message:"
+msgstr "Zaloguj się za pomocą wiadomości e-mail:"
+
+#: include/customizer-strings.php:171
+msgid "Passwords Don't match:"
+msgstr "Hasła nie pasują:"
+
+#: include/customizer-strings.php:183
+msgid "Welcome Message on Lost Password:"
+msgstr "Wiadomość powitalna o utraconym haśle:"
+
+#: include/customizer-strings.php:184
+msgid "Welcome Message on Login Page:"
+msgstr "Wiadomość powitalna na stronie logowania:"
+
+#: include/customizer-strings.php:185
+msgid "Welcome Message on Registration:"
+msgstr "Wiadomość powitalna o rejestracji:"
+
+#: include/customizer-strings.php:186
+msgid "Logout Message:"
+msgstr "Wyloguj wiadomość:"
+
+#: include/customizer-strings.php:187
+msgid "Message Field Border: ( Example: 1px solid #00a0d2; )"
+msgstr "Granica pola wiadomości: ( Przykład: 1px ciało stałe #00a0d2; )"
+
+#: include/deactivate_modal.php:288
+msgid "Quick feedback about LoginPress"
+msgstr "Szybka informacja zwrotna na temat LoginPress"
+
+#: include/deactivate_modal.php:291
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Jeśli masz chwilę, daj nam znać, dlaczego się dezaktywujesz:"
+
+#: include/deactivate_modal.php:299
+msgid " I upgraded to LoginPress Pro"
+msgstr " Zaktualizowałem do LoginPress Pro"
+
+#: include/deactivate_modal.php:301
+msgid ""
+"No need to deactivate this LoginPress Core version. Pro version works as an "
+"add-on with Core version."
+msgstr ""
+"Nie ma potrzeby wyłączania tej wersji LoginPress Core. Wersja Pro działa "
+"jako dodatek do wersji Core."
+
+#: include/deactivate_modal.php:308
+msgid "I only needed the plugin for a short period"
+msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#: include/deactivate_modal.php:317
+msgid "I found a better plugin"
+msgstr "Znalazłem lepszą wtyczkę"
+
+#: include/deactivate_modal.php:320
+msgid "Kindly tell us the Plugin name."
+msgstr "Uprzejmie powiedz nam, jak nazywa się Plugin."
+
+#: include/deactivate_modal.php:327
+msgid "The plugin broke my site"
+msgstr "Wtyczka uszkodziła moją stronę"
+
+#: include/deactivate_modal.php:336
+msgid "The plugin suddenly stopped working"
+msgstr "Wtyczka nagle przestała działać"
+
+#: include/deactivate_modal.php:345
+msgid "I no longer need the plugin"
+msgstr "Nie potrzebuję już wtyczki"
+
+#: include/deactivate_modal.php:354
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Jest to tymczasowa dezaktywacja, debaguję problem."
+
+#: include/deactivate_modal.php:363
+msgid "Other"
+msgstr "Inne"
+
+#: include/deactivate_modal.php:366
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Uprzejmie powiedz nam powód, abyśmy mogli się poprawić."
+
+#: include/deactivate_modal.php:371
+msgid "Anonymous feedback"
+msgstr "Anonimowe informacje zwrotne"
+
+#: include/deactivate_modal.php:372
+msgid "Skip & Deactivate"
+msgstr "Pomiń i dezaktywuj"
+
+#: include/deactivate_modal.php:375
+msgid "Submit & Deactivate"
+msgstr "Wyślij i dezaktywuj"
+
+#: include/deactivate_modal.php:376
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: include/loginpress-import-export.php:14
+msgid ""
+"Import/Export your LoginPress Settings for/from other sites. This will "
+"export/import all the settings including Customizer settings as well."
+msgstr ""
+"Importuj/eksportuj ustawienia LoginPress dla/z innych witryn. Spowoduje to "
+"wyeksportowanie/zaimportowanie wszystkich ustawień, w tym ustawień programu "
+"Customizer."
+
+#: include/loginpress-import-export.php:19
+msgid "Import Settings:"
+msgstr "Ustawienia importu:"
+
+#: include/loginpress-import-export.php:23
+msgid "Import"
+msgstr "Importuj"
+
+#: include/loginpress-import-export.php:28
+msgid "LoginPress Settings Imported Successfully."
+msgstr "Ustawienia LoginPress zaimportowane pomyślnie."
+
+#: include/loginpress-import-export.php:30
+msgid "Select a file and click on Import to start processing."
+msgstr "Wybierz plik i kliknij przycisk Importuj, aby rozpocząć przetwarzanie."
+
+#: include/loginpress-import-export.php:35
+msgid "Export Settings:"
+msgstr "Ustawienia eksportu:"
+
+#: include/loginpress-import-export.php:38
+msgid "Export"
+msgstr "Eksport"
+
+#: include/loginpress-import-export.php:43
+msgid "LoginPress Settings Exported Successfully!"
+msgstr "Ustawienia LoginPress wyeksportowane pomyślnie!"
+
+#: include/loginpress-import-export.php:44
+msgid "Export LoginPress Settings."
+msgstr "Eksportuj ustawienia LoginPress."
+
+#: include/loginpress-optin-form.php:437
+msgid "Welcome to LoginPress"
+msgstr "Witamy w LoginPress"
+
+#: include/loginpress-optin-form.php:443
+#, php-format
+msgid ""
+"%1$s Hey %2$s,  %4$s If you opt-in some data about your installation of "
+"LoginPress will be sent to WPBrigade.com (This doesn't include stats)%4$s "
+"and You will receive new feature updates, security notifications etc %5$sNo "
+"Spam, I promise.%6$s %4$s%4$s Help us %7$sImprove LoginPress%8$s %4$s %4$s "
+msgstr ""
+"%1$s Hey %2$s, %4$s Jeśli zdecydujesz się na instalację LoginPress zostanie "
+"wysłany do WPBrigade.com (nie obejmuje to statystyk)%4$s i otrzymasz nowe "
+"aktualizacje funkcji, powiadomienia o bezpieczeństwie itp. %5$sNo Spam, "
+"obiecuję.%6$s %4$s%4$s Pomóż nam %7$sImprove LoginPress%8$s %4$s %4$s"
+
+#: include/loginpress-optin-form.php:444
+msgid "Allow and Continue  "
+msgstr "Zezwól i kontynuuj"
+
+#: include/loginpress-optin-form.php:445
+msgid "Skip This Step"
+msgstr "Pomiń ten krok"
+
+#: include/loginpress-optin-form.php:447
+msgid "What permissions are being granted?"
+msgstr "Jakie uprawnienia są przyznawane?"
+
+#: include/loginpress-optin-form.php:449
+msgid "Your Website Overview"
+msgstr "Przegląd Twojej strony internetowej"
+
+#: include/loginpress-optin-form.php:450
+msgid ""
+"Your Site URL, WordPress & PHP version, plugins & themes. This data lets us "
+"make sure this plugin always stays compatible with the most popular plugins "
+"and themes."
+msgstr ""
+"Twój adres URL witryny, wersja WordPress & PHP, wtyczki i motywy. Dane te "
+"pozwalają nam upewnić się, że wtyczka ta zawsze pozostaje kompatybilna z "
+"najpopularniejszymi wtyczkami i tematami."
+
+#: include/loginpress-optin-form.php:452
+msgid "Your Profile Overview"
+msgstr "Przegląd Twojego profilu"
+
+#: include/loginpress-optin-form.php:453
+msgid "Your name and email address."
+msgstr "Twoje imię i nazwisko oraz adres e-mail."
+
+#: include/loginpress-optin-form.php:455
+msgid "Admin Notices"
+msgstr "Zawiadomienia administracyjne"
+
+#: include/loginpress-optin-form.php:456
+msgid "Updates, Announcement, Marketing. No Spam, I promise."
+msgstr "Aktualizacje, ogłoszenia, marketing. Nie ma Spamu, obiecuję."
+
+#: include/loginpress-optin-form.php:458
+msgid "Plugin Actions"
+msgstr "Akcje wtyczki"
+
+#: include/loginpress-optin-form.php:459
+msgid ""
+"Active, Deactive, Uninstallation and How you use this plugin's features and "
+"settings. This is limited to usage data. It does not include any of your "
+"sensitive LoginPress data, such as traffic. This data helps us learn which "
+"features are most popular, so we can improve the plugin further."
+msgstr ""
+"Aktywny, Deaktywny, Odinstalacja i Jak korzystać z funkcji i ustawień tego "
+"pluginu. Ogranicza się to do danych dotyczących użytkowania. Nie zawiera on "
+"żadnych wrażliwych danych LoginPress, takich jak ruch drogowy. Dane te "
+"pomagają nam dowiedzieć się, które funkcje są najbardziej popularne, dzięki "
+"czemu możemy jeszcze bardziej udoskonalić wtyczkę."
+
+#: include/loginpress-optout-form.php:99 include/loginpress-optout-form.php:115
+msgid "Opt Out"
+msgstr "Wyjście na zewnątrz"
+
+#: include/loginpress-optout-form.php:104
+msgid ""
+"We appreciate your help in making the plugin better by letting us track some "
+"usage data."
+msgstr ""
+"Dziękujemy za pomoc w ulepszeniu wtyczki, pozwalając nam śledzić niektóre "
+"dane dotyczące użytkowania."
+
+#: include/loginpress-optout-form.php:108
+#, php-format
+msgid ""
+"Usage tracking is done in the name of making %1$s LoginPress %2$s better. "
+"Making a better user experience, prioritizing new features, and more good "
+"things. We'd really appreciate if you'll reconsider letting us continue with "
+"the tracking."
+msgstr ""
+"Śledzenie wykorzystania odbywa się w imię poprawy %1$s LoginPress %2$s. "
+"Lepsze wrażenia z użytkowania, nadanie priorytetu nowym funkcjom i więcej "
+"dobrych rzeczy. Będziemy wdzięczni, jeśli ponownie rozważysz, czy pozwolić "
+"nam kontynuować śledzenie."
+
+#: include/loginpress-optout-form.php:109
+#, php-format
+msgid ""
+"By clicking \"Opt Out\", we will no longer be sending any data to %1$s "
+"LoginPress%2$s."
+msgstr ""
+"Klikając \"Opt Out\", nie będziemy już wysyłać żadnych danych do %1$s "
+"LoginPress%2$s."
+
+#: include/loginpress-optout-form.php:116
+msgid "On second thought - I want to continue helping"
+msgstr "Po namyśle - chcę nadal pomagać"
+
+#: include/loginpress-static-addons.php:89
+msgid ""
+"Login Logout Menu is a handy plugin which allows you to add login, logout, "
+"register and profile menu items in your selected menu."
+msgstr ""
+"Login Logout Menu to przydatna wtyczka, która umożliwia dodawanie elementów "
+"menu logowania, wylogowania, rejestracji i profilu w wybranym menu."
+
+#: include/privacy-policy.php:22
+#, php-format
+msgid "%1$sPrivacy Policy%2$s."
+msgstr "%1$s Privacy Policy%2$s."
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site name
+#: include/template-loginpress.php:71
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: include/template-loginpress.php:149
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: include/template-loginpress.php:150
+msgid "Powered by WordPress"
+msgstr "Obsługiwane przez WordPress"
+
+#. translators: %s: site title
+#: include/template-loginpress.php:252
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; Wróć do %s"
+
+#: include/template-loginpress.php:304
+msgid "Language"
+msgstr "Język"
+
+#: include/template-loginpress.php:339
+msgid "Change"
+msgstr "Zmień"
+
+#: include/template-loginpress.php:439
+msgid "Lost Password"
+msgstr "Utracone hasło"
+
+#: include/template-loginpress.php:439
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Podaj swój adres e-mail. Po zatwierdzeniu formularza wyślemy do Ciebie "
+"wiadomości z linkiem, który umożliwi Ci utworzenie nowego hasła."
+
+#: include/template-loginpress.php:462
+msgid "Get New Password"
+msgstr "Nowe hasło"
+
+#: include/template-loginpress.php:469 include/template-loginpress.php:557
+#: include/template-loginpress.php:617
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#: include/template-loginpress.php:534
+msgid "Registration Form"
+msgstr "Formularz rejestracyjny"
+
+#: include/template-loginpress.php:534
+msgid "Register For This Site"
+msgstr "Zarejestruj się na tej witrynie"
+
+#: include/template-loginpress.php:542
+msgid "Email"
+msgstr "Email"
+
+#: include/template-loginpress.php:553
+msgid "Registration confirmation will be emailed to you."
+msgstr "Potwierdzenie rejestracji zostanie wysłane do Ciebie e-mailem."
+
+#: include/template-loginpress.php:579 include/template-loginpress.php:609
+msgid "Log In"
+msgstr "Zaloguj się"
+
+#: include/template-loginpress.php:606
+msgid "Remember Me"
+msgstr "Zapamiętaj mnie"
+
+#: js/script-login.php:23
+msgid "Caps Lock is on"
+msgstr "Caps Lock jest włączony"
+
+#: loginpress.php:326
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: loginpress.php:443
+msgctxt "Login Redirect Roles"
+msgid "Name"
+msgstr "Nazwa"
+
+#: loginpress.php:479
+msgid "Vote!"
+msgstr "Głosuj!"
+
+#: loginpress.php:482
+msgid "Rate"
+msgstr "Ocena"
+
+#: loginpress.php:588
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Customize %4$s"
+msgstr "%1$s Ustawienia %2$s | %3$s Dostosuj %4$s"
+
+#: loginpress.php:591
+#, php-format
+msgid " | %1$s Opt Out %2$s "
+msgstr " | %1$s Rezygnacja %2$s "
+
+#: loginpress.php:593
+#, php-format
+msgid " | %1$s Opt In %2$s "
+msgstr " | %1$s Opt In %2$s"
+
+#: loginpress.php:599
+#, php-format
+msgid "%1$s %3$s Upgrade Pro %4$s %2$s"
+msgstr "%1$s %3$s Upgrade Pro %4$s %2$s"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://loginpress.pro/?utm_source=loginpress-lite&utm_medium=plugin-"
+"inside&utm_campaign=pro-upgrade&utm_content=plugin_uri"
+msgstr ""
+"https://loginpress.pro/?utm_source=loginpress-lite&utm_medium=plugin-"
+"inside&utm_campaign=pro-upgrade&utm_content=plugin_uri"
+
+#. Description of the plugin/theme
+msgid ""
+"LoginPress is the best <code>wp-login</code> Login Page Customizer plugin by "
+"<a href=\"https://wpbrigade.com/?utm_source=loginpress-lite\">WPBrigade</a> "
+"which allows you to completely change the layout of login, register and "
+"forgot password forms."
+msgstr ""
+"LoginPress to najlepsza <code>wp-login</code> wtyczka do dostosowywania "
+"strony logowania firmy <a href=\"https://wpbrigade.com/?"
+"utm_source=loginpress-lite\">WPBrigade</a> , która pozwala całkowicie "
+"zmienić układ formularzy logowania, zarejestrować się i zapomnieć hasła."
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Author URI of the plugin/theme
+msgid "https://WPBrigade.com/?utm_source=loginpress-lite"
+msgstr "https://WPBrigade.com/?utm_source=loginpress-lite"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Please enter the same password in the end "
+#~ "password fields."
+#~ msgstr "<strong>BŁĄD</strong>: Wprowadź to samo hasło."
