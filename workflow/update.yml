@@ -1,0 +1,122 @@
+---
+name: "AzOps - Update"
+
+on:
+
+  #
+  # Workflow Dispatch
+  # Manually invoke the Update action via the GitHub
+  # UI on-demand. This is to avoid any potential conflicts
+  # with user changes to the workflows.
+  #
+
+  workflow_dispatch:
+
+env:
+
+  #
+  # Branch Name
+  #
+  # Default: update
+  #
+
+  branch: "update"
+
+jobs:
+
+  update:
+
+    #
+    # Update
+    #
+
+    name: "Update"
+    runs-on: ubuntu-20.04
+
+    steps:
+
+    #
+    # Checkout
+    # Checks-out the repository
+    # Repo: origin
+    #
+
+    - name: "Checkout"
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.WORKFLOW_TOKEN }}
+        fetch-depth: 0
+        path: 'origin'
+
+    #
+    # Checkout
+    # Checks-out the repository
+    # Repo: upstream
+    #
+
+    - name: "Checkout"
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'Azure/AzOps-Accelerator'
+        fetch-depth: 0
+        path: 'upstream'
+
+    #
+    # Configure
+    # Set global options
+    #
+
+    - name: "Configure"
+      working-directory: 'origin'
+      shell: bash
+      run: |
+        git config user.name 'github-actions'
+        git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+    #
+    # Copy
+    # Update the workflow files
+    #
+
+    - name: "Copy"
+      shell: bash
+      run: |
+        test -f ./origin/.github/workflows/patch.yml && rm -f ./origin/.github/workflows/patch.yml
+        cp -R -v ./upstream/.github/workflows/ ./origin/.github/
+        cp -R -v ./upstream/.github/actions/ ./origin/.github/
+
+    #
+    # Commit
+    # Record changes to the repository
+    #
+
+    - name: "Commit"
+      id: commit
+      working-directory: 'origin'
+      shell: bash
+      run: |
+        DIFF=$(git diff --name-only)
+        echo $DIFF
+        if [ -n "$DIFF" ]
+        then
+          git checkout -b ${{ env.branch }}
+          git add .github/
+          git commit -m 'Update commit'
+          git push origin ${{ env.branch }} -f
+          echo "state=continue" >> $GITHUB_OUTPUT
+        fi
+
+    #
+    # Merge
+    # Automatically merge the head branch into base
+    #
+
+    - name: "Merge"
+      if: steps.commit.outputs.state == 'continue'
+      working-directory: 'origin'
+      shell: bash
+      run: |
+        gh pr create --base 'main' --head ${{ env.branch }} --title 'GitHub Actions' --body 'New workflow version available from the upstream repository.'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
