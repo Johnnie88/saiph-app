@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-18 14:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: WP Job Manager - Application Deadline\n"
+
+#: wp-job-manager-application-deadline.php:442
+msgid "Closing"
+msgstr "Término"
+
+#: wp-job-manager-application-deadline.php:445
+msgid "Expires"
+msgstr "Expira em"
+
+#: wp-job-manager-application-deadline.php:499
+msgid "Closing Date"
+msgstr "Data de encerramento"
+
+#: wp-job-manager-application-deadline.php:407
+msgid "Closes"
+msgstr "Encerra em"
+
+#: wp-job-manager-application-deadline.php:407
+msgid "Closed"
+msgstr "Encerrado"
+
+#: wp-job-manager-application-deadline.php:331
+msgid "Please enter a valid closing date."
+msgstr "Insira uma data de encerramento válida."
+
+#: wp-job-manager-application-deadline.php:308
+msgid "Closing date"
+msgstr "Data de encerramento"
+
+#: wp-job-manager-application-deadline.php:302
+msgid "Deadline for new applicants. The listing will end automatically after this date."
+msgstr "Prazo para novos candidatos. O anúncio será encerrado automaticamente após essa data."
+
+#: wp-job-manager-application-deadline.php:300
+msgid "Deadline for new applicants."
+msgstr "Prazo para novos candidatos."
+
+#: wp-job-manager-application-deadline.php:274
+msgid "Application closing date"
+msgstr "Data de encerramento de candidatura"
+
+#: wp-job-manager-application-deadline.php:202
+msgid "Enable automatic expiration"
+msgstr "Ativar expiração automática"
+
+#: wp-job-manager-application-deadline.php:201
+msgid "Automatic deadline expiry"
+msgstr "Expiração automática do prazo"
+
+#: wp-job-manager-application-deadline.php:111
+msgid "<em>WP Job Manager - Application Deadline</em> requires WP Job Manager %1$s (you are using %2$s)."
+msgstr "O <em>Application Deadline do WP Job Manager</em> requer o WP Job Manager %1$s (você está usando a versão %2$s)."
+
+#: wp-job-manager-application-deadline.php:97
+msgid "<em>WP Job Manager - Application Deadline</em> requires WP Job Manager to be installed and activated."
+msgstr "O <em>WP Job Manager - Application Deadline</em> requer que o WP Job Manager seja instalado e ativado."
+

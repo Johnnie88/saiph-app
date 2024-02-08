@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cariera_options">
+            <key name="footer_copyright"/>
+        </key>
+        <key name="cariera_permalinks_settings">
+            <key name="cariera_base"/>
+            <key name="category_base"/>
+            <key name="tag_base"/>
+        </key>
+        <key name="widget_front_page_recent_posts">
+            <key name="2">
+                <key name="title" />
+                <key name="subtitle" />
+                <key name="number_of_items" />
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

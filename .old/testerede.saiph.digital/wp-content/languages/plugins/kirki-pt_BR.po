@@ -1,0 +1,342 @@
+# Translation of Plugins - Kirki Customizer Framework - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Kirki Customizer Framework - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-11 02:40:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Kirki Customizer Framework - Stable (latest release)\n"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:475
+#: kirki-packages/control-repeater/src/Control/Repeater.php:480
+msgid "No File Selected"
+msgstr "Nenhum arquivo selecionado"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:488
+msgid "Change File"
+msgstr "Alterar arquivo"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:490
+msgid "Add File"
+msgstr "Adicionar arquivo"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:95
+msgid "row"
+msgstr "linha"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:139
+msgid "Select a Page"
+msgstr "Selecione uma página"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:365
+msgid "Lowercase"
+msgstr "Minúscula"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:364
+msgid "Uppercase"
+msgstr "Maiúscula"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:363
+msgid "Capitalize"
+msgstr "Capitalizar"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:350
+msgid "Initial"
+msgstr "Primeira letra"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:359
+msgid "Text Transform"
+msgstr "Transformação de Texto"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:362
+#: kirki-packages/field-typography/src/Field/Typography.php:382
+msgid "None"
+msgstr "Nada"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:354
+msgid "Justify"
+msgstr "Justificado"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:347
+msgid "Text Align"
+msgstr "Alinhamento de Texto"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:69
+#: kirki-packages/field-typography/src/Field/Typography.php:352
+msgid "Center"
+msgstr "Centralizar"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: kirki-packages/control-repeater/src/Control/Repeater.php:275
+msgid "Limit: %s rows"
+msgstr "Limite: %s linhas"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:71
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#: kirki-packages/control-dimension/src/Control/Dimension.php:67
+#: kirki-packages/field-dimensions/src/Dimensions.php:74
+msgid "Invalid Value"
+msgstr "Valor inválido"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:184
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:182
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:183
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:181
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:179
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:180
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:178
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:177
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:174
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:175
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:173
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:172
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:171
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:169
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:170
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:168
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:167
+msgid "Book 300"
+msgstr "Book 300"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:166
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:165
+msgid "Light 200"
+msgstr "Light 200"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:164
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:162
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:163
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:73
+msgid "Height"
+msgstr "Altura"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:70
+msgid "Size"
+msgstr "Tamanho"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:62
+msgid "Font Style"
+msgstr "Estilo da fonte"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:443
+#: kirki-packages/control-repeater/src/Control/Repeater.php:448
+msgid "No Image Selected"
+msgstr "Nenhuma imagem selecionada"
+
+#: kirki-packages/control-image/src/Control/Image.php:85
+#: kirki-packages/control-image/src/Field/Image.php:114
+#: kirki-packages/control-repeater/src/Control/Repeater.php:453
+#: kirki-packages/control-repeater/src/Control/Repeater.php:485
+#: kirki-packages/control-repeater/src/Control/Repeater.php:510
+msgid "Remove"
+msgstr "Apagar"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:458
+msgid "Add Image"
+msgstr "Adicionar imagem"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:456
+msgid "Change Image"
+msgstr "Trocar Imagem"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:68
+#: kirki-packages/field-typography/src/Field/Typography.php:353
+msgid "Right"
+msgstr "Direita"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:67
+#: kirki-packages/field-typography/src/Field/Typography.php:351
+msgid "Left"
+msgstr "Esquerda"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:66
+msgid "Bottom"
+msgstr "Base"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:65
+msgid "Top"
+msgstr "Topo"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:59
+#: kirki-packages/field-typography/src/Field/Typography.php:323
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:61
+#: kirki-packages/field-typography/src/Field/Typography.php:402
+msgid "Line Height"
+msgstr "Altura da linha"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:63
+#: kirki-packages/field-typography/src/Field/Typography.php:407
+msgid "Letter Spacing"
+msgstr "Entreletra"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:60
+msgid "Font Weight"
+msgstr "Peso da fonte"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:274
+msgid "Font Family"
+msgstr "Família Tipográfica"
+
+#: kirki-packages/field-background/src/Background.php:156
+#: kirki-packages/field-dimensions/src/Dimensions.php:50
+msgid "Left Top"
+msgstr "Canto Superior Esquerdo"
+
+#: kirki-packages/field-background/src/Background.php:157
+#: kirki-packages/field-dimensions/src/Dimensions.php:51
+msgid "Left Center"
+msgstr "Canto Esquerdo Central"
+
+#: kirki-packages/field-background/src/Background.php:158
+#: kirki-packages/field-dimensions/src/Dimensions.php:52
+msgid "Left Bottom"
+msgstr "Canto Inferior Esquerdo"
+
+#: kirki-packages/field-background/src/Background.php:162
+#: kirki-packages/field-dimensions/src/Dimensions.php:53
+msgid "Right Top"
+msgstr "Canto Superior Direito"
+
+#: kirki-packages/field-background/src/Background.php:163
+#: kirki-packages/field-dimensions/src/Dimensions.php:54
+msgid "Right Center"
+msgstr "Canto Direito Central"
+
+#: kirki-packages/field-background/src/Background.php:164
+#: kirki-packages/field-dimensions/src/Dimensions.php:55
+msgid "Right Bottom"
+msgstr "Canto Inferior Direito"
+
+#: kirki-packages/field-background/src/Background.php:159
+#: kirki-packages/field-dimensions/src/Dimensions.php:56
+msgid "Center Top"
+msgstr "Centro do Topo"
+
+#: kirki-packages/field-background/src/Background.php:160
+#: kirki-packages/field-dimensions/src/Dimensions.php:57
+msgid "Center Center"
+msgstr "Centro central"
+
+#: kirki-packages/field-background/src/Background.php:161
+#: kirki-packages/field-dimensions/src/Dimensions.php:58
+msgid "Center Bottom"
+msgstr "Centro da Base"
+
+#: kirki-packages/field-background/src/Background.php:152
+msgid "Background Position"
+msgstr "Posição do background"
+
+#: kirki-packages/field-background/src/Background.php:227
+msgid "Scroll"
+msgstr "Travar"
+
+#: kirki-packages/field-background/src/Background.php:222
+msgid "Background Attachment"
+msgstr "Anexo de plano de fundo"
+
+#: kirki-packages/field-background/src/Background.php:194
+msgid "Cover"
+msgstr "Cover"
+
+#: kirki-packages/field-background/src/Background.php:195
+msgid "Contain"
+msgstr "Conter"
+
+#: kirki-packages/field-background/src/Background.php:228
+msgid "Fixed"
+msgstr "Fixo"
+
+#: kirki-packages/field-background/src/Background.php:190
+msgid "Background Size"
+msgstr "Tamanho do background"
+
+#: kirki-packages/field-background/src/Background.php:119
+msgid "Background Repeat"
+msgstr "Repetição do background"
+
+#: kirki-packages/field-background/src/Background.php:126
+msgid "Repeat Vertically"
+msgstr "Repetir verticalmente"
+
+#: kirki-packages/field-background/src/Background.php:125
+msgid "Repeat Horizontally"
+msgstr "Repetir horizontalmente"
+
+#: kirki-packages/field-background/src/Background.php:124
+msgid "Repeat All"
+msgstr "Repetir ambos"
+
+#: kirki-packages/field-background/src/Background.php:123
+msgid "No Repeat"
+msgstr "Não repetir"
+
+#: kirki-packages/field-background/src/Background.php:103
+msgid "Background Image"
+msgstr "Imagem de plano de fundo"
+
+#: kirki-packages/field-background/src/Background.php:84
+msgid "Background Color"
+msgstr "Cor de plano de fundo"

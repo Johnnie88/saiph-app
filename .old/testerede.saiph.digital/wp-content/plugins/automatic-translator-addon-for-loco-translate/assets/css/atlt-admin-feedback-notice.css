@@ -1,0 +1,58 @@
+
+.atlt-progress-bar-value {
+    width: 0px;
+    background: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, #09c, #f44);
+    height: 10px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.atlt-progress-bar-track {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    border: 2px solid gray;
+    width: 100%;
+    height: 10px;
+}
+
+#atlt-dialog .atlt-final-message {
+    text-align: center;
+}
+
+#atlt-dialog .atlt-ok.button {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*Custom Sidebar*/
+
+.loco-settings-custom-sidebar {
+    border: 4px solid #b9b9b9;
+    max-width: 320px;
+    width: 18%;
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.loco-settings-custom-sidebar h2 {
+    background: #d6d6d6;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.loco-settings-custom-sidebar ul li {
+    list-style: square;
+    padding-left: 0;
+    margin-left: 16px;
+}
+
+tr.atlt_rollbakBtn.button.primary-button th {
+    padding: 10px;
+    width: auto;
+}
+
+tr.atlt_rollbakBtn.button.primary-button td {
+    display: none;
+}
