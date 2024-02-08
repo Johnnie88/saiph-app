@@ -1,1 +1,0 @@
-jQuery(document).ready((function(e){e(".candidate-dashboard-action-delete").click((function(){return!!confirm(resume_manager_candidate_dashboard.i18n_confirm_delete)}))}));
